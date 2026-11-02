@@ -17,13 +17,15 @@ export const video = (name, opts) => renderVideo(name, opts);
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const paused = () => document.documentElement.classList.contains('motion-paused');
 
-/** Shared data-saving guard (also used by the home hero video). */
-export function canPlayVideo(v) {
+/**
+ * Shared data-saving guard (also used by the home hero video before its element exists).
+ * minW defaults to the video's data-min-width.
+ */
+export function canPlayVideo(v, minW = Number(v?.dataset?.minWidth || 0)) {
   if (reduced()) return false;
   const conn = navigator.connection;
   if (conn?.saveData) return false;
   if (conn?.effectiveType && SLOW_NET.test(conn.effectiveType)) return false;
-  const minW = Number(v?.dataset?.minWidth || 0);
   return !(minW && window.innerWidth < minW);
 }
 
@@ -55,14 +57,17 @@ export function initVideos(root = document) {
   const vids = [...root.querySelectorAll('video[data-autoplay]')];
   if (!vids.length) return;
   initPosters(vids);
-  const playable = vids.filter(canPlayVideo);
+  const playable = vids.filter((v) => canPlayVideo(v));
   if (!playable.length || !('IntersectionObserver' in window)) return;
   const visible = new Set();
   const sync = (v) => {
     if (visible.has(v) && !paused() && !document.hidden) {
       attachPoster(v);
       v.play()
-        .then(() => (v.dataset.playing = '1'))
+        .then(() => {
+          // A pause() can land before play() resolves; only flag a video that is really playing.
+          if (!v.paused) v.dataset.playing = '1';
+        })
         .catch(() => {});
     } else {
       v.pause();

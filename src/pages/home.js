@@ -4,7 +4,7 @@
 // fetchpriority high); this script only layers progressive motion on top.
 import { boot } from '../lib/boot.js';
 import { mountHero } from '../lib/three-hero.js';
-import { initVideos } from '../lib/video.js';
+import { initVideos, canPlayVideo } from '../lib/video.js';
 import '../styles/pages/home.css';
 
 const HERO_VIDEO = { webm: '/media/hero-loop.webm', mp4: '/media/hero-loop.mp4', width: 1280, height: 720 };
@@ -13,20 +13,13 @@ const VIDEO_DELAY_MS = 1800;
 
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+/** The 8 s food montage fades in over the LCP photo, on wide screens with a decent connection only. */
+const shouldLoadVideo = () => canPlayVideo(null, VIDEO_MIN_WIDTH);
+
 function afterLoad(fn, delay = 0) {
   const run = () => setTimeout(() => ('requestIdleCallback' in window ? requestIdleCallback(fn, { timeout: 3000 }) : fn()), delay);
   if (document.readyState === 'complete') run();
   else window.addEventListener('load', run, { once: true });
-}
-
-/** The 8 s food montage fades in over the LCP photo, on wide screens with a decent connection only. */
-function shouldLoadVideo() {
-  if (reducedMotion()) return false;
-  if (window.innerWidth < VIDEO_MIN_WIDTH) return false;
-  const conn = navigator.connection;
-  if (conn?.saveData) return false;
-  if (conn?.effectiveType && /2g|3g/.test(conn.effectiveType)) return false;
-  return true;
 }
 
 function mountHeroVideo() {

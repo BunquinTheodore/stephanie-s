@@ -159,7 +159,7 @@ Controls:
 Text and badges: `.price`, `.link-sweep`, `.rating-badge` (with `<strong>100%</strong>` inside).
 
 Marquee:
-- Structure: `.marquee` > `.marquee__track` > `.marquee__set` (×2, the second is `aria-hidden` and `inert`) > `.marquee__item` > `.marquee__btn` > `.pic`. The optional caption is `.marquee__cap`.
+- Structure: `.marquee` > `.marquee__track` > `.marquee__set` (×2, the second is `aria-hidden` with its buttons at `tabindex="-1"`, still clickable) > `.marquee__item` > `.marquee__btn` > `.pic`. The optional caption is `.marquee__cap`.
 - Modifiers: `.marquee--left` and `.marquee--right`, plus `.marquee--mono` (grayscale until hover).
 - Stack rows inside `.marquee-stack` and alternate their directions.
 - CSS variables: `--marquee-h`, `--marquee-gap`, `--marquee-dur`.

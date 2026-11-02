@@ -136,7 +136,12 @@ for (const file of copyFiles) {
 
 // ---------- 4. internal links ----------
 function resolves(url) {
-  const clean = decodeURI(url.split(/[?#]/)[0]);
+  let clean;
+  try {
+    clean = decodeURI(url.split(/[?#]/)[0]);
+  } catch {
+    return false; // malformed percent escape: report it as a broken link instead of crashing
+  }
   if (!clean || clean === '/') return fs.existsSync(path.join(DIST, 'index.html'));
   const target = path.join(DIST, clean);
   if (clean.endsWith('/')) return fs.existsSync(path.join(target, 'index.html'));

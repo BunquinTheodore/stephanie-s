@@ -2,6 +2,7 @@
 // a background photo that crossfades per category, and lightbox links to the original boards.
 import { boot, openLightbox } from '../lib/boot.js';
 import { picture, existing } from '../lib/img.js';
+import { esc } from '../lib/render-core.js';
 import { menu, formatPeso } from '../data/menu.js';
 import { curation } from '../data/curation.js';
 import { site } from '../data/site.js';
@@ -50,13 +51,6 @@ const kitchen = menu.filter((s) => !BAR_KEYS.has(s.key));
 const bar = menu.filter((s) => BAR_KEYS.has(s.key));
 const ordered = [...kitchen, ...bar];
 const byKey = new Map(ordered.map((s) => [s.key, s]));
-
-const esc = (v) =>
-  String(v ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
 
 const fold = (v) =>
   String(v ?? '')

@@ -88,7 +88,10 @@ function fill({ el, set, groupW, rowW }) {
     });
   }
   set.append(frag);
-  if (clone) clone.innerHTML = set.innerHTML;
+  if (clone) {
+    clone.innerHTML = set.innerHTML;
+    clone.querySelectorAll('button,a').forEach((b) => b.setAttribute('tabindex', '-1'));
+  }
   const dur = parseFloat(getComputedStyle(el).getPropertyValue('--marquee-dur')) || 60;
   const grown = (groupW + copies * origW) / groupW;
   el.style.setProperty('--marquee-dur', `${(dur * grown).toFixed(1)}s`);

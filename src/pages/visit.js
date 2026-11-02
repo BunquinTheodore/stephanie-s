@@ -51,15 +51,17 @@ function manilaNow() {
 
 /** Pure status computation, kept separate from the DOM. */
 export function openState(now, opens, closes) {
-  const isOpen = now >= opens && now < closes;
-  if (isOpen) {
-    const left = closes - now;
+  // Modular day arithmetic so hours that run past midnight (e.g. 16:00 to 02:00) still work.
+  const span = (closes - opens + 1440) % 1440 || 1440;
+  const since = (now - opens + 1440) % 1440;
+  if (since < span) {
+    const left = span - since;
     return {
       open: true,
       text: left <= SOON_MINUTES ? `Open now, closing in about ${formatGap(roundUp(left))}` : `Open now until ${formatClock(closes)}`,
     };
   }
-  const until = now < opens ? opens - now : 1440 - now + opens;
+  const until = (opens - now + 1440) % 1440;
   return {
     open: false,
     text: until <= SOON_MINUTES

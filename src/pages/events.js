@@ -1,9 +1,8 @@
-import { boot, openLightbox } from '../lib/boot.js';
+import { boot, openLightbox, safely } from '../lib/boot.js';
 import '../styles/pages/events.css';
 import { packages, formatPeso } from '../data/menu.js';
 import { site } from '../data/site.js';
-
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+import { esc } from '../lib/render-core.js';
 const SWAP_MS = 180;
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -127,14 +126,6 @@ function initTilt(root) {
       ['--rx', '--ry', '--gx', '--gy'].forEach((p) => card.style.removeProperty(p));
     });
   });
-}
-
-function safely(name, fn) {
-  try {
-    fn();
-  } catch (error) {
-    console.error(`[events] ${name} failed`, error);
-  }
 }
 
 safely('packages', () => initPackages(document));

@@ -334,6 +334,8 @@ export async function createClocheScene(canvas, { onLive = () => {}, onFail = ()
   const start = () => {
     if (!raf && !destroyed && !paused()) {
       last = 0;
+      // A pause during the probe would count the paused time as slow frames: measure again.
+      if (!probe.done) probe = { frames: 0, start: 0, done: false };
       raf = requestAnimationFrame(frame);
     }
   };

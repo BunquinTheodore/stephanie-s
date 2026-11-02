@@ -110,7 +110,7 @@ function rowPx(height) {
 }
 
 /**
- * One sideways marquee row. Content is rendered twice (second copy aria-hidden + inert)
+ * One sideways marquee row. Content is rendered twice (second copy aria-hidden, out of tab order)
  * and the track translates by -50%, so the loop is seamless.
  * opts: direction 'left'|'right', speed (seconds per loop), height (css), cls, group (lightbox group),
  *       caption(id, entry) => string, sizes, label (aria-label of the region), lightbox (default true)
@@ -132,7 +132,9 @@ export function renderMarquee(manifest, ids, opts = {}) {
   const style = [`--marquee-dur:${Number(speed)}s`, height ? `--marquee-h:${height}` : ''].filter(Boolean).join(';');
 
   const row = rowPx(height);
-  const item = (id) => {
+  // clone: the aria-hidden second copy stays clickable (it is half of what is on screen) but is
+  // taken out of the tab order.
+  const item = (id, clone = false) => {
     const e = manifest[id];
     const ratio = e.w / e.h;
     // Tiles are height driven, so the rendered width is row height times the aspect ratio.
@@ -146,11 +148,12 @@ export function renderMarquee(manifest, ids, opts = {}) {
     const capText = String(cap || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').replace(/&amp;/g, '&').replace(/&(quot|#34);/g, '"').replace(/&(#39|apos);/g, "'").trim();
     const name = capText ? `${capText}. Open photo` : `Open photo: ${e.alt || 'photo'}`;
     const inner = lightbox
-      ? `<button type="button" class="marquee__btn" data-lightbox="${esc(groupName)}" data-id="${esc(id)}" aria-label="${esc(name)}">${pic}${capHtml}</button>`
+      ? `<button type="button" class="marquee__btn" data-lightbox="${esc(groupName)}" data-id="${esc(id)}" aria-label="${esc(name)}"${clone ? ' tabindex="-1"' : ''}>${pic}${capHtml}</button>`
       : `${pic}${capHtml}`;
     return `<li class="marquee__item" style="--ratio:${ratio.toFixed(4)}">${inner}</li>`;
   };
-  const set = list.map(item).join('');
+  const set = list.map((id) => item(id)).join('');
+  const cloneSet = list.map((id) => item(id, true)).join('');
   const dir = direction === 'right' ? 'right' : 'left';
   // Decorative rows (no lightbox) have nothing to operate, so they are not landmarks and never scroll.
   const a11y = lightbox ? ` role="region" aria-label="${esc(label)}"` : ' aria-hidden="true"';
@@ -159,7 +162,7 @@ export function renderMarquee(manifest, ids, opts = {}) {
     `<div class="marquee marquee--${dir}${decor} ${esc(cls)}" style="${style}" data-marquee${a11y}>` +
     `<div class="marquee__track">` +
     `<ul class="marquee__set">${set}</ul>` +
-    `<ul class="marquee__set marquee__set--clone" aria-hidden="true" inert>${set}</ul>` +
+    `<ul class="marquee__set marquee__set--clone" aria-hidden="true">${cloneSet}</ul>` +
     `</div></div>`
   );
 }

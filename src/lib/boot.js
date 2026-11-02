@@ -22,7 +22,8 @@ function whenIdle(fn) {
   else setTimeout(fn, 1);
 }
 
-function safely(name, fn) {
+/** Run one enhancement; a failure is logged and never stops the rest of the page. */
+export function safely(name, fn) {
   try {
     fn();
   } catch (error) {

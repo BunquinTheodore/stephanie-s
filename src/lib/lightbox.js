@@ -94,7 +94,9 @@ export function openLightbox(ids, index = 0) {
   const list = existing(ids);
   if (!list.length) return;
   if (!dialog) build();
-  state = { ids: list, index: Math.min(Math.max(0, index), list.length - 1) };
+  // existing() drops missing ids and duplicates, so map the caller's index onto the filtered list.
+  const at = list.indexOf(String(ids[index] ?? ''));
+  state = { ids: list, index: at >= 0 ? at : Math.min(Math.max(0, index), list.length - 1) };
   render();
   document.documentElement.classList.add('has-lightbox');
   if (typeof dialog.showModal === 'function') {

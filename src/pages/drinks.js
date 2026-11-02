@@ -1,5 +1,6 @@
 import { boot } from '../lib/boot.js';
 import { menu, formatPeso } from '../data/menu.js';
+import { esc } from '../lib/render-core.js';
 import '../styles/pages/drinks.css';
 
 // Drink series shown in the cafe tabs, in display order.
@@ -12,9 +13,6 @@ const SERIES = [
 ];
 
 const sectionByKey = new Map(menu.map((s) => [s.key, s]));
-
-const esc = (v) =>
-  String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
 const peso = (n) => (typeof n === 'number' ? formatPeso(n) : esc(n));
 
