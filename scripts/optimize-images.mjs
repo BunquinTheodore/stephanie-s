@@ -34,9 +34,16 @@ function isFresh(out, srcMtime) {
   return fs.statSync(out).mtimeMs >= srcMtime;
 }
 
-function widthsFor(origW) {
+// Hero worthy photos also get their native width when it is clearly sharper than the top slot,
+// so a full bleed cover never upscales a 1200w file on wide or high density screens.
+const NATIVE_GAIN = 1.2;
+
+function widthsFor(origW, { hero = false } = {}) {
   const list = WIDTHS.filter((w) => w <= origW);
-  return list.length ? list : [WIDTHS[0]]; // tiny sources still get one slot (resize keeps native size)
+  if (!list.length) return [WIDTHS[0]]; // tiny sources still get one slot (resize keeps native size)
+  const native = origW - (origW % 2);
+  if (hero && native >= list[list.length - 1] * NATIVE_GAIN) list.push(native);
+  return list;
 }
 
 async function lqip(file) {
@@ -53,7 +60,7 @@ async function encodeOne(entry) {
   if (!fs.existsSync(file)) throw new Error(`missing source ${file}`);
   const srcMtime = fs.statSync(file).mtimeMs;
   const meta = await sharp(file).metadata();
-  const widths = widthsFor(meta.width);
+  const widths = widthsFor(meta.width, { hero: Boolean(entry.heroWorthy) });
   let written = 0;
   for (const w of widths) {
     for (const [ext, opts] of [['avif', AVIF], ['webp', WEBP]]) {

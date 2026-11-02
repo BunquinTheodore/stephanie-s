@@ -32,7 +32,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBQCdASoYACAAPulgpE2pJaMiMAwBIB0JagC1ELGB1b9WND8kwBSWUUfauOxvZ88L0MAA/kVqL/3CIKf6sm8zvuBGrro9qZXXqpzKRt4GIW4VkUF2QhbupK7QLIu7xAZ9sjy3UI3RlTdLOqW2FOu2pyjCvvpWIzU6u76Cic7e6fYu47YCOsG0cyrLczAqHZV8eyg9j0Lbhrtkf3BgQwRu0GqAAA==",
   "alt": "Stefanie's Special Siomai topped with fried garlic and chives on a white plate",
@@ -46,7 +47,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBQCdASoYACAAPu1ipE2ppaMiMAwBMB2JaACdMwS+ACncuG64zzkzovYULO6SJBi1/wRGwdAgAP7a1UuzjCRF/OqoFwNcZG9cYOIrJ5GBROGn9YC9A7zP8fZkJSBRnXRF4o4ycORXMLH/fIhWSx/Ttptzi4hscdcGeRH+kYMYQiKvu4N3P5vL9yIgwxy4mMhAGjiBjkPPnOuudjDSZUn2GhoyCoPZoAA=",
   "alt": "Three baked taco cups with melted cheese and a cucumber rose garnish",
@@ -60,7 +62,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwBQCdASoYACAAPu1oqk2ppqQiMAgBMB2JbACdMoR+J3+D5GP9+M0yjZ8dI3xZWfNoQElvTzmYaAD+oFmZrAsGxKYlzyLbEMugWOQc1uhB1Uln34Q/J506FxtWsfeQiYxlEcUcYErMQCATNVKBwEivfEovgsjwac59NEnrJBQWNbN9TPoKG/5uR4wqiJtHc6dbQ9CqTW4yeaumzgpVE/XE28btzv59ujdTAdodAAA=",
   "alt": "Crispy Mala Shrimp Dumplings with mayo drizzle on a white wavy plate",
@@ -74,7 +77,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAQBgCdASoYACAAPuFgp02opaOiMAwBEBwJaACdMyGDQ8c9oyl6AW2g/BFC918ATCS9al2Wc5B7QQAA9vRKdGuTlP82h7TzeFOIcqFpEoM8FmSK0bUuWL0qjdjYdh6YYR20oIojN+XVzdjFGhv0JTWEQKUMparG7tUsP4T9s+ZY97HU9KaaC+0ZrmdV1nKUw72Sn513xal9UxBB3J9nY/VkeloJ5FzwAAA=",
   "alt": "Crispy lechon on pumpkin salsa with mushrooms and scallion garnish",
@@ -88,7 +92,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBQCdASoYACAAPulep02pJSOiN/VYASAdCWoAsOwRUozzzyX1dwhzLKD4+UB9MEXKUyC0JQAA/qBckIb5bSPpbFJPN2NgzjcYcia3UxTfYmGBLblvpd3Ax3C4cUvQKIeAWjDc6BxkRs2xUgL2V+NdMO20+AeziiK8lLgpeDN35+5tVeRo1aRH0VQNIEWPSMrjMR/zee2ciI+AAAA=",
   "alt": "Stacked chicken quesadilla wedges with parsley and sliced dragon fruit",
@@ -130,7 +135,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBQCdASoYACAAPtleo02oJaMiN/qoAQAbCUAX5wPRm59mCyIaFdPP1v7t9ci2+47zwo1awAD+79eVJ0ZtQ23LpcT+oMxzSQiYSIw1ufxc8VHR4nJYl6EtBaWEou+qj0vB4hntESJ2F0EpsCRETEShPkUE8gt0Ua8cloVxJX6Rt/vFSEeChj8FR0ebrAAA",
   "alt": "Black squid ink pasta with squid rings and cherry tomatoes",
@@ -144,7 +150,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1478
   ],
   "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBQCdASoYACAAPuFgpk2opaOiMAwBEBwJaACdMtpIb0zz7PfI/Ve0MiN82/Kt5kBgtqgA/vpleAvzfoHr7TKzMaE70bScaYAhpSFyBJCOhjXBIG3Oh3weJYhV6tfFdNij3eAZs3JXhtMhUa5std4FEdq79YHFkfKZXZ49kH5Z8OKSeJWIFN226sU3ohlCCZ3xKqnJGYAAAA==",
   "alt": "Red Devil's Whisper cocktail with chili pepper horns and a sugared rim",
@@ -266,7 +273,8 @@
   "widths": [
    320,
    480,
-   800
+   800,
+   960
   ],
   "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQBQCdASoYABgAPuliq02pJaQiMBgMASAdCUATpCQAL/HqO4ZS3zVs5rc5hfrO+NvFrSAA/uk6HiwLxina4S5nE09Iz0ohFQ3JWfZrTKOFp+veVVnXIDp/xHKrMp+EQfqZoIVkDwx3CsRuIVmcIcOtCt7wFtZrlIL/CpTrwTeB9vTSZpgAAA==",
   "alt": "Stefanie's storefront at night with glowing round sign and warm-lit dining room",
@@ -504,7 +512,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwBQCdASoYACAAPuFep02opSOiMAwBEBwJYgCdMoADQdXxaNzZ9fT1c7FBfONLHJ9I45fssNgA/q9ICqXQ2boy9DdKoDBqBExa4vvpcBfe6t6Qs2diDad7QfIUqO0S/ohcg8oGYvnZ2pd8AMfxFRF6Ak9JlRiZnE7CtWaK+ThzbHeFVOJV2m9MzwOIUYZ651CFR6Gpi+DkAAAA",
   "alt": "Wooden slat bar with glowing liquor shelves, pendant lights and the Stefanie's round sign",
@@ -532,7 +541,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBQCdASoYACAAPuFapk2opSOiN/qoARAcCUAVw4MB8asEuyBg7TsbJ3EQKMtblEyqdkgAAP5S2s9Bq1IMzh/OnYRbKTRecG/IbAM0H19I+VB4fztREDuplnI4q7at4vaFM3eO+LDxNvI8VmGm0GJndZO2A9Dk1SV5VICtmMgAAA==",
   "alt": "Back bar with lit wooden liquor shelves, Stefanie's round logo sign and Edison pendant lamps",
@@ -574,7 +584,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADwBACdASoYACAAPu1oqk6ppiQiMAgBMB2JQBbZBDzxQeRkAlJY06Yj7kLzdRS/usAA/fMO54M21aAuepoN+LlG/XtYliboPf733h8REWnPBSBdhZk42D9BD/D44BehyjTOinuqt5XRJ5XjjJ1b6tdqS4VwS3wv7XIylGXn9JSIkt5U6cbsHQEN7EuM0OEwxG2vPD6YAAA=",
   "alt": "Stefanie's storefront with a big round script logo sign and rattan outdoor seating beside plants",
@@ -616,7 +627,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAwBQCdASoYACAAPuFep02opSOiMAwBEBwJZgCdABxN59P1QA6QT8aXTLvCb7R3ph68UAD+I1Bg40JFmYbiY8FXM2rfK1PS0/jw1s/fr7Dh0B+CmtLY9TXGF1LYN0+3+3QJTjqj+y7xpznBthoqIo9lqmNSM/3Xd764rPmeHWb825G6pM7io0V5YOreMCAA",
   "alt": "Dining area beside a red brick mural with Stefanie's logo and two illustrated women",
@@ -658,7 +670,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBQCdASoYACAAPu1qq06ppiOiMBgIATAdiWQAuzOAikaqa6syQOZrRrIJYn4PhhNw9PcSPbBPgAD+82pvyBtnVHOpiQXiouNWIpaoCpjePKf9XvJuGlhJy9hdJBSLj7cnZyZdNCZIYWid+Jniu6p7ovgvo9cr0N3p9QDIjvIsM2l5YAA=",
   "alt": "Wide view of Stefanie's dining room with wood tables and the warmly lit bar beyond",
@@ -698,7 +711,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBQCdASoYACAAPulgo02pJaMiMAwBIB0JZgCxHoSGUCnDpE1YyU+Y72SYXXqATBsCauayU9UAAP6OdTuOC1YY0SAfskx9j5X/DNyae8Os3fmrtLCvd5b+t7lncme1IsglMGsx307ViHQuPTsyGoplB0SfjptJbkNK/4KNv18CdZBvKMqejnA1lT5804r4AAA=",
   "alt": "Round table with gold placemats in front of the warmly lit bar",
@@ -712,7 +726,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBQCdASoYACAAPu1kq1AppSOisBgIATAdiWQAnTLMAVs3DvHTWcPbsRMBj9DZGkiE67yY4AD9bmuPnVTLmC0BUeim67pdYyCOnkyeBtsinQib7VMYiuLhWqZi0uA6/9cWDnzdqOuQ+YDeaPpViS9p+oqlso6t59AS/TJ4SywT6B4ka+6ooXwMxw9EhKiZz6sEv+rdsXJPVyTgAAA=",
   "alt": "Coffee station with siphon brewer and espresso machine beneath lit liquor shelves",
@@ -726,7 +741,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBQCdASoYACAAPu1cqU2ppKQiN/VYATAdiWMAxNhErntDenLUEEwBZO3kpra05hvmow7YWfhAAP6xeCIGtFzHK4UMUHazQmbAinK1eooDzbu6e/5JDqmtiTP5rtxJim8MG0A4AJgLyvD5lH0xm8G10VzeyF4RXYe1oAvqQqD30u7Xgvv0xzsKywzAAA==",
   "alt": "Long group table set for an event in front of Stefanie's red brick mural",
@@ -911,7 +927,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwBQCdASoYACAAPu1wr1IppiQiqAgBMB2JbACdMuiIc5VB5xFalPa3Nlbk7/aAmynU/pInxAAA/syTus+4MnpTqxbmlAOmc8v/ji+eyINUK+4q2cmDZoeLVLD6SPQb3Gq9VMIIRSHqjDrjz0kQLWM9SV8lQ7khXEU4YqgMznz1J4Fj+msWc7I7ws+RNbpd3aZfRcgPdVSM9OAA",
   "alt": "Dining room set for a group event with long tables, white flowers and a slatted wood pillar under blue lighting",
@@ -939,7 +956,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBgCdASoYACAAPu1orVAppaQisBgIATAdiWYAnTLaRNH3nY4riRHlnWKjiPyzrg6FcMUFzLCSg4AA/iYNBpbri+PUHvM35ANKZPnmhYABLEDsge9Fc+xq2VR7tKmIvznjHi1gbq64wkAp2B61xpuTPP9dCqEUQ05S7WhAst8IWXcULlQbKJlJR6XPrkBeCE6WL0ecui8eOhA87EAAAA==",
   "alt": "Bowls of loaded Batangas lomi topped with chicharon, crispy pork, lumpia and boiled egg",
@@ -981,7 +999,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBQCdASoYACAAPt1cpE2opSOiN/qoARAbiWYAnQBXcKsfzLpeqvs/JcQ49jV5n4RJ/x8tgAD+fQe5eRttACbJSoHxMpDKJELj/DvE55fvGoqGdibNvLk2xx0+zuNbuHFhUb61NoCIURzIRis8c9lFqukMr8C8CRC7v/aHD0BnbPA+shxp9CVMoo7f/Fyd9NXfPv1EGWxN1pjNFgK/Lu3lsyYqanAA",
   "alt": "Two plates of saucy beef stew on banana leaves topped with parmesan and scallions",
@@ -995,7 +1014,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABQBgCdASoYACAAPtlgpU2oJiOiN/qoAQAbCWwAnTMTAUgpM7FqJ4DXwD87RjcmOtlIUOPs5TnLZGDmAAD+8RD9vurHimUXFgbtPk8I9VAHlgeoMGnqYgqwPiOU9heXstS+CwxytIT8jXsrYuHRl3dUrSUAWmWFYDGRBkD0xClxT688vJD509wcNMWQpI1Tng8S9kioM2a6Ai0yAI0nDTFo7oUrZBqg/bp0AA==",
   "alt": "Saucy beef stew with potatoes on a banana leaf topped with parmesan and scallion",
@@ -1009,7 +1029,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoYACAAPt1apE2opSOiN/qoARAbiWwArC/Agc5zLNo/M8kbMCVLHk2qvvt3vAD+8twQcE7aXlVs0/c5BtavDb8y9zGNAAp/7GJhefUANWsrbAX2qINIoKQhY+xdoVxxWfR4EZFI0Apn3i0xGjcJQkfUS74zJSnzooemWYc21dIfOci4+D2SiUrb7bKnemxyitCAAA==",
   "alt": "Beef caldereta with carrots and potatoes topped with a red chili and chives on banana leaf",
@@ -1064,7 +1085,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBQCdASoYACAAPu1mqk8ppaOiKA1RMB2JbACdMyYBSBY+FDD3vJqaEoCaraG1NpsURzLnQADN8tM3RSktmimMdmIbUAZ8vReAfKANf/cBn9Cx1gEAGj3COhBOhEwBKvMIfHRxT4yl9SwsRZo9YWGvR1KoD3AitKa3wdwOeonEyR1Gj//cdyA5z4A92BeY7o7Ua+dirSAAAA==",
   "alt": "Chopped savory sisig style dish on a white plate topped with red chili, scallion curls and rosebuds",
@@ -1133,7 +1155,8 @@
   "widths": [
    320,
    480,
-   800
+   800,
+   1078
   ],
   "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBQCdASoYACQAPu1srU+ppiQiKrgMATAdiWkAzuwitm5vaBUpElCQq52ERLsO5ApEqB1QTMAA/up56fYGjZ628Ij5iUymuQs+2pEtIQFTwvtBzfzedTwh6+5gXVpDb+YG2/eYHMCMdj1oAAA=",
   "alt": "Stefanies Bar and Restaurant black script logo with waitress silhouette on textured paper",
@@ -1338,7 +1361,8 @@
   "h": 1440,
   "widths": [
    320,
-   480
+   480,
+   646
   ],
   "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAABQBwCdASoYADUAPulep02pJSOiMBv8ASAdCUAZKYIyV53IeNazBDf1RLQ6l9cJCURjE6TUSsuSsQlDF83+I1aNxzbgAPa6vlyNEIs8FaB9xXyFdAV1xGRNtfiqHch8RKbC496MdZuPJXDKSRkOVUJSBxqPn3koxZgWZBxMwy1sDO6zX+7su4m1o3eEnqf/pL/Vqu4A/1GjacSGIhtWF7EBFlzkCP6IQ4ZKiL7XJnrRJB1XlorHBt+5Ml+XL6t7k87uM3QA",
   "alt": "Tall iced latte on a marble table beside a vine draped window overlooking a sunny street",
@@ -1352,7 +1376,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoYACAAPuVipU2pJiOiMAwBIByJZgCsL46AaYu9qqQLvSQEQA4Mu3uYSTODmAD9Rshsyd3Vx3FFyjL9XyFGzvoFM9Q3tcxwEPxu3bR3Y4sj9SxD3TeRQHZw+4CMZ6KvfwoYodI4m0uIL5rrYPgbIcSIf06iAUtNc6o3svDQeGnf2HLkz5F0h2LvjRjV8AAA",
   "alt": "Black squid ink pasta with shrimp and calamari, garlic bread, and a cheeseburger with fries",
@@ -1499,7 +1524,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1536
   ],
   "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JZACdACD2RyfxwBWFVIAA/lLxDFWjVMJVDlhGtYCUwlTodCceTd3DrellF9QUKkQ47xs6yjd1b65xZJLMU5GxjNUtmh+WKEq5/OXQAAA=",
   "alt": "Bright restaurant interior with wooden tables, gold placemats, armchairs, buffet station and vine covered windows",
@@ -1513,7 +1539,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1536
   ],
   "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoYABAAPu1iqk2ppaQiMAgBMB2JagCdMoRwABbdx8DXrKUTBLAA/dkgdYrEi9MZ6LGRKZjkaG6PCsYnTYMTmgXgQJY4ZZfUF8JshE9T98f44ZzOWPRMNOYv0Hm0x88AdfBvL7qGsqSvo8gAAAA=",
   "alt": "Row of gold dome chafing dishes under warm lamps beside dining tables and a curtained lounge",
@@ -1585,7 +1612,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1500
   ],
   "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABwBQCdASoYACAAPuFWpk2opCOiN/qoARAcCWIAp02MgGOtP0inO7Ee5PFMeRg2TvDCaROAAP6jBFKSXttrJ1cmOPiqAujUbZlgQXnjnbuGaqJRkoeChBkIp9HZrgQdzRNd52iOPPv+52oO013ca88zRMfEuAH/IE9/ZdytWblRXBrUnlDFSdPOTESXV+yWk5aJ+MaQAAA=",
   "alt": "Event buffet at Stefanie's with gold chafing dishes, carved watermelon and fresh fruit display in front of the bar",
@@ -1638,7 +1666,8 @@
    320,
    480,
    800,
-   1200
+   1200,
+   1640
   ],
   "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAAsAPu1oqk6ppiQiMAgBMB2JQAAjz+G/rsU7tpnjERcAAP74tCX739GFbgim+n2n7+GGu3xVikp/EBg+1f2FZKNzFVh27Ur5cCSnYiOAAA==",
   "alt": "Stefanie's banner with logo, menu categories and chicken wings with fries",

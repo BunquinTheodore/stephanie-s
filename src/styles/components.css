@@ -331,9 +331,7 @@ html.motion-paused .orb,
 .panel.is-offscreen .place-frame__pic img,
 .panel.is-offscreen .place-polaroid--a,
 .panel.is-offscreen .place-polaroid--b,
-.panel.is-offscreen .hero__pic img,
-.panel.is-offscreen .hero__chip-dot::after,
-.panel.is-offscreen .hero__chip-big,
+.panel.is-offscreen .hero__live::after,
 .panel.is-offscreen .sip__media::after,
 .panel.is-offscreen .menu-bg__layer img,
 .panel.is-offscreen .offers-feature__poster,
@@ -1390,7 +1388,6 @@ html.js-reveal main > .panel:first-of-type [data-split] .split-word {
     backdrop-filter: none;
   }
   .panel__bg--kenburns img,
-  .hero__pic img,
   .orb {
     animation: none !important;
   }

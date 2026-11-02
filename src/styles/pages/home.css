@@ -19,24 +19,7 @@ html.no-splash .hero {
     linear-gradient(180deg, rgb(10 10 10 / 0.55) 0%, transparent 28%, transparent 62%, rgb(10 10 10 / 0.95) 100%);
 }
 .hero__pic img {
-  object-position: 50% 50%;
-  animation: hero-zoom 26s var(--ease-in-out) infinite alternate;
-}
-.hero__video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1.4s var(--ease);
-}
-.hero__video[data-playing] {
-  opacity: 1;
-}
-@keyframes hero-zoom {
-  from { transform: scale(1.04); }
-  to { transform: scale(1.14) translate3d(-1.2%, -0.8%, 0); }
+  object-position: 50% 55%;
 }
 .hero__glow {
   position: absolute;
@@ -131,58 +114,66 @@ html.no-splash .hero {
   to { transform: none; }
 }
 
-/* Floating info chips */
-.hero__chips {
+/* At a glance card: one tidy glass panel instead of loose floating chips. */
+.hero__info {
   position: relative;
   z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
+  display: grid;
+  gap: var(--space-4);
+  width: 100%;
+  max-width: 380px;
+  padding: var(--space-5);
+  border-radius: calc(var(--r) * 1.4);
+}
+.hero__facts {
+  display: grid;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.hero__chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7rem;
-  padding: 0.6rem 1rem 0.6rem 0.75rem;
-  border-radius: var(--r-pill);
-  font-size: 0.8125rem;
-  line-height: 1.2;
-  animation: hero-fade 1s var(--ease-out) both;
-  animation-delay: calc(var(--hero-delay) + 600ms + var(--k, 0) * 120ms);
-}
-.hero__chip--b { --k: 1; }
-.hero__chip--c { --k: 2; }
-.hero__chip > span {
+.hero__fact {
   display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-4);
+  padding-block: var(--space-3);
 }
-.hero__chip strong {
+.hero__fact + .hero__fact {
+  border-top: 1px solid var(--stroke);
+}
+.hero__fact-mark {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--stroke-strong);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.06);
+}
+.hero__fact-mark svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+}
+.hero__fact-mark--num {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
   font-weight: 600;
+  letter-spacing: -0.03em;
 }
-.hero__chip small {
-  color: var(--text-2);
-  font-size: 0.75rem;
-}
-.hero__chip svg {
-  width: 1.25rem;
-  height: 1.25rem;
-  flex: none;
-}
-.hero__chip-dot {
+.hero__live {
   position: relative;
-  width: 0.55rem;
-  height: 0.55rem;
-  margin-inline: 0.3rem 0.1rem;
+  width: 0.6rem;
+  height: 0.6rem;
   border-radius: 50%;
   background: var(--white);
-  flex: none;
 }
-.hero__chip-dot::after {
+.hero__live::after {
   content: '';
   position: absolute;
-  inset: -5px;
+  inset: -6px;
   border-radius: 50%;
   border: 1px solid rgb(255 255 255 / 0.6);
   animation: hero-ping 2.4s var(--ease-out) infinite;
@@ -191,11 +182,52 @@ html.no-splash .hero {
   from { transform: scale(0.4); opacity: 1; }
   to { transform: scale(1.6); opacity: 0; }
 }
-.hero__chip-big {
-  font-family: var(--font-display);
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1;
+.hero__fact-text {
+  display: grid;
+  gap: 0.15rem;
+  line-height: 1.25;
+}
+.hero__fact-text strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.hero__fact-text small {
+  color: var(--text-2);
+  font-size: 0.8125rem;
+}
+.hero__info-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2.9rem;
+  padding: 0 1.1rem;
+  border: 1px solid var(--stroke-strong);
+  border-radius: var(--r-pill);
+  color: var(--white);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+.hero__info-link svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  transition: transform var(--dur) var(--ease);
+}
+@media (hover: hover) {
+  .hero__info-link:hover {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--ink);
+  }
+  .hero__info-link:hover svg {
+    transform: translateX(3px);
+  }
 }
 
 .hero__foot {
@@ -226,27 +258,10 @@ html.no-splash .hero {
   .hero__grid {
     grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
   }
-  .hero__chips {
-    position: absolute;
-    inset: 0 0 0 auto;
-    width: 44%;
-    display: block;
-    pointer-events: none;
+  .hero__info {
+    justify-self: end;
+    align-self: center;
   }
-  .hero__chip {
-    position: absolute;
-    pointer-events: auto;
-  }
-  .hero__chip > span,
-  .hero__chip svg,
-  .hero__chip-dot,
-  .hero__chip-big {
-    animation: hero-float 7s var(--ease-in-out) infinite alternate;
-    animation-delay: calc(var(--k, 0) * -2.3s);
-  }
-  .hero__chip--a { top: 14%; left: -6%; }
-  .hero__chip--b { top: 48%; right: -2%; }
-  .hero__chip--c { bottom: 10%; left: 6%; }
   .hero__foot {
     padding-right: var(--gutter);
     gap: var(--space-5);
@@ -254,10 +269,6 @@ html.no-splash .hero {
   .hero__cue {
     display: inline-flex;
   }
-}
-@keyframes hero-float {
-  from { transform: translate3d(0, -3px, 0); }
-  to { transform: translate3d(0, 3px, 0); }
 }
 
 @media (max-width: 1023px) {
@@ -276,11 +287,46 @@ html.no-splash .hero {
     flex: 1 1 100%;
     --btn-h: 3.1rem;
   }
-  .hero__chip {
-    padding: 0.5rem 0.85rem 0.5rem 0.65rem;
+  /* Phones: the three facts sit side by side in one slim glass strip; the Visit tab covers the link. */
+  .hero__info {
+    max-width: none;
+    padding: var(--space-3) var(--space-2);
+    border-radius: var(--r);
+  }
+  .hero__facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .hero__fact {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0.4rem;
+    padding: 0 0.35rem;
+    text-align: center;
+  }
+  .hero__fact + .hero__fact {
+    border-top: 0;
+    border-left: 1px solid var(--stroke);
+  }
+  .hero__fact-mark {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .hero__fact-mark svg {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+  .hero__fact-mark--num {
+    font-size: 0.8rem;
+  }
+  .hero__fact-text strong {
     font-size: 0.75rem;
   }
-  .hero__chip--b { display: none; }
+  .hero__fact-text small {
+    font-size: 0.6875rem;
+  }
+  .hero__info-link {
+    display: none;
+  }
 }
 
 /* ========== Panel 2: taste reel + categories ========== */
@@ -595,9 +641,7 @@ html.motion-paused .hero-in {
   animation: none;
 }
 html.motion-paused .sip__media::after,
-html.motion-paused .hero__pic img,
-html.motion-paused .hero__chip-dot::after,
-html.motion-paused .hero__chip > span {
+html.motion-paused .hero__live::after {
   animation-play-state: paused;
 }
 .sip__body {
@@ -732,18 +776,9 @@ html.motion-paused .hero__chip > span {
 /* ========== Reduced motion ========== */
 @media (prefers-reduced-motion: reduce) {
   .hero-in,
-  .hero__chip,
-  .hero__chip > span,
-  .hero__chip svg,
-  .hero__chip-dot,
-  .hero__chip-big,
-  .hero__pic img,
   .sip__media::after,
-  .hero__chip-dot::after {
+  .hero__live::after {
     animation: none !important;
-  }
-  .hero__video {
-    display: none;
   }
 }
 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- @include head description="Stefanie's Bar & Restaurant in Balagtas, Batangas City. Filipino comfort food, unli wings, pasta, coffee and cocktails. Open daily 8 AM to 10 PM, behind Total Gasoline Station." preload="57" schema="restaurant" -->
+<!-- @include head description="Stefanie's Bar & Restaurant in Balagtas, Batangas City. Filipino comfort food, unli wings, pasta, coffee and cocktails. Open daily 8 AM to 10 PM, behind Total Gasoline Station." preload="116" schema="restaurant" -->
 </head>
 <body>
 <!-- @include splash -->
@@ -10,8 +10,8 @@
 
   <!-- Panel 1: hero -->
   <section class="panel hero" aria-labelledby="hero-title">
-    <div class="panel__bg hero__bg" style="--overlay:.58" data-hero-bg>
-      <!-- @include img id="57" sizes="100vw" eager class="hero__pic" alt="" -->
+    <div class="panel__bg hero__bg" style="--overlay:.58">
+      <!-- @include img id="116" sizes="100vw" eager class="hero__pic" alt="" -->
     </div>
     <div class="hero__glow" aria-hidden="true"></div>
 
@@ -36,20 +36,23 @@
         </p>
       </div>
 
-      <ul class="hero__chips" role="list">
-        <li class="glass glass--dark hero__chip hero__chip--a">
-          <span class="hero__chip-dot" aria-hidden="true"></span>
-          <span><strong>Open daily</strong><small>8 AM to 10 PM</small></span>
-        </li>
-        <li class="glass glass--dark hero__chip hero__chip--b">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-          <span><strong>Behind Total</strong><small>Gasoline Station</small></span>
-        </li>
-        <li class="glass glass--dark hero__chip hero__chip--c">
-          <strong class="hero__chip-big">100%</strong>
-          <span><strong>recommend</strong><small>11 Facebook reviews</small></span>
-        </li>
-      </ul>
+      <aside class="glass glass--dark hero__info hero-in" style="--i:6" aria-label="At a glance">
+        <ul class="hero__facts" role="list">
+          <li class="hero__fact">
+            <span class="hero__fact-mark" aria-hidden="true"><span class="hero__live"></span></span>
+            <span class="hero__fact-text"><strong>Open daily</strong><small>8 AM to 10 PM</small></span>
+          </li>
+          <li class="hero__fact">
+            <span class="hero__fact-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+            <span class="hero__fact-text"><strong>Behind Total</strong><small>Gasoline Station</small></span>
+          </li>
+          <li class="hero__fact">
+            <span class="hero__fact-mark hero__fact-mark--num" aria-hidden="true">100%</span>
+            <span class="hero__fact-text"><strong>Recommend us</strong><small>11 Facebook reviews</small></span>
+          </li>
+        </ul>
+        <a class="hero__info-link" href="/visit/">Plan your visit<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </aside>
     </div>
 
     <div class="hero__foot">
