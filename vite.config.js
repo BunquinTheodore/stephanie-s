@@ -201,13 +201,8 @@ function pageMeta(attrs, page, manifest) {
   const route = site.nav.find((n) => n.key === page)?.href || '/';
   const title = attrs.title || '';
   const fullTitle = title ? `${title} | ${site.name}` : `${site.name} | Balagtas, Batangas City`;
-  const ogId = attrs.og || attrs.preload || '';
-  const ogEntry = ogId && manifest[ogId];
-  const ogPath = fs.existsSync(path.join(PUBLIC, OG_CARD)) && !attrs.og
-    ? `/${OG_CARD}`
-    : ogEntry
-      ? imgUrl(ogId, pickWidth(ogEntry, 1200), 'webp')
-      : '';
+  // Every page shares one branded card so links always preview the same way in chat apps.
+  const ogPath = fs.existsSync(path.join(PUBLIC, OG_CARD)) ? `/${OG_CARD}` : '';
   // Open Graph requires absolute URLs; a relative og:image never resolves, so omit it without an origin.
   const ogAbs = ogPath && base ? `${base}${ogPath}` : '';
   return {
@@ -220,9 +215,7 @@ function pageMeta(attrs, page, manifest) {
     ogImageTag: ogAbs
       ? [
           `<meta property="og:image" content="${esc(ogAbs)}">`,
-          ogPath === `/${OG_CARD}`
-            ? `<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">`
-            : '',
+          `<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">`,
           `<meta property="og:image:alt" content="${esc(OG_ALT)}">`,
           `<meta name="twitter:image" content="${esc(ogAbs)}">`,
         ].join('')
