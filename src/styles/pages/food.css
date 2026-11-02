@@ -1,0 +1,497 @@
+/* Food page (owned by the food page agent). Monochrome UI; the photos carry the color. */
+
+/* ========== Hero ========== */
+.food-hero {
+  align-content: end;
+  padding-bottom: calc(var(--space-9) + 1.5rem);
+}
+.food-hero .panel__bg img {
+  object-position: 50% 38%;
+}
+.food-hero__grid {
+  display: grid;
+  gap: var(--space-6);
+  align-items: end;
+}
+@media (min-width: 960px) {
+  .food-hero__grid {
+    grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.8fr);
+    gap: var(--space-8);
+  }
+}
+.food-hero__copy {
+  max-width: 44rem;
+}
+.food-hero__title {
+  font-size: clamp(2.6rem, 4.6vw + 0.6rem, 5.4rem);
+  line-height: 1.02;
+  margin-block: var(--space-4) var(--space-5);
+  text-wrap: balance;
+}
+.food-hero__lead {
+  max-width: 36rem;
+  color: var(--text-2);
+}
+.food-hero__cta {
+  margin-top: var(--space-6);
+}
+.food-hero__note {
+  margin-top: var(--space-4);
+}
+.food-hero .orb:nth-child(1) {
+  opacity: 0.35;
+}
+
+/* Glass index of the six food families */
+.food-index {
+  padding: clamp(1.1rem, 2vw, 1.6rem);
+}
+.food-index__list {
+  margin: var(--space-3) 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+.food-index__list li + li {
+  border-top: 1px solid var(--stroke);
+}
+.food-index__list a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  padding: 0.62rem 0.25rem;
+  color: var(--text);
+  text-decoration: none;
+  border-radius: var(--r-xs);
+  transition: transform var(--dur, 0.3s) var(--ease), color var(--dur, 0.3s) var(--ease);
+}
+.food-index__n {
+  min-width: 1.6rem;
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.food-index__t {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 0.6vw + 0.95rem, 1.35rem);
+  line-height: 1.2;
+}
+@media (hover: hover) {
+  .food-index__list a:hover {
+    transform: translateX(6px);
+  }
+  .food-index__list a:hover .food-index__n {
+    color: var(--text);
+  }
+}
+.food-index__badge {
+  margin: 0;
+}
+@media (max-width: 959px) {
+  .food-index {
+    display: none;
+  }
+}
+
+.food-hero__ticker {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: rgb(10 10 10 / 0.35);
+  -webkit-backdrop-filter: blur(var(--blur-sm));
+  backdrop-filter: blur(var(--blur-sm));
+}
+.food-hero__ticker .ticker__track > * {
+  color: var(--text-2);
+}
+
+/* ========== Family panels ========== */
+.food-families {
+  --row-h: clamp(118px, calc((100svh - 300px) / 3), 230px);
+  padding-block: calc(var(--header-h) + var(--space-4)) var(--space-5);
+}
+.food-families__bg img {
+  filter: grayscale(1) blur(2px);
+  transform: scale(1.06);
+}
+.food-families__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: var(--space-5);
+  row-gap: var(--space-1);
+  margin-bottom: clamp(var(--space-3), 2.4svh, var(--space-5));
+}
+.food-families__head .h2 {
+  margin: 0;
+  font-size: clamp(1.9rem, 2.6vw + 0.7rem, 3.2rem);
+}
+
+.food-rows {
+  display: grid;
+  gap: clamp(0.75rem, 2svh, 1.25rem);
+}
+.fam {
+  display: grid;
+  gap: var(--space-3);
+  scroll-margin-top: calc(var(--header-h) + var(--space-5));
+}
+.fam .marquee {
+  min-width: 0;
+  border-radius: var(--r);
+}
+
+.fam__cap {
+  display: grid;
+  align-content: center;
+  gap: 0.3rem;
+  padding: 0.8rem 1.05rem;
+  border-radius: var(--r);
+}
+.fam__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin: 0;
+}
+.fam__n {
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+  color: var(--text-3);
+  font-variant-numeric: tabular-nums;
+}
+.fam__meta {
+  font-size: var(--fs-label);
+  color: var(--text-3);
+  white-space: nowrap;
+}
+.fam__meta .price {
+  margin-left: 0.2rem;
+  color: var(--text);
+}
+.fam__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 0.6vw + 0.95rem, 1.5rem);
+  font-weight: 600;
+  line-height: 1.12;
+}
+.fam__desc {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--text-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 900px) {
+  .fam {
+    grid-template-columns: minmax(240px, 290px) minmax(0, 1fr);
+    gap: var(--space-4);
+    align-items: center;
+  }
+  /* Alternate the caption side so the stack reads like a zigzag. */
+  .fam:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 290px);
+  }
+  .fam:nth-child(even) .fam__cap {
+    order: 2;
+  }
+  .fam__cap {
+    height: var(--row-h);
+    overflow: hidden;
+  }
+}
+/* Short screens: keep the caption to its title */
+@media (min-width: 900px) and (max-height: 760px) {
+  .fam__desc {
+    -webkit-line-clamp: 1;
+  }
+}
+
+/* Phones: compact caption above each marquee, panel may grow past one viewport */
+@media (max-width: 899px) {
+  .food-families {
+    --row-h: clamp(140px, 22svh, 190px);
+  }
+  .fam__cap {
+    padding: 0.7rem 0.95rem;
+  }
+}
+
+/* ========== Healthy feature and CTA ========== */
+.food-healthy__grid {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .food-healthy__grid {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    grid-template-areas:
+      'frames card'
+      'frames cta';
+    column-gap: var(--space-8);
+    row-gap: var(--space-5);
+  }
+  .food-healthy__frames { grid-area: frames; }
+  .food-healthy__card { grid-area: card; }
+  .food-cta { grid-area: cta; }
+}
+
+.food-healthy__frames {
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  position: relative;
+  aspect-ratio: 1 / 0.92;
+  max-width: 560px;
+  width: 100%;
+  margin-inline: auto;
+  perspective: 1200px;
+}
+.food-healthy__frames .food-frame {
+  position: absolute;
+  width: 64%;
+  aspect-ratio: 1;
+  padding: 8px;
+  border-radius: var(--r-lg);
+  cursor: zoom-in;
+  color: inherit;
+  transition: transform 0.6s var(--ease-out), box-shadow 0.6s var(--ease-out);
+}
+.food-frame .pic,
+.food-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: calc(var(--r-lg) - 8px);
+  object-fit: cover;
+}
+.food-frame .pic {
+  overflow: hidden;
+}
+.food-frame--a {
+  left: 0;
+  top: 0;
+  z-index: 2;
+  transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) rotate(-4deg);
+  animation: food-float 9s var(--ease-in-out, ease-in-out) infinite alternate;
+}
+.food-frame--b {
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  transform: rotateX(var(--tilt-x)) rotateY(var(--tilt-y)) rotate(5deg);
+  animation: food-float 11s var(--ease-in-out, ease-in-out) -4s infinite alternate;
+}
+@media (hover: hover) {
+  .food-frame:hover {
+    z-index: 3;
+  }
+}
+@keyframes food-float {
+  from { translate: 0 0; }
+  to { translate: 0 -12px; }
+}
+
+.food-healthy__card .h2 {
+  margin-block: var(--space-2) var(--space-3);
+}
+.food-healthy__card .lead {
+  color: var(--text-2);
+}
+.food-healthy__lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--stroke);
+}
+.food-healthy__h {
+  margin: 0 0 var(--space-2);
+  font-size: var(--fs-label);
+  font-weight: 600;
+  letter-spacing: var(--track-label);
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.food-healthy__lists ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.3rem;
+  font-size: var(--fs-small);
+}
+
+.food-cta {
+  display: grid;
+  gap: var(--space-4);
+  padding: clamp(0.9rem, 1.6vw, 1.2rem);
+  border-radius: var(--r-lg);
+}
+@media (min-width: 640px) {
+  .food-cta {
+    grid-template-columns: minmax(160px, 0.8fr) minmax(0, 1.4fr);
+    align-items: center;
+  }
+}
+.food-cta__media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--r);
+  background: var(--g-850);
+}
+.food-cta__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.food-cta__body {
+  display: grid;
+  gap: var(--space-3);
+}
+.food-cta__body .h3,
+.food-cta__body p {
+  margin: 0;
+}
+
+/* ========== Reduced motion ========== */
+@media (prefers-reduced-motion: reduce) {
+  .food-frame--a,
+  .food-frame--b {
+    animation: none;
+  }
+}
+html.motion-paused .food-frame {
+  animation-play-state: paused;
+}
+
+/* ========== Healthy panel, compact fit for one viewport ========== */
+.food-healthy {
+  padding-block: calc(var(--header-h) + var(--space-4)) var(--space-5);
+}
+.food-healthy__frames {
+  max-width: min(480px, 62svh);
+}
+.food-healthy__card.card {
+  padding: clamp(1rem, 2vw, 1.6rem) clamp(1.1rem, 2.2vw, 1.8rem);
+}
+.food-healthy__card .h2 {
+  font-size: clamp(1.9rem, 2.4vw + 0.7rem, 3rem);
+}
+.food-healthy__card .lead {
+  margin: 0;
+  font-size: var(--fs-body);
+}
+.food-healthy__lists {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+}
+.food-cta__body .cluster {
+  gap: var(--space-2);
+}
+.food-cta__body .btn {
+  padding-inline: 1.1rem;
+}
+@media (min-width: 1024px) {
+  .food-healthy__grid {
+    align-items: center;
+  }
+}
+@media (max-width: 639px) {
+  .food-cta__media {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+/* Phones: the family caption floats as a glass label over its own photo row instead of stacking
+   above it, which roughly halves the page height. */
+@media (max-width: 899px) {
+  .fam {
+    grid-template-areas: 'stack';
+    gap: 0;
+  }
+  .fam > * {
+    grid-area: stack;
+  }
+  .fam__cap {
+    position: relative;
+    z-index: 2;
+    align-self: end;
+    justify-self: start;
+    max-width: calc(100% - 1.2rem);
+    margin: 0 0 0.6rem 0.6rem;
+    padding: 0.5rem 0.8rem;
+    gap: 0.15rem;
+    pointer-events: none;
+  }
+  .fam__cap a {
+    pointer-events: auto;
+  }
+  .fam__desc {
+    display: none;
+  }
+  .fam__title {
+    font-size: 1.05rem;
+  }
+}
+
+/* ========== Legibility and phone fit (review round 3) ========== */
+/* Left scrim keeps the eyebrow, headline and lead clear of the bright garnish in photo 77. */
+.food-hero .panel__bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, rgb(10 10 10 / 0.7), transparent 60%);
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  .food-hero .panel__bg {
+    --overlay: 0.76;
+  }
+  .food-hero .panel__bg::before {
+    background: linear-gradient(0deg, rgb(10 10 10 / 0.75), transparent 75%);
+  }
+  /* Healthy panel: smaller poster stack, dish lists as one swipeable row, CTA without media. */
+  .food-healthy__frames {
+    max-width: min(280px, 32svh);
+  }
+  .food-healthy__lists {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(150px, 62%);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    border-radius: 2px;
+  }
+  .food-healthy__lists::-webkit-scrollbar {
+    display: none;
+  }
+  .food-healthy__lists > * {
+    scroll-snap-align: start;
+  }
+  .food-healthy__lists:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 4px;
+  }
+  .food-cta__media {
+    display: none;
+  }
+}

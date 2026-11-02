@@ -1,0 +1,488 @@
+/* drinks page styles (owned by the drinks page agent). Black and white UI only. */
+
+/* ========== Panel 1: hero ========== */
+.dk-hero {
+  min-height: 100svh;
+  background: var(--ink);
+}
+.dk-hero .orbs {
+  z-index: 0;
+  pointer-events: none;
+}
+.dk-hero__inner {
+  display: grid;
+  gap: var(--space-6);
+  align-items: end;
+}
+.dk-hero__copy {
+  --stack-gap: var(--space-5);
+  max-width: 40rem;
+}
+.dk-hero__title {
+  margin-bottom: 0;
+  font-size: clamp(3rem, 5.4vw + 0.5rem, 6.25rem);
+  line-height: 0.95;
+}
+.dk-hero__lead {
+  max-width: 34rem;
+  color: var(--text-2);
+}
+.dk-hero__cta {
+  gap: var(--space-3);
+}
+
+/* Starting price strip */
+.dk-prices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-inline: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.dk-price {
+  display: grid;
+  gap: 0.1rem;
+  min-width: 7.25rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--r-sm);
+}
+.dk-price__label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+.dk-price .price,
+.dk-happy__time,
+.dk-happy__deal strong {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.dk-price .price {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+/* Happy Hour glass badge */
+.dk-happy {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 0.35rem;
+  width: min(18rem, 100%);
+  aspect-ratio: 1;
+  padding: var(--space-6);
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+.dk-happy > * {
+  position: relative;
+  margin: 0;
+}
+.dk-happy__time {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+  line-height: 1.05;
+}
+.dk-happy__time strong {
+  font-weight: 600;
+}
+.dk-happy__deal {
+  max-width: 13rem;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+.dk-happy__deal strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2.3rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1;
+}
+/* rotating dashed light ring, monochrome */
+.dk-happy__ring {
+  position: absolute !important;
+  inset: 7px;
+  border-radius: 50%;
+  border: 1px dashed rgb(255 255 255 / 0.35);
+  animation: dk-spin 40s linear infinite;
+}
+.dk-happy::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg, transparent 0 70%, rgb(255 255 255 / 0.16) 85%, transparent 100%);
+  animation: dk-spin 9s linear infinite;
+  pointer-events: none;
+}
+@keyframes dk-spin {
+  to { transform: rotate(1turn); }
+}
+
+.dk-hero .scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: var(--space-5);
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 899px) {
+  .dk-hero__bg {
+    --overlay: .66 !important;
+  }
+  .dk-hero__bg img {
+    object-position: 50% 62%;
+  }
+  .dk-hero__lead {
+    text-shadow: 0 1px 12px rgb(0 0 0 / 0.6);
+  }
+  .dk-prices {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dk-price .price { font-size: 1.05rem; }
+  .dk-happy {
+    position: absolute;
+    top: calc(var(--header-h) + var(--space-4));
+    right: var(--gutter);
+    width: 9.75rem;
+    padding: var(--space-4);
+    gap: 0.15rem;
+  }
+  .dk-happy .eyebrow { font-size: 0.6rem; }
+  .dk-happy__time { font-size: 1.15rem; }
+  .dk-happy__deal { font-size: 0.72rem; }
+  .dk-happy__deal strong { font-size: 1.5rem; }
+  .dk-happy .small { display: none; }
+  .dk-hero .scroll-cue { display: none; }
+}
+@media (max-width: 899px) {
+  .dk-hero {
+    align-content: end;
+    padding-top: calc(var(--header-h) + 12rem);
+  }
+  .dk-hero__inner { position: static; }
+  .dk-price { min-width: 0; padding: 0.5rem 0.75rem; }
+  .dk-price .price { font-size: 1.15rem; }
+}
+
+@media (min-width: 900px) {
+  .dk-hero {
+    align-content: center;
+  }
+  /* Photo sits on the right 58%, melting into ink on the left */
+  .dk-hero__bg {
+    left: auto;
+    width: 58%;
+    background: var(--ink);
+  }
+  .dk-hero__bg > picture {
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 34%);
+    mask-image: linear-gradient(90deg, transparent 0%, #000 34%);
+  }
+  .dk-hero__bg::after {
+    background:
+      linear-gradient(90deg, var(--ink) 0%, rgb(10 10 10 / 0.35) 40%, rgb(10 10 10 / 0.15) 100%),
+      linear-gradient(180deg, rgb(10 10 10 / 0.5) 0%, transparent 30%, transparent 70%, rgb(10 10 10 / 0.7) 100%);
+  }
+  .dk-hero__inner {
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    align-items: center;
+  }
+  .dk-happy {
+    justify-self: end;
+    align-self: end;
+    margin-bottom: var(--space-6);
+  }
+}
+
+/* ========== Panel 2: cafe bar ========== */
+.dk-cafe,
+.dk-bar {
+  align-content: center;
+}
+.dk-cafe__inner,
+.dk-bar__inner {
+  display: grid;
+  gap: var(--space-4);
+}
+.dk-cafe {
+  padding-block: calc(var(--header-h) + var(--space-4)) var(--space-5);
+}
+.dk-cafe__head,
+.dk-bar__head {
+  display: grid;
+  gap: var(--space-2);
+}
+.dk-cafe__head .h2,
+.dk-bar__head .h2 {
+  margin: 0;
+}
+.dk-cafe__grid {
+  display: grid;
+  gap: var(--space-5);
+}
+.dk-cafe__side {
+  display: grid;
+  gap: var(--space-4);
+  align-content: start;
+}
+.dk-cafe__lead {
+  max-width: 30rem;
+  margin: 0;
+}
+@media (min-width: 900px) {
+  .dk-cafe__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+    align-items: center;
+  }
+}
+
+/* Tabbed price card */
+.dk-menu {
+  display: grid;
+  align-content: start;
+  gap: var(--space-4);
+  padding: clamp(1.1rem, 2.4vw, 1.75rem);
+  border-radius: var(--r-lg);
+}
+.dk-tabs {
+  position: relative;
+  display: flex;
+  gap: var(--space-2);
+  min-height: 2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.dk-tabs::-webkit-scrollbar { display: none; }
+.dk-tab {
+  flex: none;
+}
+.dk-panels {
+  position: relative;
+  min-height: 21rem; /* reserve the tallest series so tabs never shift layout */
+}
+.dk-series:focus-visible {
+  outline: 2px solid var(--focus, var(--white));
+  outline-offset: 6px;
+  border-radius: var(--r-xs);
+}
+.dk-series[hidden] { display: none; }
+.dk-series:not([hidden]) {
+  animation: dk-fade 0.45s var(--ease-out) both;
+}
+@keyframes dk-fade {
+  from { opacity: 0; transform: translate3d(0, 8px, 0); }
+  to { opacity: 1; transform: none; }
+}
+.dk-series__title {
+  margin: 0;
+}
+.dk-series__note {
+  margin: 0.25rem 0 var(--space-3);
+}
+.dk-series__list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: var(--space-4);
+  padding-block: 0.36rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--stroke);
+}
+.dk-row--cols {
+  grid-template-columns: minmax(0, 1fr) 4.25rem 4.25rem;
+  text-align: right;
+}
+.dk-row--head {
+  grid-template-columns: minmax(0, 1fr) 4.25rem 4.25rem;
+  padding-block: 0 0.35rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--text-3);
+}
+.dk-row__name {
+  text-align: left;
+}
+.dk-row__wide {
+  grid-column: 2 / -1;
+}
+.dk-row__na::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: var(--stroke-strong);
+}
+.dk-new {
+  min-height: 0;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+
+/* Drinks motion loop card: video left, caption right */
+.dk-loop {
+  display: grid;
+  grid-template-columns: clamp(7.5rem, 12vw, 11rem) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-4);
+  max-width: 30rem;
+  margin: 0;
+  padding: var(--space-3);
+  border-radius: var(--r-lg);
+}
+.dk-loop__video {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: calc(var(--r-lg) - var(--space-3));
+  background: var(--g-850);
+}
+.dk-loop__cap {
+  position: relative;
+  display: grid;
+  gap: 0.3rem;
+}
+
+/* Marquee rows inside panels */
+.dk-rows {
+  margin-inline: calc(var(--gutter) * -1);
+}
+.dk-rows .marquee__cap {
+  font-size: 0.7rem;
+}
+
+/* ========== Panel 3: night bar ========== */
+.dk-bar {
+  padding-top: calc(var(--header-h) + 6.5rem);
+}
+.dk-ticker {
+  position: absolute;
+  top: calc(var(--header-h) + var(--space-2));
+  left: 0;
+  right: 0;
+  z-index: 1;
+  --ticker-dur: 46s;
+  color: var(--text-2);
+}
+.dk-bar__grid {
+  display: grid;
+  gap: var(--space-4);
+}
+@media (min-width: 900px) {
+  .dk-bar__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.dk-card {
+  display: grid;
+  align-content: start;
+  gap: var(--space-3);
+  border-radius: var(--r-lg);
+}
+.dk-card > * {
+  position: relative;
+  margin: 0;
+}
+.dk-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dk-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem var(--space-3);
+  padding-block: 0.4rem;
+  border-bottom: 1px solid var(--stroke);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+}
+.dk-list li .small {
+  font-family: var(--font-sans);
+}
+.dk-card__note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+.dk-pulutan {
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dk-bar__cta {
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+/* ========== Motion preferences ========== */
+html.motion-paused .dk-happy__ring,
+html.motion-paused .dk-happy::after {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .dk-happy__ring,
+  .dk-happy::after,
+  .dk-series:not([hidden]) {
+    animation: none;
+  }
+}
+
+/* ========== Review round 3 ========== */
+/* Motion card hugs its content instead of stretching into empty space. */
+.dk-loop {
+  align-self: start;
+  width: fit-content;
+  max-width: 100%;
+  grid-template-columns: clamp(7.5rem, 12vw, 11rem) minmax(0, max-content);
+  padding-right: var(--space-5);
+}
+.dk-loop__media,
+.dk-loop__anim {
+  display: block;
+}
+.dk-loop__still {
+  display: none;
+}
+html.motion-paused .dk-loop__anim {
+  display: none;
+}
+html.motion-paused .dk-loop__still {
+  display: block;
+}
+/* Phones: one photo row per panel keeps the page short; the boards stay one tap away in the menu. */
+@media (max-width: 767px) {
+  .dk-rows .marquee + .marquee {
+    display: none;
+  }
+}

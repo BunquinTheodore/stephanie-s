@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- @include head title="Events" description="Book Stefanie's Bar &amp; Restaurant for birthdays, reunions and parties. Exclusive 5 hour event packages for 20, 30 or 40 guests, served buffet style, from ₱12,800." preload="117" og="122" -->
+</head>
+<body>
+<!-- @include nav -->
+<main id="main" class="ev">
+
+  <!-- 1. Hero over the buffet -->
+  <section class="panel panel--end ev-hero" aria-labelledby="ev-title">
+    <div class="panel__bg panel__bg--kenburns ev-hero__bg" style="--overlay:.68">
+      <!-- @include img id="117" eager sizes="100vw" alt="" -->
+    </div>
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span><span class="orb"></span></div>
+    <div class="panel__inner ev-hero__inner">
+      <div class="ev-hero__copy">
+        <p class="eyebrow eyebrow--pill">EVENTS AT STEFANIE'S</p>
+        <h1 class="display ev-hero__title" id="ev-title">Celebrate <em>with us</em></h1>
+        <p class="lead ev-hero__lead">Birthdays, reunions, christenings and team nights. Take over the whole venue for five hours, with a buffet served by our crew.</p>
+        <div class="cluster ev-hero__cta">
+          <a class="btn btn--lg" href="#packages">See packages</a>
+          <a class="btn btn--ghost btn--lg" href="{{site.links.messenger}}" target="_blank" rel="noopener">Message us</a>
+        </div>
+      </div>
+      <dl class="glass glass--lg ev-stats" data-reveal="fade" style="--d:200">
+        <div class="ev-stat"><dt>Packages for</dt><dd>20 to <span data-count="40">40</span> guests</dd></div>
+        <div class="ev-stat"><dt>Exclusive use</dt><dd><span data-count="5">5</span> hours</dd></div>
+        <div class="ev-stat"><dt>Packages from</dt><dd>₱12,800</dd></div>
+      </dl>
+    </div>
+    <div class="ticker ev-ticker" aria-hidden="true" style="--ticker-dur:44s">
+      <div class="ticker__track">
+        <span>Birthdays <i>✦</i> Debuts <i>✦</i> Reunions <i>✦</i> Christenings <i>✦</i> Company parties <i>✦</i> Anniversaries <i>✦</i> Graduations <i>✦</i></span>
+        <span>Birthdays <i>✦</i> Debuts <i>✦</i> Reunions <i>✦</i> Christenings <i>✦</i> Company parties <i>✦</i> Anniversaries <i>✦</i> Graduations <i>✦</i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Package selector -->
+  <section class="panel ev-pk" id="packages" aria-labelledby="pk-title">
+    <div class="panel__bg panel__bg--mono" style="--overlay:.82">
+      <!-- @include img id="122" sizes="100vw" alt="" -->
+    </div>
+    <div class="panel__inner">
+      <header class="ev-pk__head">
+        <p class="eyebrow">EVENT PACKAGES</p>
+        <h2 class="h2" id="pk-title" data-split>Pick your party size</h2>
+        <p class="muted ev-pk__sub">Every package is exclusive for 5 hours and served buffet style. Choose Set A or Set B for your menu.</p>
+      </header>
+
+      <div class="ev-pk__grid">
+        <div class="ev-pk__cards" role="radiogroup" aria-label="Choose a package" data-pk-cards data-reveal>
+          <button type="button" class="glass ev-card" role="radio" aria-checked="true" data-pk="pax-20">
+            <span class="ev-card__pax"><strong>20</strong> guests</span>
+            <span class="ev-card__price price" data-pk-price>₱12,800</span>
+            <span class="ev-card__note">5 hours, buffet</span>
+            <span class="ev-card__tick" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="glass ev-card" role="radio" aria-checked="false" tabindex="-1" data-pk="pax-30">
+            <span class="ev-card__pax"><strong>30</strong> guests</span>
+            <span class="ev-card__price price" data-pk-price>₱15,500</span>
+            <span class="ev-card__note">5 hours, buffet</span>
+            <span class="ev-card__tick" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="glass ev-card" role="radio" aria-checked="false" tabindex="-1" data-pk="pax-40">
+            <span class="ev-card__pax"><strong>40</strong> guests</span>
+            <span class="ev-card__price price" data-pk-price>₱19,000</span>
+            <span class="ev-card__note">5 hours, buffet</span>
+            <span class="ev-card__tick" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <p class="sr-only" role="status" data-pk-status></p>
+        <article class="glass--dark glass--lg ev-detail" data-pk-detail data-reveal="scale" style="--d:120">
+          <div class="ev-detail__top">
+            <div>
+              <p class="eyebrow" data-pk-label>PACKAGE FOR 20 GUESTS</p>
+              <p class="ev-detail__price price" data-pk-total>₱12,800</p>
+              <p class="small muted" data-pk-per>About ₱640 per guest, 5 hours exclusive</p>
+            </div>
+            <div class="ev-sets" role="tablist" aria-label="Buffet menu">
+              <span class="ev-sets__thumb" aria-hidden="true"></span>
+              <button type="button" class="ev-sets__btn" role="tab" id="set-tab-A" aria-controls="set-panel" aria-selected="true" data-set="A">Set A</button>
+              <button type="button" class="ev-sets__btn" role="tab" id="set-tab-B" aria-controls="set-panel" aria-selected="false" tabindex="-1" data-set="B">Set B</button>
+            </div>
+          </div>
+
+          <div class="ev-detail__body">
+            <div class="ev-menu" id="set-panel" role="tabpanel" aria-labelledby="set-tab-A" tabindex="0">
+              <ol class="ev-menu__list" data-pk-menu>
+                <li>Flavored Wings</li><li>Chicken Sotanghon Guisado</li><li>Crispy Kare Kare</li><li>Sweet and Sour Fish Fillet</li>
+                <li>Lumpiang Shanghai</li><li>Rice good for 20 pax</li><li>Unli pitcher of Lemonade or Iced Tea</li><li>Choice of Mango Tapioca or Cake</li>
+              </ol>
+            </div>
+            <div class="ev-incl">
+              <p class="eyebrow">ALWAYS INCLUDED</p>
+              <ul class="ev-incl__list" tabindex="0" aria-label="Always included">
+                <li>Exclusive venue for 5 hours</li>
+                <li>Basic party set up</li>
+                <li>Free use of TV monitor</li>
+                <li>Basic sound system</li>
+                <li>Fully airconditioned venue</li>
+                <li>Event crew</li>
+                <li>Served buffet style</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cluster ev-detail__cta">
+            <a class="btn" href="{{site.links.messenger}}" target="_blank" rel="noopener" data-pk-book>Book this package</a>
+            <button type="button" class="btn btn--ghost" data-pk-poster aria-haspopup="dialog">View the poster</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Photos of parties, the room and the people, then booking -->
+  <section class="panel panel--auto ev-moments" aria-labelledby="mo-title">
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span><span class="orb"></span></div>
+    <div class="panel__inner ev-moments__head">
+      <p class="eyebrow">MOMENTS AT STEFANIE'S</p>
+      <h2 class="h2" id="mo-title" data-split>The room, the buffet, your people</h2>
+    </div>
+    <div class="marquee-stack ev-rows">
+      <!-- @include marquee ids="122,55,121,70,117,48,116" direction="left" speed="58" height="clamp(150px,22vh,240px)" group="events-venue" label="Event setups and venue photos" -->
+      <!-- @include marquee ids="119,61,69,37,115,120" direction="right" speed="52" height="clamp(130px,18vh,200px)" class="marquee--mono" group="events-people" label="Guests celebrating at Stefanie's" -->
+    </div>
+
+    <div class="panel__inner">
+      <div class="glass glass--lg ev-book" id="book" data-reveal>
+        <div class="ev-book__media"><!-- @include img id="121" sizes="(min-width: 860px) 40vw, 100vw" class="cover" alt="Birthday setup with red draped seating, gold balloons and hanging greenery" --></div>
+        <div class="ev-book__copy">
+          <p class="eyebrow">BOOK YOUR DATE</p>
+          <h2 class="h3 ev-book__title">Three steps to <em>your party</em></h2>
+          <ol class="ev-steps">
+            <li><span class="ev-steps__n">01</span><span>Choose 20, 30 or 40 guests.</span></li>
+            <li><span class="ev-steps__n">02</span><span>Pick Set A or Set B for the buffet.</span></li>
+            <li><span class="ev-steps__n">03</span><span>Message us your date and time. We confirm and set up the room.</span></li>
+          </ol>
+          <div class="cluster ev-book__cta">
+            <a class="btn" href="{{site.links.messenger}}" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2C6.36 2 2 6.13 2 11.7c0 2.91 1.19 5.44 3.14 7.17v3.13l2.95-1.62c1.2.33 2.5.52 3.91.52 5.64 0 10-4.13 10-9.7S17.64 2 12 2zm1.04 13.06l-2.55-2.72-4.97 2.72 5.47-5.81 2.61 2.72 4.91-2.72-5.47 5.81z"/></svg>
+              Message on Messenger
+            </a>
+            <a class="btn btn--ghost" href="{{site.phone.href}}">Call {{site.phone.display}}</a>
+          </div>
+          <p class="small muted ev-book__note">Open daily, 8 AM to 10 PM. Balagtas, Batangas City, behind Total Gasoline Station.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- @include footer -->
+<script type="module" src="/src/pages/events.js"></script>
+</body>
+</html>

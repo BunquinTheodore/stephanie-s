@@ -1,0 +1,507 @@
+/* Offers page (owned by the offers page agent). Monochrome UI, the posters carry the color. */
+
+/* ========== Panel 1: hero ========== */
+.offers-hero,
+.offers-soon {
+  grid-template-columns: minmax(0, 1fr);
+}
+.offers-hero {
+  padding-bottom: calc(var(--space-7) + 2.5rem);
+}
+.offers-hero__grid {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .offers-hero__grid {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  }
+}
+.offers-hero__copy {
+  padding: clamp(1.4rem, 3.4vw, 2.75rem);
+  border-radius: var(--r-lg);
+  display: grid;
+  gap: var(--space-4);
+  max-width: 640px;
+}
+.offers-hero__copy {
+  justify-items: start;
+}
+.offers-hero__copy .h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 3.6vw + 1rem, 4.6rem);
+}
+.offers-hero__copy .lead {
+  margin: 0;
+  color: var(--text-2);
+  max-width: 48ch;
+}
+.offers-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  width: 100%;
+  margin: var(--space-2) 0 0;
+  border: 1px solid var(--stroke);
+  border-radius: var(--r);
+  overflow: hidden;
+  background: var(--stroke);
+}
+.offers-stats__item {
+  display: grid;
+  gap: 0.2rem;
+  padding: 0.85rem 1rem;
+  background: rgb(10 10 10 / 0.55);
+}
+.offers-stats dt {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.offers-stats dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 0.9vw + 0.85rem, 1.6rem);
+  line-height: 1.1;
+  white-space: nowrap;
+  color: var(--white);
+}
+.offers-hero__cta {
+  margin-top: var(--space-2);
+}
+@media (max-width: 520px) {
+  .offers-stats {
+    grid-template-columns: 1fr;
+  }
+  .offers-stats__item {
+    grid-template-columns: 1fr auto;
+    align-items: baseline;
+  }
+  .offers-hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Featured poster with pointer tilt and a floating glass price badge */
+.offers-feature {
+  --rx: 0deg;
+  --ry: 0deg;
+  position: relative;
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 420px);
+  perspective: 1000px;
+}
+.offers-feature__poster {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--stroke-strong);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  background: var(--white);
+  cursor: zoom-in;
+  box-shadow: 0 40px 90px rgb(0 0 0 / 0.55);
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+  transition: transform 0.5s var(--ease-out);
+  animation: offers-float 7s ease-in-out infinite alternate;
+}
+.offers-feature__poster .pic,
+.offers-feature__poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.offers-feature__badge {
+  position: absolute;
+  right: clamp(-28px, -2vw, -12px);
+  bottom: clamp(-28px, -2vw, -14px);
+  background: rgb(10 10 10 / 0.72);
+  border-color: var(--stroke-strong);
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.9rem 1.15rem;
+  border-radius: var(--r);
+  pointer-events: none;
+  animation: offers-float 6s ease-in-out -2s infinite alternate-reverse;
+}
+.offers-feature__time {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 1.6vw + 1rem, 2.3rem);
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 1;
+}
+.offers-feature__badge .small {
+  color: var(--text-2);
+}
+@media (max-width: 959px) {
+  .offers-feature {
+    width: min(78%, 340px);
+  }
+  .offers-feature__badge {
+    right: -8px;
+  }
+}
+@keyframes offers-float {
+  from { translate: 0 0; }
+  to { translate: 0 -12px; }
+}
+
+.offers-hero__ticker {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: 1;
+  background: rgb(10 10 10 / 0.45);
+  -webkit-backdrop-filter: blur(var(--blur-sm));
+  backdrop-filter: blur(var(--blur-sm));
+  color: var(--text-2);
+}
+
+/* ========== Panel 2: deals carousel ========== */
+.offers-deals {
+  grid-template-columns: minmax(0, 1fr);
+  padding-block: calc(var(--header-h) + var(--space-4)) var(--space-5);
+}
+.offers-deals__bg {
+  display: grid;
+  align-content: center;
+}
+.offers-deals__rows {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  gap: 2svh;
+  padding-block: 4svh;
+}
+.offers-deals__rows .marquee {
+  --marquee-h: 44svh;
+  align-self: center;
+}
+.offers-deals__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.offers-deals__head .h2 {
+  margin: 0.35rem 0 0;
+  font-size: clamp(2rem, 2.4vw + 1rem, 3.4rem);
+}
+.offers-deals__nav {
+  display: flex;
+  gap: var(--space-2);
+}
+.offers-deals__nav[hidden] {
+  display: none;
+}
+.offers-deals__nav .icon-btn {
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.offers-deals__nav .icon-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+  background: rgb(255 255 255 / 0.04);
+  color: var(--white);
+}
+
+.offers-track {
+  --card-w: clamp(256px, 76vw, 300px);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: var(--card-w);
+  gap: clamp(14px, 1.6vw, 22px);
+  margin: 0 calc(var(--gutter) * -1);
+  padding: 6px var(--gutter) var(--space-5);
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: none;
+  border-radius: var(--r);
+}
+.offers-track::-webkit-scrollbar {
+  display: none;
+}
+.offers-track:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.offer {
+  scroll-snap-align: start;
+  display: flex;
+}
+/* Only the first cards stagger in; later ones reveal as they are scrolled to. */
+.offer:nth-child(n + 5) {
+  --d: 0 !important;
+}
+.offer__card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+@media (hover: hover) {
+  .offer__card:hover {
+    transform: translateY(-4px);
+    border-color: var(--stroke-strong);
+  }
+  .offer__card:hover .offer__poster img {
+    transform: scale(1.04);
+  }
+}
+.offer__poster {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--stroke);
+  background: var(--white);
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.offer__poster .pic,
+.offer__poster img {
+  width: 100%;
+  height: 100%;
+}
+.offer__poster img {
+  object-fit: cover;
+  object-position: 50% 12%;
+  background-color: var(--white);
+  transition: transform 0.8s var(--ease-out);
+}
+.offer__body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1;
+  padding: 1rem 1.15rem 1.15rem;
+}
+.offer__tag {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.offer__body .h3 {
+  margin: 0;
+  font-size: clamp(1.3rem, 0.6vw + 1.05rem, 1.6rem);
+}
+.offer__price {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+}
+.offer__price .price {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.offer__desc {
+  margin: 0;
+  font-size: var(--fs-small);
+  line-height: 1.55;
+  color: var(--text-2);
+}
+.offer__body .chip {
+  margin: auto 0 0;
+  font-size: 0.75rem;
+}
+.offer__more {
+  padding: 0.35rem 0;
+  border: 0;
+  background: none;
+  color: var(--white);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.offers-progress {
+  position: relative;
+  height: 2px;
+  max-width: 320px;
+  border-radius: 2px;
+  background: var(--stroke);
+  overflow: hidden;
+}
+.offers-progress span {
+  --w: 0.3;
+  --x: 0;
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--w) * 100%);
+  background: var(--white);
+  transform: translateX(calc(var(--x) * (100% / var(--w) - 100%)));
+  transition: transform 0.15s linear;
+}
+
+/* ========== Panel 3: coming soon ========== */
+.offers-soon__grid {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .offers-soon__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+.offers-soon__copy {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: start;
+}
+.offers-soon__copy .h2,
+.offers-soon__copy .lead {
+  margin: 0;
+}
+.offers-soon__copy .lead {
+  color: var(--text-2);
+  max-width: 46ch;
+}
+.offers-soon__note {
+  margin: 0;
+}
+.offers-soon__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 24px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 620px;
+  justify-self: center;
+  width: 100%;
+}
+.soon {
+  position: relative;
+}
+.soon:nth-child(1) {
+  rotate: -3deg;
+}
+.soon:nth-child(2) {
+  rotate: 3deg;
+  margin-top: clamp(1.5rem, 4vw, 3rem);
+}
+.soon__poster {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid var(--stroke-strong);
+  border-radius: var(--r);
+  overflow: hidden;
+  background: var(--g-850);
+  cursor: zoom-in;
+  box-shadow: var(--shadow);
+  transition: transform 0.6s var(--ease-out);
+}
+.soon__poster .pic,
+.soon__poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (hover: hover) {
+  .soon__poster:hover {
+    transform: translateY(-6px) scale(1.02);
+  }
+}
+.soon__label {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: -1.1rem;
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.65rem 0.9rem;
+  border-radius: var(--r-sm);
+  border-color: var(--stroke-strong);
+  background: rgb(10 10 10 / 0.74);
+  text-align: center;
+  pointer-events: none;
+}
+.soon__label strong {
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 0.8vw + 0.8rem, 1.35rem);
+  font-weight: 600;
+  line-height: 1.15;
+}
+.soon__label .small {
+  color: var(--text-2);
+  font-size: 0.75rem;
+}
+.soon__link {
+  justify-self: center;
+  margin-top: 0.2rem;
+  pointer-events: auto;
+  color: var(--white);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+@media (max-width: 520px) {
+  .soon__label {
+    left: 4%;
+    right: 4%;
+    padding: 0.5rem 0.6rem;
+  }
+}
+
+/* ========== Motion preferences ========== */
+html.motion-paused .offers-feature__poster,
+html.motion-paused .offers-feature__badge {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .offers-feature__poster,
+  .offers-feature__badge {
+    animation: none;
+    transform: none;
+  }
+  .offers-deals__rows .marquee {
+    overflow: hidden;
+  }
+}
+
+/* Poster contact note under the deals carousel */
+.offers-deals__note {
+  margin: var(--space-4) 0 0;
+  text-align: center;
+}
+
+/* Review round 3: the poster wall reads as soft motion, never as text behind the headline, and the
+   cards over it use a solid glass fill instead of re-blurring the moving rows on every frame. */
+.offers-deals__rows {
+  filter: blur(3px) brightness(0.7);
+}
+.offers-deals .offer__card {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: var(--glass-solid);
+}

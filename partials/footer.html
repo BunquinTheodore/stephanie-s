@@ -1,0 +1,55 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" aria-label="{{site.name}}, home">{{{brand.footerLogo}}}</a>
+        <p>{{site.tagline}}</p>
+        <p><span class="rating-badge"><strong>{{site.rating.recommend}}</strong> recommend on {{site.rating.source}}, {{site.rating.count}} reviews</span></p>
+      </div>
+
+      <div class="footer__col footer__col--visit">
+        <h2 class="footer__title">Visit</h2>
+        <address class="footer__contact">
+          <span>{{site.address.line}}</span>
+          <span>{{site.address.street}}, {{site.address.locality}}</span>
+          <span>{{site.address.region}} {{site.address.postalCode}}, {{site.address.countryName}}</span>
+          <a class="link-sweep" href="{{site.links.maps}}" target="_blank" rel="noopener">Open in Google Maps</a>
+          <a class="link-sweep" href="{{site.links.directions}}" target="_blank" rel="noopener">Get directions</a>
+        </address>
+        <h2 class="footer__title footer__title--gap">Hours</h2>
+        <p>{{site.hours.days}}<br>{{site.hours.short}}</p>
+        <p class="footer__price">Price range <strong>{{site.priceRange}}</strong></p>
+      </div>
+
+      <div class="footer__col footer__col--contact">
+        <h2 class="footer__title">Contact</h2>
+        <div class="footer__contact">
+          <a class="link-sweep" href="{{site.phone.href}}">{{site.phone.display}}</a>
+          <a class="link-sweep" href="mailto:{{site.email}}">{{site.email}}</a>
+          <a class="link-sweep" href="{{site.links.messenger}}" target="_blank" rel="noopener">Message us on Messenger</a>
+          <a class="link-sweep" href="{{site.links.facebook}}" target="_blank" rel="noopener">Facebook page</a>
+        </div>
+        <h2 class="footer__title footer__title--gap">Services</h2>
+        <ul class="footer__services" role="list">{{{footer.services}}}</ul>
+        <p class="footer__order">{{site.ordering.note}}</p>
+      </div>
+
+      <nav class="footer__explore" aria-label="Footer">
+        <h2 class="footer__title">Explore</h2>
+        <ul class="footer__list" role="list">{{{footer.links}}}</ul>
+      </nav>
+    </div>
+
+    <div class="footer__bar">
+      <p>&copy; {{site.copyrightYear}} {{site.name}}. All rights reserved.</p>
+      <div class="cluster">
+        <button type="button" class="motion-toggle" data-motion-toggle aria-pressed="false"><span data-motion-label>Pause motion</span></button>
+        <div class="footer__social">
+          <a class="icon-btn" href="{{site.links.facebook}}" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H7.9v3h2.6V21h3z"/></svg></a>
+          <a class="icon-btn" href="{{site.links.messenger}}" target="_blank" rel="noopener" aria-label="Messenger"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 3C7 3 3 6.8 3 11.5c0 2.6 1.2 4.9 3.2 6.5V21l2.9-1.6c.9.3 1.9.4 2.9.4 5 0 9-3.8 9-8.5S17 3 12 3zm.9 11.4-2.3-2.4-4.4 2.4 4.9-5.2 2.3 2.4 4.4-2.4-4.9 5.2z"/></svg></a>
+          <a class="icon-btn" href="{{site.links.maps}}" target="_blank" rel="noopener" aria-label="Google Maps"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 21s-6.5-6.1-6.5-11A6.5 6.5 0 0 1 18.5 10c0 4.9-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

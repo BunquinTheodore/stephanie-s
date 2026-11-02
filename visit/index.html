@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- @include head title="Visit" description="Find Stefanie's Bar &amp; Restaurant behind Total Gasoline Station, Balagtas, Batangas City. Open daily 8 AM to 10 PM. Call 0977 322 9072 or message us to reserve." preload="20" preload-sizes="100vw" og="44" schema="restaurant" -->
+</head>
+<body>
+<!-- @include nav -->
+<main id="main" class="visit">
+
+  <section class="panel visit-hero" aria-labelledby="visit-title">
+    <div class="panel__bg panel__bg--kenburns visit-hero__bg" style="--overlay:.74"><!-- @include img id="20" eager sizes="100vw" alt="" --></div>
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span><span class="orb"></span></div>
+
+    <div class="panel__inner visit-split">
+      <article class="glass glass--dark glass--lg visit-card">
+        <header class="visit-card__head">
+          <p class="eyebrow">VISIT US</p>
+          <h1 class="h1 visit-card__title" id="visit-title">Find us in <em>Balagtas</em></h1>
+          <p class="visit-status" data-open-status data-opens="08:00" data-closes="22:00" role="status" aria-live="polite">
+            <span class="visit-status__dot" aria-hidden="true"></span>
+            <span class="visit-status__text" data-open-text>Open daily, 8 AM to 10 PM</span>
+          </p>
+        </header>
+
+        <dl class="visit-facts">
+          <div class="visit-fact">
+            <dt class="visit-fact__label">Address</dt>
+            <dd class="visit-fact__value">
+              <a class="link-sweep" href="{{site.links.maps}}" target="_blank" rel="noopener">{{site.address.line}}</a>
+              <span class="visit-fact__sub">{{site.address.street}}, {{site.address.locality}}, {{site.address.region}} {{site.address.postalCode}}, {{site.address.countryName}}</span>
+            </dd>
+          </div>
+          <div class="visit-fact">
+            <dt class="visit-fact__label">Hours</dt>
+            <dd class="visit-fact__value">{{site.hours.label}}
+              <span class="visit-fact__sub" data-manila-time>Philippine time</span>
+            </dd>
+          </div>
+          <div class="visit-fact">
+            <dt class="visit-fact__label">Call</dt>
+            <dd class="visit-fact__value"><a class="link-sweep" href="{{site.phone.href}}">{{site.phone.display}}</a></dd>
+          </div>
+          <div class="visit-fact">
+            <dt class="visit-fact__label">Email</dt>
+            <dd class="visit-fact__value"><a class="link-sweep visit-fact__email" href="mailto:{{site.email}}">{{site.email}}</a></dd>
+          </div>
+        </dl>
+
+        <div class="cluster visit-card__actions">
+          <a class="btn btn--sm" href="{{site.links.messenger}}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor"><path d="M12 2C6.5 2 2 6.1 2 11.3c0 2.9 1.4 5.5 3.7 7.2V22l3.4-1.9c.9.3 1.9.4 2.9.4 5.5 0 10-4.1 10-9.2S17.5 2 12 2Zm1 12.4-2.5-2.7-4.9 2.7 5.4-5.8 2.6 2.7 4.8-2.7-5.4 5.8Z"/></svg>
+            Message to reserve
+          </a>
+          <a class="btn btn--ghost btn--sm" href="{{site.links.facebook}}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="currentColor"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.3c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2H7.6V12h2.7v9.8H14V12h2.7l.4-3.5H14Z"/></svg>
+            Facebook
+          </a>
+        </div>
+
+        <div class="visit-card__extras">
+        <div class="visit-card__block">
+          <p class="visit-fact__label" id="services-label">Services</p>
+          <ul class="cluster visit-chips" aria-labelledby="services-label" tabindex="0">
+            <li class="chip">Reservations</li>
+            <li class="chip">Dine-in</li>
+            <li class="chip">Takeout</li>
+            <li class="chip">Delivery</li>
+            <li class="chip">In-store pickup</li>
+            <li class="chip">Online booking</li>
+          </ul>
+        </div>
+
+        <div class="visit-card__block visit-order">
+          <p class="visit-fact__label">Order online</p>
+          <p class="visit-order__text">Find us on <strong>GrabFood</strong> and <strong>Foodpanda</strong> for delivery.</p>
+        </div>
+        </div>
+      </article>
+
+      <div class="visit-map" data-reveal="scale" style="--d:160">
+        <div class="glass glass--dark visit-map__frame">
+          <!-- @include map image="44" eager sizes="(min-width: 960px) 45vw, 92vw" class="visit-map__facade" title="Map to Stefanie's Bar and Restaurant, Balagtas, Batangas City" -->
+        </div>
+        <div class="visit-map__meta">
+          <p class="visit-map__hint">Look for the round white sign beside the rattan terrace, right behind Total Gasoline Station.</p>
+          <a class="btn btn--ghost btn--sm" href="{{site.links.maps}}" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel visit-reviews" aria-labelledby="reviews-title">
+    <div class="panel__bg panel__bg--mono visit-reviews__bg" style="--overlay:.88"><!-- @include img id="116" sizes="100vw" alt="" --></div>
+
+    <div class="panel__inner visit-reviews__inner">
+      <div class="visit-reviews__intro">
+        <p class="eyebrow">WHAT GUESTS SAY</p>
+        <h2 class="h2" id="reviews-title" data-reveal>Loved by <em>our neighbors</em></h2>
+        <div class="visit-score" data-reveal>
+          <p class="visit-score__num"><span data-count="100" data-suffix="%">100%</span></p>
+          <p class="visit-score__label">recommend Stefanie's<span class="visit-score__sub">from <a class="link-sweep" href="{{site.links.facebook}}" target="_blank" rel="noopener">11 reviews on Facebook</a></span></p>
+        </div>
+      </div>
+
+      <figure class="glass glass--lg visit-quote" data-reveal style="--d:120" id="reviews-list">
+        <svg class="visit-quote__mark" viewBox="0 0 48 36" width="48" height="36" aria-hidden="true" fill="currentColor"><path d="M0 36V21.6C0 9.4 6.3 2.2 18.9 0l2 4.6C14 6.5 10.5 10.5 10.4 16.8H20V36H0Zm28 0V21.6C28 9.4 34.3 2.2 46.9 0l2 4.6C42 6.5 38.5 10.5 38.4 16.8H48V36H28Z"/></svg>
+        <blockquote class="visit-quote__text" lang="fil">
+          <p>Thank you so much po very fresh ng veggies sa pancit at malasa sya. Hindi dn sya dry. Super nagustuhan namen. Perfect for handaan talaga and yung lumpia as expected masarap dn talaga. Next time ulit.</p>
+        </blockquote>
+        <p class="visit-quote__translation"><span class="sr-only">English translation: </span>Thank you so much. The vegetables in the pancit were very fresh and it was flavorful, not dry at all. We loved it. Perfect for parties, and the lumpia was delicious as expected. Next time again.</p>
+        <figcaption class="visit-quote__cite">
+          <span class="visit-quote__name">Hazel</span>
+          <span class="visit-quote__src">via Messenger</span>
+        </figcaption>
+        <p class="visit-quote__reply"><span class="visit-quote__reply-label">Stefanie's replied</span> Maraming salamat po sa good feedback po, sa uulitin po.</p>
+        <button type="button" class="btn btn--ghost btn--sm visit-quote__btn" data-lightbox="visit-review" data-id="80">See the original message</button>
+      </figure>
+    </div>
+
+    <div class="marquee-stack visit-reviews__rows">
+      <!-- @include marquee ids="44,40,29,53,42,52,54,117,20" direction="left" speed="60" height="clamp(110px,15vh,180px)" class="marquee--mono" group="visit-outside" label="Outside Stefanie's" -->
+      <!-- @include marquee ids="116,50,39,28,41,47,118,43,46,48" direction="right" speed="70" height="clamp(110px,15vh,180px)" class="marquee--mono" group="visit-inside" label="Inside Stefanie's" -->
+    </div>
+  </section>
+
+</main>
+<!-- @include footer -->
+<script type="module" src="/src/pages/visit.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- @include head title="Offers" description="Unli Wings for ₱359, happy hour cocktails, beer buckets with free pulutan, burger combos and sushi at Stefanie's Bar &amp; Restaurant, Balagtas, Batangas City." preload="105" og="128" -->
+</head>
+<body>
+<!-- @include nav -->
+<main id="main">
+
+  <!-- Panel 1. Hero: photo background, glass intro, featured Unli Wings poster -->
+  <section class="panel offers-hero" aria-labelledby="offers-title">
+    <div class="panel__bg panel__bg--kenburns" style="--overlay:.66"><!-- @include img id="105" eager sizes="100vw" alt="" --></div>
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span></div>
+
+    <div class="panel__inner offers-hero__grid">
+      <div class="offers-hero__copy glass--dark glass--lg">
+        <p class="eyebrow eyebrow--pill">OFFERS AND PROMOS</p>
+        <h1 id="offers-title" class="h1" data-split>Good deals, <em>better</em> company.</h1>
+        <p class="lead">Unli wings in the afternoon, cocktails at happy hour and cold buckets for the barkada. Message us to reserve a table or place an order.</p>
+
+        <dl class="offers-stats">
+          <div class="offers-stats__item">
+            <dt>Unli Wings</dt>
+            <dd><span class="price">₱359</span></dd>
+          </div>
+          <div class="offers-stats__item">
+            <dt>Happy Hour</dt>
+            <dd>4 PM to 8 PM</dd>
+          </div>
+          <div class="offers-stats__item">
+            <dt>Burger and Fries</dt>
+            <dd><span class="price">₱250</span></dd>
+          </div>
+        </dl>
+
+        <div class="cluster offers-hero__cta">
+          <a class="btn btn--lg" href="{{site.links.messenger}}" target="_blank" rel="noopener">Message us on Messenger</a>
+          <a class="btn btn--ghost btn--lg" href="#deals">See all offers</a>
+        </div>
+      </div>
+
+      <figure class="offers-feature" data-tilt>
+        <button type="button" class="offers-feature__poster" data-lightbox="offers" data-id="128" aria-label="View the Unli Wings poster">
+          <!-- @include img id="128" sizes="(min-width: 1024px) 420px, 80vw" alt="" -->
+        </button>
+        <figcaption class="offers-feature__badge glass">
+          <span class="eyebrow">SERVING HOURS</span>
+          <strong class="offers-feature__time">2 PM to 7 PM</strong>
+          <span class="small">Tuesday to Sunday only</span>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="offers-hero__ticker ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Unli Wings ₱359 <i>·</i> Happy Hour 4 PM to 8 PM <i>·</i> Bucket plus free pulutan <i>·</i> Burger and Fries ₱250 <i>·</i> Sushi Appetizers ₱350 <i>·</i> Unli Rice and Drinks ₱499 <i>·</i></span>
+        <span>Unli Wings ₱359 <i>·</i> Happy Hour 4 PM to 8 PM <i>·</i> Bucket plus free pulutan <i>·</i> Burger and Fries ₱250 <i>·</i> Sushi Appetizers ₱350 <i>·</i> Unli Rice and Drinks ₱499 <i>·</i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Panel 2. Deals carousel over a background marquee of offer posters -->
+  <section class="panel offers-deals" id="deals" aria-labelledby="deals-title">
+    <div class="panel__bg offers-deals__bg" style="--overlay:.9" aria-hidden="true">
+      <div class="offers-deals__rows">
+        <!-- @include marquee ids="128,123,30,134,98,141,111" direction="left" speed="80" height="clamp(240px, 44svh, 420px)" class="marquee--mono" lightbox="false" label="Offer posters" -->
+        <!-- @include marquee ids="90,143,31,129,32,130,68" direction="right" speed="90" height="clamp(240px, 44svh, 420px)" class="marquee--mono" lightbox="false" label="More offer posters" -->
+      </div>
+    </div>
+
+    <div class="panel__inner">
+      <header class="offers-deals__head">
+        <div>
+          <p class="eyebrow">THIS WEEK AT STEFANIE'S</p>
+          <h2 id="deals-title" class="h2" data-reveal>Pick your <em>promo</em></h2>
+        </div>
+        <div class="offers-deals__nav" data-carousel-nav hidden>
+          <button type="button" class="icon-btn" data-carousel-prev aria-label="Previous offers">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <button type="button" class="icon-btn" data-carousel-next aria-label="Next offers">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <ul class="offers-track" data-carousel tabindex="0" aria-label="Current offers, scroll sideways for more">
+
+        <li class="offer" data-reveal style="--d:0">
+          <article class="offer__card glass--dark" aria-labelledby="o-wings">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="141" aria-label="View the Unli Wings poster">
+              <!-- @include img id="141" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Afternoon promo</p>
+              <h3 id="o-wings" class="h3">Unli Wings</h3>
+              <p class="offer__price"><span class="price">₱359</span> <span class="muted small">Regular Unli</span></p>
+              <p class="offer__desc">Unli chicken wings, unli drinks, fries, rice and soup.</p>
+              <p class="chip">Tue to Sun, 2 PM to 7 PM only</p>
+              <button type="button" class="offer__more link-sweep" data-posters="128,141,143,129,130">View all 5 posters</button>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:80">
+          <article class="offer__card glass--dark" aria-labelledby="o-happy">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="123" aria-label="View the Happy Hour poster">
+              <!-- @include img id="123" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Cocktails</p>
+              <h3 id="o-happy" class="h3">Happy Hour</h3>
+              <p class="offer__price"><span class="price">50% off</span> <span class="muted small">your 2nd cocktail</span></p>
+              <p class="offer__desc">Buy 1 cocktail, get the 2nd at half price on selected cocktails.</p>
+              <p class="chip">4 PM to 8 PM</p>
+              <button type="button" class="offer__more link-sweep" data-posters="123,111">View both posters</button>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:160">
+          <article class="offer__card glass--dark" aria-labelledby="o-bucket">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="134" aria-label="View the beer bucket poster">
+              <!-- @include img id="134" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Bar</p>
+              <h3 id="o-bucket" class="h3">Bucket plus free pulutan</h3>
+              <p class="offer__price"><span class="price">1 free</span> <span class="muted small">pulutan per bucket</span></p>
+              <p class="offer__desc">Cold beer with your pick of Sizzling Sisig, Chicharong Bulaklak, Exotic Land Snail, Sizzling Hotdog or Fries.</p>
+              <p class="chip">Open daily, 8 AM to 10 PM</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:240">
+          <article class="offer__card glass--dark" aria-labelledby="o-burger">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="98" aria-label="View the burger and fries poster">
+              <!-- @include img id="98" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Combo</p>
+              <h3 id="o-burger" class="h3">Burger and Fries</h3>
+              <p class="offer__price"><span class="price">₱250</span> <span class="muted small">Stefanie's Burger</span></p>
+              <p class="offer__desc">Stefanie's Burger with a side of fries. Available for delivery.</p>
+              <p class="chip">Available for delivery</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:320">
+          <article class="offer__card glass--dark" aria-labelledby="o-combo">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="90" aria-label="View the burger combo poster">
+              <!-- @include img id="90" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Combo</p>
+              <h3 id="o-combo" class="h3">Your new favorite combo</h3>
+              <p class="offer__price"><span class="price">Burger set</span></p>
+              <p class="offer__desc">Burger with fries and a strawberry soda. Ask us for today's price.</p>
+              <p class="chip">Burger, fries and strawberry soda</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:400">
+          <article class="offer__card glass--dark" aria-labelledby="o-sushi">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="109" aria-label="View the sushi appetizer poster">
+              <!-- @include img id="109" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Appetizers</p>
+              <h3 id="o-sushi" class="h3">Sushi appetizers</h3>
+              <p class="offer__price"><span class="price">₱350</span> <span class="muted small">each</span></p>
+              <p class="offer__desc">Japanese Maki or California Salmon Roll. Plating may vary with the chef.</p>
+              <p class="chip">Great for sharing</p>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:480">
+          <article class="offer__card glass--dark" aria-labelledby="o-rice">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="30" aria-label="View the unlimited rice and drinks poster">
+              <!-- @include img id="30" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Group tray</p>
+              <h3 id="o-rice" class="h3">Unli rice and drinks</h3>
+              <p class="offer__price"><span class="price">₱499</span></p>
+              <p class="offer__desc">A full tray of pork BBQ, fried chicken, pansit, lumpia, dumplings and more.</p>
+              <p class="chip">Unli rice plus drinks</p>
+              <button type="button" class="offer__more link-sweep" data-posters="30,31">View both posters</button>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:560">
+          <article class="offer__card glass--dark" aria-labelledby="o-bilao">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="34" aria-label="View the pansit bilao promo poster">
+              <!-- @include img id="34" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Limited time</p>
+              <h3 id="o-bilao" class="h3">Pansit bilao promo</h3>
+              <p class="offer__price"><span class="price">Free</span> <span class="muted small">softdrinks or a tray</span></p>
+              <p class="offer__desc">Order 2 large bilao for free softdrinks, or 2 bilao or 2 food trays for a free tray of lumpia or mango jelly. Limited time only.</p>
+              <p class="chip">Free delivery along Balagtas</p>
+              <button type="button" class="offer__more link-sweep" data-posters="34,32">View prices</button>
+            </div>
+          </article>
+        </li>
+
+        <li class="offer" data-reveal style="--d:640">
+          <article class="offer__card glass--dark" aria-labelledby="o-matcha">
+            <button type="button" class="offer__poster" data-lightbox="offers" data-id="19" aria-label="View the Stefanie's Specials poster">
+              <!-- @include img id="19" sizes="(min-width: 1024px) 320px, 78vw" alt="" -->
+            </button>
+            <div class="offer__body">
+              <p class="offer__tag">Morning drinks</p>
+              <h3 id="o-matcha" class="h3">Stefanie's Specials</h3>
+              <p class="offer__price"><span class="price">30% off</span></p>
+              <p class="offer__desc">Grab a layered strawberry matcha on your way to work.</p>
+              <p class="chip">Ask if still running</p>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class="offers-progress" aria-hidden="true"><span data-carousel-bar></span></div>
+      <p class="small muted offers-deals__note">Some older posters show a previous number and address. Call us at <a class="link-sweep" href="{{site.phone.href}}">{{site.phone.display}}</a>.</p>
+    </div>
+  </section>
+
+  <!-- Panel 3. Coming soon (the owner's coming soon posters, images 12 and 13) -->
+  <section class="panel offers-soon" aria-labelledby="soon-title">
+    <div class="panel__bg panel__bg--mono" style="--overlay:.8">
+      <!-- @include video name="hero-loop" -->
+    </div>
+
+    <div class="panel__inner offers-soon__grid">
+      <div class="offers-soon__copy">
+        <p class="eyebrow eyebrow--pill">COMING SOON</p>
+        <h2 id="soon-title" class="h2" data-split>Fresh from <em>the kitchen</em>.</h2>
+        <p class="lead">Two new plates are on the way. Follow us on Facebook for launch dates.</p>
+        <div class="cluster">
+          <a class="btn btn--lg" href="{{site.links.messenger}}" target="_blank" rel="noopener">Ask about promos</a>
+          <a class="btn btn--ghost btn--lg" href="{{site.links.facebook}}" target="_blank" rel="noopener">Follow on Facebook</a>
+        </div>
+        <p class="small muted offers-soon__note">Promos may change. Message us to confirm what is running today.</p>
+      </div>
+
+      <ul class="offers-soon__cards">
+        <li class="soon" data-reveal="scale">
+          <button type="button" class="soon__poster" data-lightbox="soon" data-id="12" aria-label="View the Spaghetti Meatballs poster">
+            <!-- @include img id="12" sizes="(min-width: 1024px) 300px, 44vw" alt="" -->
+          </button>
+          <div class="soon__label glass">
+            <strong>Spaghetti Meatballs</strong>
+            <span class="small">Simple. Saucy. Satisfying.</span>
+            <a class="soon__link link-sweep" href="/menu/#pasta">₱255 in Pasta</a>
+          </div>
+        </li>
+        <li class="soon" data-reveal="scale" style="--d:140">
+          <button type="button" class="soon__poster" data-lightbox="soon" data-id="13" aria-label="View the Braised Bliss Ribs poster">
+            <!-- @include img id="13" sizes="(min-width: 1024px) 300px, 44vw" alt="" -->
+          </button>
+          <div class="soon__label glass">
+            <strong>Braised Bliss Ribs</strong>
+            <span class="small">Fall off the bone perfection, slow braised to pure bliss.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+<!-- @include footer -->
+<script type="module" src="/src/pages/offers.js"></script>
+</body>
+</html>

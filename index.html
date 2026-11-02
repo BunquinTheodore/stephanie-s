@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- @include head description="Stefanie's Bar & Restaurant in Balagtas, Batangas City. Filipino comfort food, unli wings, pasta, coffee and cocktails. Open daily 8 AM to 10 PM, behind Total Gasoline Station." preload="57" schema="restaurant" -->
+</head>
+<body>
+<!-- @include splash -->
+<!-- @include nav -->
+<main id="main" class="home">
+
+  <!-- Panel 1: hero -->
+  <section class="panel hero" aria-labelledby="hero-title">
+    <div class="panel__bg hero__bg" style="--overlay:.58" data-hero-bg>
+      <!-- @include img id="57" sizes="100vw" eager class="hero__pic" alt="" -->
+    </div>
+    <div class="hero__glow" aria-hidden="true"></div>
+
+    <div class="panel__inner hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow eyebrow--pill hero__eyebrow hero-in" style="--i:0">BALAGTAS, BATANGAS CITY</p>
+        <h1 class="display hero__title" id="hero-title">
+          <span class="hero__line"><span class="hero-in" style="--i:1">Good food.</span></span>
+          <span class="hero__line"><span class="hero-in" style="--i:2">Good drinks.</span></span>
+          <span class="hero__line"><span class="hero-in" style="--i:3"><em>Good company.</em></span></span>
+        </h1>
+        <p class="lead hero__lead hero-in" style="--i:4">Filipino comfort food, unli wings, pasta, coffee and cocktails behind Total Gasoline Station. Open every day from 8 AM to 10 PM.</p>
+        <div class="cluster hero__ctas hero-in" style="--i:5">
+          <a class="btn btn--lg" href="/menu/">View menu</a>
+          <a class="btn btn--lg btn--ghost" href="{{site.links.messenger}}" target="_blank" rel="noopener">Reserve via Messenger</a>
+        </div>
+        <p class="hero__order hero-in" style="--i:6">
+          <span class="hero__order-label">Order online</span>
+          <span class="chip">GrabFood</span>
+          <span class="chip">Foodpanda</span>
+          <a class="link-sweep hero__call" href="{{site.phone.href}}">or call {{site.phone.display}}</a>
+        </p>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero3d" aria-hidden="true"><canvas class="hero3d__canvas"></canvas></div>
+      </div>
+      <ul class="hero__chips" role="list">
+        <li class="glass glass--dark hero__chip hero__chip--a">
+          <span class="hero__chip-dot" aria-hidden="true"></span>
+          <span><strong>Open daily</strong><small>8 AM to 10 PM</small></span>
+        </li>
+        <li class="glass glass--dark hero__chip hero__chip--b">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span><strong>Behind Total</strong><small>Gasoline Station</small></span>
+        </li>
+        <li class="glass glass--dark hero__chip hero__chip--c">
+          <strong class="hero__chip-big">100%</strong>
+          <span><strong>recommend</strong><small>11 Facebook reviews</small></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="hero__foot">
+      <div class="ticker hero__ticker" style="--ticker-dur:46s">
+        <div class="ticker__track">
+          <span>Dine in <i>·</i> Takeout <i>·</i> Delivery <i>·</i> Reservations <i>·</i> Online booking <i>·</i> Unli wings <i>·</i> Happy hour 4 PM to 8 PM <i>·</i> Event packages <i>·</i></span>
+          <span aria-hidden="true">Dine in <i>·</i> Takeout <i>·</i> Delivery <i>·</i> Reservations <i>·</i> Online booking <i>·</i> Unli wings <i>·</i> Happy hour 4 PM to 8 PM <i>·</i> Event packages <i>·</i></span>
+        </div>
+      </div>
+      <a class="scroll-cue hero__cue" href="#taste">Scroll</a>
+    </div>
+  </section>
+
+  <!-- Panel 2: marquees + categories -->
+  <section class="panel taste" id="taste" aria-labelledby="taste-title">
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span><span class="orb"></span></div>
+
+    <div class="taste__reel">
+      <div class="marquee-stack taste__rows">
+        <!-- @include marquee ids="6,77,60,3,81,4,76,5,7,72,10,65" direction="left" speed="70" height="clamp(130px, 19svh, 220px)" group="home-food" label="Food at Stefanie's" -->
+        <!-- @include marquee ids="39,11,116,29,53,144,47,104,41,149,117,54" direction="right" speed="78" height="clamp(130px, 19svh, 220px)" group="home-drinks-place" label="Drinks and the place" -->
+      </div>
+      <div class="taste__card glass glass--dark glass--lg" data-reveal="scale">
+        <p class="eyebrow">ON THE TABLE</p>
+        <h2 class="h2" id="taste-title">Filipino comfort, <em>plated with care.</em></h2>
+        <p class="muted taste__sub">Batangas lomi, kare kare, sushi boats, wings and pasta. Tap any photo to look closer.</p>
+      </div>
+    </div>
+
+    <div class="panel__inner">
+      <nav class="tiles" aria-label="Explore Stefanie's">
+        <a class="tile" href="/food/" data-reveal style="--d:0">
+          <!-- @include img id="6" sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 62vw" class="tile__pic" alt="" -->
+          <span class="tile__body glass glass--dark"><span class="tile__name">Food</span><span class="tile__meta">Rice meals, platters, pasta</span></span>
+        </a>
+        <a class="tile" href="/drinks/" data-reveal style="--d:80">
+          <!-- @include img id="29" sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 62vw" class="tile__pic" alt="" -->
+          <span class="tile__body glass glass--dark"><span class="tile__name">Drinks</span><span class="tile__meta">Coffee, coolers, cocktails</span></span>
+        </a>
+        <a class="tile" href="/offers/" data-reveal style="--d:160">
+          <!-- @include img id="128" sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 62vw" class="tile__pic" alt="" -->
+          <span class="tile__body glass glass--dark"><span class="tile__name">Offers</span><span class="tile__meta">Unli wings and promos</span></span>
+        </a>
+        <a class="tile" href="/events/" data-reveal style="--d:240">
+          <!-- @include img id="122" sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 62vw" class="tile__pic" alt="" -->
+          <span class="tile__body glass glass--dark"><span class="tile__name">Events</span><span class="tile__meta">Packages for 20 to 40</span></span>
+        </a>
+        <a class="tile" href="/gallery/" data-reveal style="--d:320">
+          <!-- @include img id="118" sizes="(min-width: 1024px) 18vw, (min-width: 640px) 30vw, 62vw" class="tile__pic" alt="" -->
+          <span class="tile__body glass glass--dark"><span class="tile__name">The Place</span><span class="tile__meta">Bar, lounge and dining</span></span>
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Panel 3: highlights, drinks motion, review -->
+  <section class="panel more" aria-labelledby="more-title">
+    <div class="panel__bg panel__bg--mono" style="--overlay:.8">
+      <!-- @include img id="39" sizes="100vw" alt="" -->
+    </div>
+
+    <div class="panel__inner more__grid">
+      <header class="more__head" data-reveal>
+        <div>
+          <p class="eyebrow">THIS WEEK AT STEFANIE'S</p>
+          <h2 class="h2" id="more-title">Reasons to stay <em>a little longer.</em></h2>
+        </div>
+        <a class="rating-badge more__rating" href="{{site.links.facebook}}" target="_blank" rel="noopener">
+          <strong data-count="100" data-suffix="%">100%</strong>
+          <span>recommend us on Facebook, from 11 reviews</span>
+        </a>
+      </header>
+
+      <ul class="deals" role="list">
+        <li class="deal glass card" data-reveal style="--d:0">
+          <button type="button" class="deal__thumb" data-lightbox="home-offers" data-id="128" aria-label="Open the Unli Wings poster">
+            <!-- @include img id="128" sizes="96px" alt="" -->
+          </button>
+          <div class="deal__body">
+            <p class="eyebrow">UNLI WINGS</p>
+            <p class="deal__big"><span class="deal__cur">₱</span><span data-count="359">359</span></p>
+            <p class="deal__text">Unlimited wings, fries, rice, drinks and soup. Tuesday to Sunday, 2 PM to 7 PM.</p>
+          </div>
+        </li>
+        <li class="deal glass card" data-reveal style="--d:90">
+          <button type="button" class="deal__thumb" data-lightbox="home-offers" data-id="123" aria-label="Open the Happy Hour poster">
+            <!-- @include img id="123" sizes="96px" alt="" -->
+          </button>
+          <div class="deal__body">
+            <p class="eyebrow">HAPPY HOUR</p>
+            <p class="deal__big"><span data-count="50" data-suffix="%">50%</span><span class="deal__unit">off</span></p>
+            <p class="deal__text">Buy 1 cocktail, get the second at 50% off on selected cocktails. 4 PM to 8 PM.</p>
+          </div>
+        </li>
+        <li class="deal glass card" data-reveal style="--d:180">
+          <button type="button" class="deal__thumb" data-lightbox="home-offers" data-id="112" aria-label="Open the event package poster">
+            <!-- @include img id="112" sizes="96px" alt="" -->
+          </button>
+          <div class="deal__body">
+            <p class="eyebrow">EVENT PACKAGES</p>
+            <p class="deal__big"><span data-count="40">40</span><span class="deal__unit">guests</span></p>
+            <p class="deal__text">Five exclusive hours, buffet for 20 to 40 guests, from ₱12,800. Sound system included.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="more__row">
+        <a class="sip glass glass--dark card" href="/drinks/" data-reveal style="--d:0">
+          <span class="sip__media">
+            <video class="sip__anim" data-autoplay muted playsinline loop preload="none" width="360" height="360" data-poster="/media/drinks-loop.jpg" aria-label="Cocktails, iced matcha and strawberry Yakult in a looping montage">
+              <source src="/media/drinks-loop.webm" type="video/webm">
+              <source src="/media/drinks-loop.mp4" type="video/mp4">
+            </video>
+          </span>
+          <span class="sip__body">
+            <span class="eyebrow">SIPS IN MOTION</span>
+            <span class="h3 sip__title">Iced, shaken <em>and stirred.</em></span>
+            <span class="muted sip__text">Coffee, matcha, Yakult coolers, cocktails and cold beer by the bucket.</span>
+            <span class="sip__link">See the drinks <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+          </span>
+        </a>
+
+        <figure class="review glass card" data-reveal style="--d:120">
+          <svg class="review__mark" viewBox="0 0 48 36" aria-hidden="true"><path d="M0 36V20C0 8 7 1 19 0v7c-6 1-9 5-9 11h9v18H0Zm29 0V20C29 8 36 1 48 0v7c-6 1-9 5-9 11h9v18H29Z" fill="currentColor"/></svg>
+          <blockquote class="review__quote" lang="fil">
+            <p>Thank you so much po very fresh ng veggies sa pancit at malasa sya. Hindi dn sya dry. Super nagustuhan namen. Perfect for handaan talaga…</p>
+          </blockquote>
+          <p class="review__en muted"><span class="review__tr">Translation:</span> Thank you so much. The vegetables in the pancit were very fresh and it was flavorful, not dry at all. We loved it. Perfect for parties…</p>
+          <figcaption class="review__by">
+            <span><strong>Hazel</strong>, via Messenger</span>
+            <button type="button" class="btn btn--sm btn--ghost" data-lightbox="home-review" data-id="80">See message</button>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- @include footer -->
+<script type="module" src="/src/pages/home.js"></script>
+</body>
+</html>

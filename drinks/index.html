@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- @include head title="Drinks" description="Coffee, milk series drinks, layered house specials, sodas, Yakult, cocktails and cold beer buckets at Stefanie's Bar &amp; Restaurant in Balagtas, Batangas City. Happy Hour 4 PM to 8 PM." preload="29" preload-sizes="(min-width: 900px) 58vw, 100vw" og="29" -->
+</head>
+<body class="page-drinks">
+<!-- @include nav -->
+<main id="main">
+
+  <!-- Panel 1: moody bar hero -->
+  <section class="panel dk-hero" aria-labelledby="dk-title">
+    <div class="panel__bg panel__bg--kenburns dk-hero__bg" style="--overlay:.5">
+      <!-- @include img id="29" eager sizes="(min-width: 900px) 58vw, 100vw" alt="A creamy cocktail in a martini glass on the terrace beside the glowing Stefanie's sign at night" -->
+    </div>
+    <div class="orbs" aria-hidden="true"><span class="orb"></span><span class="orb"></span><span class="orb"></span></div>
+
+    <div class="panel__inner dk-hero__inner">
+      <div class="dk-hero__copy stack">
+        <p class="eyebrow eyebrow--pill">DRINKS AND BAR</p>
+        <h1 class="display dk-hero__title" id="dk-title" data-split>Pour something <em>good</em></h1>
+        <p class="lead dk-hero__lead">Coffee in the morning, layered specials in the afternoon, cocktails and cold buckets when the lights go down. Open daily 8 AM to 10 PM.</p>
+
+        <ul class="dk-prices" aria-label="Starting prices">
+          <li class="dk-price glass"><span class="dk-price__label">Coffee</span><span class="price" data-from="coffee">from ₱118</span></li>
+          <li class="dk-price glass"><span class="dk-price__label">Milk series</span><span class="price" data-from="milk">from ₱138</span></li>
+          <li class="dk-price glass"><span class="dk-price__label">Specials</span><span class="price" data-from="specials">from ₱160</span></li>
+          <li class="dk-price glass"><span class="dk-price__label">Soda</span><span class="price" data-from="soda">from ₱120</span></li>
+          <li class="dk-price glass"><span class="dk-price__label">Yakult</span><span class="price" data-from="yakult">from ₱125</span></li>
+        </ul>
+
+        <div class="cluster dk-hero__cta">
+          <a class="btn btn--lg" href="#dk-cafe">See the drinks</a>
+          <a class="btn btn--ghost btn--lg" href="#dk-bar">Cocktails and beer</a>
+        </div>
+      </div>
+
+      <aside class="dk-happy glass glass--lg" aria-label="Happy Hour">
+        <span class="dk-happy__ring" aria-hidden="true"></span>
+        <p class="eyebrow">HAPPY HOUR</p>
+        <p class="dk-happy__time"><strong>4 PM</strong> to <strong>8 PM</strong></p>
+        <p class="dk-happy__deal">Buy 1 cocktail, get the 2nd <strong>50% off</strong></p>
+        <p class="small muted">On selected cocktails.</p>
+      </aside>
+    </div>
+
+    <a class="scroll-cue" href="#dk-cafe" aria-label="Scroll to the cafe drinks">Scroll</a>
+  </section>
+
+  <!-- Panel 2: cafe bar, coffee, milk, specials, soda and Yakult -->
+  <section class="panel dk-cafe" id="dk-cafe" aria-labelledby="dk-cafe-title">
+    <div class="panel__bg panel__bg--mono" style="--overlay:.8">
+      <!-- @include img id="54" sizes="100vw" alt="" -->
+    </div>
+
+    <div class="panel__inner dk-cafe__inner">
+      <div class="dk-cafe__grid">
+        <div class="dk-cafe__side">
+          <header class="dk-cafe__head" data-reveal>
+            <p class="eyebrow">THE CAFE BAR</p>
+            <h2 class="h2" id="dk-cafe-title">Coffee, milk and <em>house specials</em></h2>
+            <p class="muted dk-cafe__lead">Espresso drinks, milk series and layered house specials, plus fruity sodas and Yakult coolers. Tap a menu board below to read it up close.</p>
+          </header>
+          <figure class="dk-loop glass" data-reveal="scale" style="--d:160">
+            <div class="dk-loop__media">
+              <!-- Animated WebP with a GIF fallback (the owner asked for GIFs). Lazy, so it never competes with the hero. -->
+              <picture class="dk-loop__anim">
+                <source media="(prefers-reduced-motion: reduce)" srcset="/media/drinks-loop.jpg">
+                <source type="image/webp" srcset="/media/drinks-loop.webp">
+                <img class="dk-loop__video" src="/media/drinks-loop.gif" width="320" height="320" loading="lazy" decoding="async" alt="Looping animation of Stefanie's iced drinks and cocktails">
+              </picture>
+              <img class="dk-loop__video dk-loop__still" src="/media/drinks-loop.jpg" width="360" height="360" loading="lazy" decoding="async" alt="Stefanie's iced drinks and cocktails">
+            </div>
+            <figcaption class="dk-loop__cap"><span class="eyebrow">ON THE BAR TODAY</span><span class="small muted">Iced, layered and shaken to order</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="dk-menu glass glass--dark" data-reveal style="--d:80">
+          <div class="dk-tabs" role="tablist" aria-label="Drink series" data-dk-tabs></div>
+          <div class="dk-panels" data-dk-panels>
+            <noscript><p class="muted">Open the <a class="link-sweep" href="/menu/">full menu</a> for every drink and price.</p></noscript>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee-stack dk-rows">
+        <!-- @include marquee ids="104,149,19,29,146,124,54,94,144,127,135,11" direction="left" speed="62" height="clamp(100px, 14vh, 170px)" group="drinks-cafe" label="Coffee and cafe drink photos" -->
+        <!-- @include marquee ids="85,96,106,107,108,146,94,19" direction="right" speed="58" height="clamp(92px, 12vh, 150px)" class="marquee--mono" group="drinks-boards" label="Drink menu boards, tap to read" -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Panel 3: night bar, cocktails and beer buckets -->
+  <section class="panel dk-bar" id="dk-bar" aria-labelledby="dk-bar-title">
+    <div class="panel__bg panel__bg--mono" style="--overlay:.78">
+      <!-- @include img id="39" sizes="100vw" alt="" -->
+    </div>
+
+    <div class="ticker dk-ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Happy Hour 4 PM to 8 PM <i>·</i> Buy 1 cocktail, get the 2nd 50% off <i>·</i> Long Island <i>·</i> Mai Tai <i>·</i> Whisky Sour <i>·</i> The Devil's Whisper <i>·</i> Beer bucket with free pulutan <i>·</i></span>
+        <span>Happy Hour 4 PM to 8 PM <i>·</i> Buy 1 cocktail, get the 2nd 50% off <i>·</i> Long Island <i>·</i> Mai Tai <i>·</i> Whisky Sour <i>·</i> The Devil's Whisper <i>·</i> Beer bucket with free pulutan <i>·</i></span>
+      </div>
+    </div>
+
+    <div class="panel__inner dk-bar__inner">
+      <header class="dk-bar__head" data-reveal>
+        <p class="eyebrow">WHEN THE LIGHTS GO DOWN</p>
+        <h2 class="h2" id="dk-bar-title">Cocktails and <em>cold buckets</em></h2>
+      </header>
+
+      <div class="dk-bar__grid">
+        <article class="dk-card glass glass--dark card" data-reveal style="--d:60">
+          <p class="eyebrow">COCKTAILS</p>
+          <h3 class="h3">Shaken at the bar</h3>
+          <ul class="dk-list" data-dk-list="cocktails">
+            <li><span>Long Island Iced Tea</span><span class="muted small">A bold blend with a refreshing finish</span></li>
+            <li><span>Mai Tai</span></li>
+            <li><span>Whisky Sour</span></li>
+            <li><span>The Devil's Whisper</span><span class="muted small">House chili cocktail by RAB</span></li>
+          </ul>
+          <p class="dk-card__note"><span class="chip chip--solid">Happy Hour</span> <span class="small">4 PM to 8 PM. Buy 1, get the 2nd at 50% off.</span></p>
+        </article>
+
+        <article class="dk-card glass glass--dark card" data-reveal style="--d:140">
+          <p class="eyebrow">BEER BUCKETS</p>
+          <h3 class="h3">Grab a bucket, pick your pulutan</h3>
+          <p class="muted">Every bucket of ice cold beer comes with one free pulutan of your choice.</p>
+          <ul class="cluster dk-pulutan" aria-label="Free pulutan choices">
+            <li class="chip">Exotic Land Snail</li>
+            <li class="chip">Sizzling Sisig</li>
+            <li class="chip">Chicharong Bulaklak</li>
+            <li class="chip">Sizzling Hotdog</li>
+            <li class="chip">Fries</li>
+          </ul>
+          <div class="cluster dk-bar__cta">
+            <a class="btn" href="{{site.links.messenger}}" target="_blank" rel="noopener">Reserve a table</a>
+            <a class="btn btn--ghost" href="/offers/">All offers</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="marquee-stack dk-rows">
+        <!-- @include marquee ids="144,127,11,123,111,124" direction="left" speed="44" height="clamp(100px, 14vh, 170px)" group="drinks-bar" label="Cocktail photos" -->
+        <!-- @include marquee ids="135,134,136,42,41,29" direction="right" speed="50" height="clamp(92px, 12vh, 150px)" class="marquee--mono" group="drinks-beer" label="Beer and bar photos" -->
+      </div>
+    </div>
+  </section>
+
+</main>
+<!-- @include footer -->
+<script type="module" src="/src/pages/drinks.js"></script>
+</body>
+</html>

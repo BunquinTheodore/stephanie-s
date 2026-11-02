@@ -1,0 +1,2006 @@
+{
+ "1": {
+  "w": 800,
+  "h": 800,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAwCdASoYABgAPu1krE+ppSQiMBgIATAdiWkAAC51m/Eql6iPUKoAAP7zaYjb4uji0o+AAAA=",
+  "alt": "Stefanie's Bar & Restaurant script logo with waitress silhouette",
+  "cat": "logo",
+  "poster": false
+ },
+ "2": {
+  "w": 800,
+  "h": 800,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAwCdASoYABgAPu1qqk8ppiOiMBgIATAdiWkAAC51y7SaWt4OwJoAAP71ZsoV77TmkYu3Y3K3QAAA",
+  "alt": "White silhouette of a waitress carrying a serving cloche",
+  "cat": "logo",
+  "poster": false
+ },
+ "3": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBQCdASoYACAAPulgpE2pJaMiMAwBIB0JagC1ELGB1b9WND8kwBSWUUfauOxvZ88L0MAA/kVqL/3CIKf6sm8zvuBGrro9qZXXqpzKRt4GIW4VkUF2QhbupK7QLIu7xAZ9sjy3UI3RlTdLOqW2FOu2pyjCvvpWIzU6u76Cic7e6fYu47YCOsG0cyrLczAqHZV8eyg9j0Lbhrtkf3BgQwRu0GqAAA==",
+  "alt": "Stefanie's Special Siomai topped with fried garlic and chives on a white plate",
+  "cat": "food",
+  "poster": false
+ },
+ "4": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBQCdASoYACAAPu1ipE2ppaMiMAwBMB2JaACdMwS+ACncuG64zzkzovYULO6SJBi1/wRGwdAgAP7a1UuzjCRF/OqoFwNcZG9cYOIrJ5GBROGn9YC9A7zP8fZkJSBRnXRF4o4ycORXMLH/fIhWSx/Ttptzi4hscdcGeRH+kYMYQiKvu4N3P5vL9yIgwxy4mMhAGjiBjkPPnOuudjDSZUn2GhoyCoPZoAA=",
+  "alt": "Three baked taco cups with melted cheese and a cucumber rose garnish",
+  "cat": "food",
+  "poster": false
+ },
+ "5": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAADwBQCdASoYACAAPu1oqk2ppqQiMAgBMB2JbACdMoR+J3+D5GP9+M0yjZ8dI3xZWfNoQElvTzmYaAD+oFmZrAsGxKYlzyLbEMugWOQc1uhB1Uln34Q/J506FxtWsfeQiYxlEcUcYErMQCATNVKBwEivfEovgsjwac59NEnrJBQWNbN9TPoKG/5uR4wqiJtHc6dbQ9CqTW4yeaumzgpVE/XE28btzv59ujdTAdodAAA=",
+  "alt": "Crispy Mala Shrimp Dumplings with mayo drizzle on a white wavy plate",
+  "cat": "food",
+  "poster": false
+ },
+ "6": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAQBgCdASoYACAAPuFgp02opaOiMAwBEBwJaACdMyGDQ8c9oyl6AW2g/BFC918ATCS9al2Wc5B7QQAA9vRKdGuTlP82h7TzeFOIcqFpEoM8FmSK0bUuWL0qjdjYdh6YYR20oIojN+XVzdjFGhv0JTWEQKUMparG7tUsP4T9s+ZY97HU9KaaC+0ZrmdV1nKUw72Sn513xal9UxBB3J9nY/VkeloJ5FzwAAA=",
+  "alt": "Crispy lechon on pumpkin salsa with mushrooms and scallion garnish",
+  "cat": "food",
+  "poster": false
+ },
+ "7": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBQCdASoYACAAPulep02pJSOiN/VYASAdCWoAsOwRUozzzyX1dwhzLKD4+UB9MEXKUyC0JQAA/qBckIb5bSPpbFJPN2NgzjcYcia3UxTfYmGBLblvpd3Ax3C4cUvQKIeAWjDc6BxkRs2xUgL2V+NdMO20+AeziiK8lLgpeDN35+5tVeRo1aRH0VQNIEWPSMrjMR/zee2ciI+AAAA=",
+  "alt": "Stacked chicken quesadilla wedges with parsley and sliced dragon fruit",
+  "cat": "food",
+  "poster": false
+ },
+ "8": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACwBQCdASoYACAAPu1orlAppaQiqAqpMB2JbACsL68FMgixqPVRvwdCZO5ZxYxzeL9jByVrJjAA/o6w015asAIIOFqBVviNyOl1fHbHw7oZZ8gM//eW+CiLR3GJqT/3e75xXAQm13of89kDCpmOHNAE7HGT9B5y1lsfDulRfiU+TSrVg1Dv5pqjLhVe2sVpIWct9F5ARgnAgXowxXpXhBq4ZeT5wEAA",
+  "alt": "Corned beef tortilla chips with a creamy dip on lettuce",
+  "cat": "food",
+  "poster": false
+ },
+ "9": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAACQBQCdASoYACAAPu1gq02ppaQiMBgMATAdiWIAnSDYgYFoqMJJcexlYmtSw1IefFF0tEhEAAD9co5gxO/hNFEA1NIylXLpoYkdq+lREVzoCyuq0scySODpqARjd1hd8hxDKFcPyQXudUU8ilEJxT8zqfPkqMRTfWHMwMx0aU0h600GR8DRN7Is/K/4R7Bqvaj1jXSnNjY3GmCCuZRKu81FdnvgfQdkOhAAAA==",
+  "alt": "Deviled eggs topped with crispy bacon and sauteed peppers",
+  "cat": "food",
+  "poster": false
+ },
+ "10": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBQCdASoYACAAPtleo02oJaMiN/qoAQAbCUAX5wPRm59mCyIaFdPP1v7t9ci2+47zwo1awAD+79eVJ0ZtQ23LpcT+oMxzSQiYSIw1ufxc8VHR4nJYl6EtBaWEou+qj0vB4hntESJ2F0EpsCRETEShPkUE8gt0Ua8cloVxJX6Rt/vFSEeChj8FR0ebrAAA",
+  "alt": "Black squid ink pasta with squid rings and cherry tomatoes",
+  "cat": "food",
+  "poster": false
+ },
+ "11": {
+  "w": 1478,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBQCdASoYACAAPuFgpk2opaOiMAwBEBwJaACdMtpIb0zz7PfI/Ve0MiN82/Kt5kBgtqgA/vpleAvzfoHr7TKzMaE70bScaYAhpSFyBJCOhjXBIG3Oh3weJYhV6tfFdNij3eAZs3JXhtMhUa5std4FEdq79YHFkfKZXZ49kH5Z8OKSeJWIFN226sU3ohlCCZ3xKqnJGYAAAA==",
+  "alt": "Red Devil's Whisper cocktail with chili pepper horns and a sugared rim",
+  "cat": "drinks",
+  "poster": true
+ },
+ "12": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAADQBQCdASoYACIAPuFgqE2opaQiMBqtURAcCWIAwvg6dbklv643PxR5+VtISqOLRh7FlCyI/NcAAP7s4YaR7b0n1nnXoCYUHA+SkHwAHJkVwL65GuoMwS0mQng+19HfKLP/6aFJ0VptcO0m5O++C0vDGXIKT+X1PE7S68cNNsGrVanIatJHAyZ6z5i2izNu8SPZ8qKEHX1uxJutJegc+ZbPDrvcoKXALW68PjSTQz4qPn9pSm+RjIkAAAA=",
+  "alt": "Coming soon poster for Spaghetti Meatballs at Stefanie's",
+  "cat": "coming-soon",
+  "poster": true
+ },
+ "13": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADQBQCdASoYACIAPu1gqk2ppaQiMBqqqTAdiWQAnTLHRbfQx583VIR6W1/DeQKU901rTVoTejsaAP7unb43WI5xQ6LnxMZbeWBfstlbYzzBnUEvWB4VK85ACLpONxAuvxT86jqAC2rKpKh0EeOhf5Qlj0ThpR/QWhnz3ys01t1dGZ1ptzZOB3GDosRsPgnzBn84CZwLPbuB5B73uMTExR0ZmitLPxwZEMywDNAQHTvwAAAA",
+  "alt": "Coming soon poster for Braised Bliss Ribs",
+  "cat": "coming-soon",
+  "poster": true
+ },
+ "14": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBgCdASoYACIAPuFeqU2opSQiMBqtURAcCWQAvkgUOuLHrmtx4k8BQwTpM7598AQB2jdonYfFNb7eAeAAAP7Bt3nOFmWKPDQ8+UoAIyfeZX95kWTG5vMKs833HrlyBwtM9cTcEfcMWjLQ2W4OZCczVwDkXeevNIbFguxNI5f8XijGFfUq6fhXLs3yDszMb44bwmbnccz2FHUsu5qZyIm601EIAA==",
+  "alt": "Poster of Stefanie's Authentic Carbonara with toasted bread",
+  "cat": "food",
+  "poster": true
+ },
+ "15": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAAAwBgCdASoYACIAPu1srlGppaQipWsxMB2JYgDNA5HyTGSC5+Dhfuzz1ElscjJ9XCchMsbxb1j2krHAAP75Euu1PP7EHYzh8Ivx2s12Lnh3eOnkQwmJ+0AciQfF0pkZI1B9RB7ISBAZ8pw1z5sRdTbCuwKaxVHh/V5M+AFqD6NhERviwNhbRbIbReoszUa3xNjR1mjWPl9hz7J3PFnDmU3ZqI1Tm5qYpcCAAA==",
+  "alt": "Poster of Stefanie's Roast Beef with gravy and vegetables",
+  "cat": "food",
+  "poster": true
+ },
+ "16": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABQBgCdASoYACIAPtlUo02oJKMiOrmYAQAbCWIAuzPWAvYKBo/GYY66851LEZ4EXjWgWt9boHUt21lpgAD+8YR0dpNaWRLPf7sc+FxjLGOJQg5kZ64JuY6LuRpIh04NL3/GOQRsSprN0hEsWLBfHYzkPpcRjCWD7RtvJX9z4Csr7AWB0oM2M6W0o6SbS2UK/3lpWQTtymynoei6KXdOB98f0UeaJGZ6c1W+wNZkX3UqWCpvVTyoMkAA",
+  "alt": "Poster of Shrimp Aglio Olio pasta with toast",
+  "cat": "food",
+  "poster": true
+ },
+ "17": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBQCdASoYABgAPu1kp06ppaMiMBgMATAdiUAABc7EMNvmJdzx2DQlHqA5Ui/d2l5AAP7yJR24+Rs2AS8mOKG/vDotz2997veUhJYC0/e+ZAn3SWT3iU1Y9QjO6zgHmjdLIAAA",
+  "alt": "Tiramisu dusted with cocoa on a fluted white plate",
+  "cat": "food",
+  "poster": true
+ },
+ "18": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQBACdASoYABgAPu1sr1CppiQiqAqpMB2JZwAALnYEmkrS0rJrnpzDBhQQr6MQAAD+787c04FQZZIyWx6hI/fPLg++TW3FdAXjc/eteVIJLA6cQp/+9hNWTcS4vjhb2l4AAA==",
+  "alt": "Panna cotta with blueberry sauce on a square white plate",
+  "cat": "food",
+  "poster": true
+ },
+ "19": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACwBACdASoYABgAPu1orVCppaQiqAqpMB2JZgC06A9ol6cNitJNWc7NltJd05AAAP7v15CZbKyPTipBuwWaUQw7HAf22zCDTd1+Im8HuwEqMM8g+78YhbAIQDFeokDygeLTRZVVhNM4UOPSHBFv6r653pn/RGAA",
+  "alt": "Layered strawberry matcha latte with mint in a tall glass",
+  "cat": "drinks",
+  "poster": true
+ },
+ "20": {
+  "w": 960,
+  "h": 958,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABQBQCdASoYABgAPuliq02pJaQiMBgMASAdCUATpCQAL/HqO4ZS3zVs5rc5hfrO+NvFrSAA/uk6HiwLxina4S5nE09Iz0ohFQ3JWfZrTKOFp+veVVnXIDp/xHKrMp+EQfqZoIVkDwx3CsRuIVmcIcOtCt7wFtZrlIL/CpTrwTeB9vTSZpgAAA==",
+  "alt": "Stefanie's storefront at night with glowing round sign and warm-lit dining room",
+  "cat": "location",
+  "poster": false
+ },
+ "21": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACwBQCdASoYACIAPt1YoU2opSMiNUgBEBuJZQDA3Czc6/KFIjZOMVImPeSrMdVVhkhdp2uGtAAA/uhKhwT2VkMg/x3XlK4w2xvqeb+CaHYI9eS/n9HTA4Ck586byv7finZFypepjSO6aEOIl5peoAAA",
+  "alt": "Stefanie's Main Course menu page with dish names, descriptions and prices",
+  "cat": "menu",
+  "poster": true
+ },
+ "22": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBgCdASoYACIAPtlapE2oJSOiOrZoAQAbCUAX6jQACAho5tamfAISZxWzXBcBfCjmqSJYQXZ/pQSZSAD+7aqzLozilZykhYJNIY6ErrT6Mv6Hz4hCuPC2rafPKy/Dslw1Q0RKhrdhcivHjzuXKYY9eI9N/8BxQXgSMg9JpBQm0eonqdE0SaQJwv2iu1MDR3dRgAAA",
+  "alt": "Stefanie's Platter menu page with spring rolls, fried chicken, sweet and sour chicken and adobo",
+  "cat": "menu",
+  "poster": true
+ },
+ "23": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADwBACdASoYACIAPt1epE2opaOiNUgBEBuJZQC7AChqgLkLE8OKrxoJ0XhZA/YlAAAA/teZsPCg/pfdUo6HtM9icl6Qy4MV/k0kvA5fvKBt/xxxbebEOjE/T1J9WnSgg/T5ZpACwBpVnK26UoU+cZyL+cLmrCHoQ2rdsCH+dE1hfwJF44AAAA==",
+  "alt": "Menu page with kalabasa sa gata, chopsuey, red curry seafood stew and paksiw na lechon kawali",
+  "cat": "menu",
+  "poster": true
+ },
+ "24": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwBACdASoYACIAPulip02pJaOiNVgIASAdCWUAw3AWZFh4MMFjHKCsLQpjtb4juAAA/u+6pou5s8vAVjuP2joq88ycQ386o4JJiYFuAUQj0EBXKd5wEep7woCWT/r4PogNdxJCSOicXQzwq1PQA6ql7NYz6vIGWY16HAAA",
+  "alt": "Menu page with pork menudo, beef kare-kare and beef caldereta",
+  "cat": "menu",
+  "poster": true
+ },
+ "25": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABwBgCdASoYACIAPuFeqE2opSQiMA1REBwJZQDKtCHh+4qgeOH/x6hlK/W3p/Ofn5CbPT56XYT680C9uwAA/u1ZZhbJK6vLS6ju5oqKUNv9JylPzXyqThBZVlcxQgyjiFxPx1LS3GyPGJ1FTgs25GqjzokXr9f+2+cfntfoGXbTUlT9CocotgTW0b2USyWEi4CXcHiJnQgAAA==",
+  "alt": "Stefanie's Specials drink menu with six layered matcha, taro, strawberry and cocoa drinks",
+  "cat": "menu",
+  "poster": true
+ },
+ "26": {
+  "w": 1600,
+  "h": 1219,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoYABIAPu1sq1EppiOiqAqpMB2JYwC/7BEc8o2Vq1YQoKgAAP7it3G4SBbYq47/FDzW9gy5vQhm3adtNvGjCbRMAAA=",
+  "alt": "Stefanie's Bar and Restaurant script logo with waitress silhouette carrying a cloche",
+  "cat": "logo",
+  "poster": true
+ },
+ "27": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwBQCdASoYABgAPt1apU2opSOiN/qoARAbiWYAnS/UhLDjBQt/fNmSF4/rgE093Nc9lonOx1/LAAD+9FF9SKg1bNCzZLR6y614g8oHMPgcx0KN5Iwrbq/XnnaAXwlXOwg9UYZihkaMrEK24VI3/qgJs6m3WCZcUP6GQRAPa4SSxbbVLsd+XgPqLgoV0LOMN5MWlmAKghntbFQj2UAAAA==",
+  "alt": "Promo poster showing salmon on mashed potato, sushi roll, soup and shrimp tempura",
+  "cat": "offer",
+  "poster": true
+ },
+ "28": {
+  "w": 2000,
+  "h": 1500,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoYABIAPtlgo02oJiM1N/qoAqAbCWUAwNweamPJijkmOxNLnAAAw+Ah7hs7x/46NtjMiP/owuhJ+x8YqWqjlsxilIzMVmgJcK/uJ7YvtVpWWwAA",
+  "alt": "Bright dining hall with wooden bar, karaoke screen, sofas and guests at tables",
+  "cat": "place",
+  "poster": false
+ },
+ "29": {
+  "w": 895,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAABQBwCdASoYADYAPt1epE2opaOiN/gIARAbiUAYOYInQkNGctYFzYXsQdhN0np/cfDA65tVbJgaDb8iLu+S2KHidYvAAP2zkk+SILGA+x0YfrK//MWt0FSpDdPK4MFsQSyylk/qCk637u/20iKBZjSV8BB27EkcKwarM71L2NP66/g3gz/0FGwwBhDXkmqPsvhA+Ejn40dWGSTHCvPIj7QwT71WzI6mqovw9Abaz9TjdvLm3Wv+JV37gFsqYch1AAA=",
+  "alt": "Creamy cocktail in a martini glass on a terrace table beside the lit Stefanie's sign",
+  "cat": "drinks",
+  "poster": false
+ },
+ "30": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAAAwBwCdASoYACIAPulep02pJSOiNVQMASAdCWoAtRuFBEfCBjNoJX08q5FYAr2NRAA+lr1yH5eeDVy3eqlZrXFp2DAA/vhS7zdqrHZ13jjGYzBrnYhg89y5+Eqe647U3jBrUO2wLXBFCj9oeAc8ok9Jzyv2HaZYjA1/sl/vH8wxmjhnvly+rrx0QZUQyadt8kOPH4BgHwpjVG1lYbRQIH/683//pSgD3t78e6P/6/++P10pX7cmU3UUS+oc5geSp2je36X196z28PW4OwAAAA==",
+  "alt": "Unlimited rice and drinks poster with a full tray of BBQ, fried chicken, pansit and lumpia",
+  "cat": "offer",
+  "poster": true
+ },
+ "31": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBQCdASoYABgAPu1oqU+ppiOiKA1RMB2JZACdMyGBw4GqJtk7O9LXfRWgSl4Y47i94+pT3AAA/r4POrbhpIhJkfMzDEuJ/taBqR3PSlh8CJQFJ+GVWYiLGt0y+J6y4JjYWhn9BuXx3Zzu+TbcWJmEDFQPIapE6mg/S219ideV0EXdtb3cRHLfzeaZLMnxRyAAAA==",
+  "alt": "Unlimited rice plus drinks tray with BBQ skewers, fried chicken, lumpia and pansit",
+  "cat": "offer",
+  "poster": true
+ },
+ "32": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABwBgCdASoYACIAPu1urVEppiQipWzJMB2JQBOmd8gj+iM1PAxRxltfLCHrf+k6MDpAqEtYoTe7eMyYfAAA/u1PphXv0AaA3Jfg8a6xITMkvkNf7Y/M1Asq+gRaT8QV4Arv4/sumxVeGl1Mo1FiXSH86V6OVJVeKa9e1KQEKJkZL+smf461Dyr43e1+fG0QyyjpKVQ4HCR4lJW/dkAAAA==",
+  "alt": "Pansit Bilao menu with prices for small to extra large trays",
+  "cat": "menu",
+  "poster": true
+ },
+ "33": {
+  "w": 940,
+  "h": 788,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBQCdASoYABQAPu1gq1AppKOisBgIATAdiWIAnTNkAam6vO8OXUM12Bkbdr0WErU1uCYAAP7Q+Edy3gOJ9M/uhTJytuPxYrKmI2soSRf/dS9BnNakbkpPLdLIQEo3XolLburkp8dH6/XXjlW12wxgAAA=",
+  "alt": "Chami con lechon noodles topped with crispy pork belly in a foil bilao",
+  "cat": "food",
+  "poster": true
+ },
+ "34": {
+  "w": 2000,
+  "h": 1414,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQBACdASoYABEAPu1iqlAppSOisBgIATAdiUAXZmmIMASOJbNiJV3MlIFCIiJHqAD+5ZmDT+xv2/Mi5MbOgCXXupwIKWerrNtd24nL0qwlbNkRGKIkg8VsqwYgY4OnQAA=",
+  "alt": "Three pansit bilao trays: sotanghon, chami con lechon and seafood palabok",
+  "cat": "offer",
+  "poster": true
+ },
+ "35": {
+  "w": 2000,
+  "h": 1414,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQBACdASoYABEAPu1mqE2ppaOiMBgMATAdiUAW2QHoaS/QiaTHsO4WBtDKSxK6AAD+MXutkUOuausZaxDsqKMmBX7esQV7IVhek4jW3UDZCE8prZcwAPvz6qmR02ahrCihtK8XIgXiq3JEbUYAAAAA",
+  "alt": "Pasta menu with shrimp aglio olio, spaghetti meatballs, bacon mushroom and carbonara",
+  "cat": "menu",
+  "poster": true
+ },
+ "37": {
+  "w": 2000,
+  "h": 1500,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBQCdASoYABIAPu1urlIppiQiqAgBMB2JYgCdM2QBeO+upI4ReeiawmEAoQOmqjZbtNoAAN+tJqAQyE3H1mn528fn2YEWxqzHnvUwQ5cchOU6sraFJueyped4lljUZYvY+UsbotrpO4y/0tp6zvrI/yLQ5xCw3Tc37z8pfyAAAA==",
+  "alt": "Smiling group of guests gathered around a long dining table inside Stefanie's",
+  "cat": "people",
+  "poster": false
+ },
+ "39": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwBQCdASoYACAAPuFep02opSOiMAwBEBwJYgCdMoADQdXxaNzZ9fT1c7FBfONLHJ9I45fssNgA/q9ICqXQ2boy9DdKoDBqBExa4vvpcBfe6t6Qs2diDad7QfIUqO0S/ohcg8oGYvnZ2pd8AMfxFRF6Ak9JlRiZnE7CtWaK+ThzbHeFVOJV2m9MzwOIUYZ651CFR6Gpi+DkAAAA",
+  "alt": "Wooden slat bar with glowing liquor shelves, pendant lights and the Stefanie's round sign",
+  "cat": "place",
+  "poster": false
+ },
+ "40": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABwBQCdASoYACAAPuFepk2opSOiN/qoARAcCUAYG4Qz78ICWUNjcLvFbEjDrGNbQ5+nK0xUAP6U9nM7wxCTpqPX03mJEYmgD8zqKaDDl8tGhNrvxya21eGfPRR/YB6JyF3f4shIo4bPj+alRpmTMZmTlk/0hgsfg2nNHoqiuaY5pVrt54IoVnhMagAAAA==",
+  "alt": "Outdoor terrace with rattan chairs, round tables and potted plants beside the parking area",
+  "cat": "place",
+  "poster": false
+ },
+ "41": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBQCdASoYACAAPuFapk2opSOiN/qoARAcCUAVw4MB8asEuyBg7TsbJ3EQKMtblEyqdkgAAP5S2s9Bq1IMzh/OnYRbKTRecG/IbAM0H19I+VB4fztREDuplnI4q7at4vaFM3eO+LDxNvI8VmGm0GJndZO2A9Dk1SV5VICtmMgAAA==",
+  "alt": "Back bar with lit wooden liquor shelves, Stefanie's round logo sign and Edison pendant lamps",
+  "cat": "place",
+  "poster": false
+ },
+ "42": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAACwBQCdASoYACAAPuFSpU2opCOiN/qoARAcCWoAnTKEf1AojGudtclwieYPjHsd6GxN7vCgNjAA9r4Yp5HI8oU94aUS4KqTn27EEXBqb4C8HcBGklm7LzhucFCAYk07/brDdhD+e1uk+OxCajz3u0k5CAfd10L/ks5/5TsCv5xDDnKQ9xrZW0aQKRN0nfaBYD5t+6DcWcnYfPmKRj57vKldoK73lzbx5BiNiE3uX2AAAA==",
+  "alt": "Bar counter lined with liquor bottles and a wooden tip box under warm pendant lights",
+  "cat": "place",
+  "poster": false
+ },
+ "43": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQBACdASoYACAAPu1irU2ppaSiKA1RMB2JZQDA3EXNFlzzHlutCiONyqI5/hdTAAD+UgDomQNXIxIwesnu/y8YKJXxTidDicGiersXcYMzW17dx0t9UHhS+lOhRw4liAHYKqmQSYv2lQUxUcZU/+dkAAA=",
+  "alt": "Bright lounge corner with brown leather sofas, coffee table and metal tree wall art",
+  "cat": "place",
+  "poster": false
+ },
+ "44": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADwBACdASoYACAAPu1oqk6ppiQiMAgBMB2JQBbZBDzxQeRkAlJY06Yj7kLzdRS/usAA/fMO54M21aAuepoN+LlG/XtYliboPf733h8REWnPBSBdhZk42D9BD/D44BehyjTOinuqt5XRJ5XjjJ1b6tdqS4VwS3wv7XIylGXn9JSIkt5U6cbsHQEN7EuM0OEwxG2vPD6YAAA=",
+  "alt": "Stefanie's storefront with a big round script logo sign and rattan outdoor seating beside plants",
+  "cat": "place",
+  "poster": false
+ },
+ "45": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBQCdASoYACAAPuVep02pJSOiN/VYASAciWMAAJ+mRq5JJEiFn7aWcLD9mgjMIBilu594AP00Hp5L5DjW5Qrju8S18VIqNfxwgIvQamHi8UQ18+4Dp6W91yn5r1HFAcp+uOfbFw3vAa+GLjPfne5cKLTAxge+k7nwlohMg7qsEUAAAAA=",
+  "alt": "Window lounge with dark sofa, coffee table and a crystal vase of white flowers",
+  "cat": "place",
+  "poster": false
+ },
+ "46": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAABQBQCdASoYACAAPu1gqE4ppSOiMAgBMB2JQBYj8dk+HinG2YaYyz5Ye4iDHltMtkOWNOAA/fXtwAhSYMOJ5YNbJdVfJHoFrf15pA3D4SZna24gFX5lGIuNgVOvIHDInR5DoHix5U89PidaWfiauNLAiExlXog2dhMJel1JwnEzJ4DtnnRlMPrqrZGw3ggAAAA=",
+  "alt": "Cozy lounge with leather sofas, peach cushions and dark wood slat wall art",
+  "cat": "place",
+  "poster": false
+ },
+ "47": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAwBQCdASoYACAAPuFep02opSOiMAwBEBwJZgCdABxN59P1QA6QT8aXTLvCb7R3ph68UAD+I1Bg40JFmYbiY8FXM2rfK1PS0/jw1s/fr7Dh0B+CmtLY9TXGF1LYN0+3+3QJTjqj+y7xpznBthoqIo9lqmNSM/3Xd764rPmeHWb825G6pM7io0V5YOreMCAA",
+  "alt": "Dining area beside a red brick mural with Stefanie's logo and two illustrated women",
+  "cat": "place",
+  "poster": false
+ },
+ "48": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBACdASoYACAAPu1qr1AppiSiqAqpMB2JZACuHC4GV45BgvCwVbX7zAR0TfooYIgA/FQKBKWoPPYWW5QlOwrWH2Tv0QiYvBVLs9zBsLSi4yU63R4LIzPcckV7WvtsRHm+79P4U9s4kH6Lv1jnt6ESfxv3TfsFWi88RNCW+OZcQgAw26NYRysRjlnzGEQCyQiuBt+CeylyPAAA",
+  "alt": "Long dining table set with gold rose placemats and flower vases beside a wooden slat column",
+  "cat": "place",
+  "poster": false
+ },
+ "49": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACwBQCdASoYACAAPu1oq0+ppiOiMBgIATAdiWIAnTNVyfSbAx/Og/6+qr1ADrB2gs2iYVCQ2IAA/sP9ssDrXawHKTxXCmGcJf5P3NsC0H8pgnsbml+OVmu8U93aKPoac0Kh3cXBpTp2eSj/Phf7b1Q2Dnfrt3bH6yth3TfXsnVoorNPUH2kgu0ciAcUInQAAAA=",
+  "alt": "Raised lounge platform with dark sofas, wall slat art and a colorful prize wheel",
+  "cat": "place",
+  "poster": false
+ },
+ "50": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBQCdASoYACAAPu1qq06ppiOiMBgIATAdiWQAuzOAikaqa6syQOZrRrIJYn4PhhNw9PcSPbBPgAD+82pvyBtnVHOpiQXiouNWIpaoCpjePKf9XvJuGlhJy9hdJBSLj7cnZyZdNCZIYWid+Jniu6p7ovgvo9cr0N3p9QDIjvIsM2l5YAA=",
+  "alt": "Wide view of Stefanie's dining room with wood tables and the warmly lit bar beyond",
+  "cat": "place",
+  "poster": false
+ },
+ "51": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwBQCdASoYACAAPu1cqE4ppKOiMBgMATAdiWUAxoLwAgWszO4z+LkuAtmub2BXSQcp7NgAAP2BfDc67748LlnEN1Mb1BmzV0vFD9Rg0Q6Zvrhim8FtqRaLt+kqqgVDtpqZKJN5G6CixT9KQdNWRUMvbV28O8r4rE08jz22autFoGQhcS0UAAAA",
+  "alt": "Round wooden table with gold rose placemats in a bright dining room",
+  "cat": "place",
+  "poster": false
+ },
+ "52": {
+  "w": 720,
+  "h": 960,
+  "widths": [
+   320,
+   480
+  ],
+  "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAADwBQCdASoYACAAPu1gqE6ppSOiMBgMATAdiWYAnTlBVAAi/N1iyUvxlB452WXGvT89j80R7fRxAAD928iE32kB1z8zFBcgI4vZtc7XV/d2Ir09/0LwYQxbkJ1T7wBUDskYBSY99oCAg2yBsHzRWfei8jJSmXyOp3waEn/YGLLyTdyUEik6cqYJkl4N8WTDTtXSVfUAStB+BNkOO6gRvPkoAAAAAA==",
+  "alt": "Bar counter with yellow bar stools, liquor shelves and Edison pendant lamps",
+  "cat": "place",
+  "poster": false
+ },
+ "53": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBQCdASoYACAAPulgo02pJaMiMAwBIB0JZgCxHoSGUCnDpE1YyU+Y72SYXXqATBsCauayU9UAAP6OdTuOC1YY0SAfskx9j5X/DNyae8Os3fmrtLCvd5b+t7lncme1IsglMGsx307ViHQuPTsyGoplB0SfjptJbkNK/4KNv18CdZBvKMqejnA1lT5804r4AAA=",
+  "alt": "Round table with gold placemats in front of the warmly lit bar",
+  "cat": "place",
+  "poster": false
+ },
+ "54": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBQCdASoYACAAPu1kq1AppSOisBgIATAdiWQAnTLMAVs3DvHTWcPbsRMBj9DZGkiE67yY4AD9bmuPnVTLmC0BUeim67pdYyCOnkyeBtsinQib7VMYiuLhWqZi0uA6/9cWDnzdqOuQ+YDeaPpViS9p+oqlso6t59AS/TJ4SywT6B4ka+6ooXwMxw9EhKiZz6sEv+rdsXJPVyTgAAA=",
+  "alt": "Coffee station with siphon brewer and espresso machine beneath lit liquor shelves",
+  "cat": "place",
+  "poster": false
+ },
+ "55": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADQBQCdASoYACAAPu1cqU2ppKQiN/VYATAdiWMAxNhErntDenLUEEwBZO3kpra05hvmow7YWfhAAP6xeCIGtFzHK4UMUHazQmbAinK1eooDzbu6e/5JDqmtiTP5rtxJim8MG0A4AJgLyvD5lH0xm8G10VzeyF4RXYe1oAvqQqD30u7Xgvv0xzsKywzAAA==",
+  "alt": "Long group table set for an event in front of Stefanie's red brick mural",
+  "cat": "place",
+  "poster": false
+ },
+ "56": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBQCdASoYACAAPtlapE2oJSOiN/qoAQAbCUATplmA/OWTzP/Rdq5i3wkOP9vY5ZQwANbXuEK1y2BmRYmUtfrxXMTpulzcUBsjUtkG52E2Nw2DffhbKIMwMrYwzoHBEEbvjpFcqF4ejo3iY+vyqcQnY/KcNZFkDXQAAA==",
+  "alt": "Lounge corner with leather sofas under illuminated vine wall decor",
+  "cat": "place",
+  "poster": false
+ },
+ "57": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwBQCdASoYABgAPu1oqk8ppiOiKA1RMB2JbACpI8KmwAy5w2nwek3lPI8UG9hkYnXzkzqOSvgA+eGSU8ydao9OGaeSE9P7YbimNwRluWeFkg0MqTuNOkdpGxzw5nmaMSgp95sL2tuVSUOnUy3dJlDq08rmV6qwKmwjdyLUJqY6b/ATOsDEo4p1bHt2CTgTV8/K1I6+DNKe7dCoz/B9AAAA",
+  "alt": "Spaghetti with cherry tomatoes, meatballs and garlic toast, shot from above",
+  "cat": "food",
+  "poster": false
+ },
+ "59": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAADQBQCdASoYABgAPu1mq08ppaOiKA1RMB2JZgCdMuN+ABR/yPXTn55o4edB43E6QYvjtUt+PyAAAP7i9P5OYKHL/iKaL2Uk0Q/ZitTjRRS0xYoSKHP3jW//OoHbNLfl/9hROTUco5b8X9CJean+OKhBviBMOP/lYrXcfzkx0GEebKAxjtlia/aD+Et5hP03OmyqAAAA",
+  "alt": "Cheeseburger with lettuce and melted cheese on a square white plate",
+  "cat": "food",
+  "poster": false
+ },
+ "60": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBQCdASoYABgAPu1srVCppiQiqAqpMB2JagC1Gt8Bxdjz5pVO97DEXq1QvMltFSviwAAA/ZzzcRxNzBOKb781AnDwjb+3OWK5DmlvmYVSdmh7aAzUV/kA8ovpqWKOZ+OFDlPitWF8KYLhHZaWB/Cz+PYHT36DSQ8uBP3Ek8Wt+qu0bulKmAAA",
+  "alt": "Seared salmon over mashed potatoes with butter sauce, greens and lemon",
+  "cat": "food",
+  "poster": false
+ },
+ "61": {
+  "w": 2000,
+  "h": 1500,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBQCdASoYABIAPu1srFEppiQiqAqpMB2JZACxHzQ5aBEDTIxHJYSV1ZXqcbRu6UWAAMsWhucerFJZgEv1zEmH+fTyB4PXU0FIK39ajchoy8imPOppsXge9c0frnVcK8rVefz0YAN4qSGD5MsJrZE+HRsPrH7EZaI1uhPqlfgiAAAA",
+  "alt": "Five guests smiling at a dining table beside the warmly lit bar at Stefanie's",
+  "cat": "people",
+  "poster": false
+ },
+ "62": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAACwBQCdASoYABgAPuFeqk2opSQiMAwBEBwJagCdM1pBSCbWS0zv3WVMiEbEySrrkfkJVF/afcgA/tzWB1xBxzK33VAB2o0BOsuOfNgXWePtwWza2r195ggh20SPvYCijFe555ZJfdFYbzIfI9tdkujJ5Nh+3YdkkNyhBXMaVAQ/rTv2jtZvwlTHbDU6MPR61l3AXKKih/i3K7JLAnFoAAAA",
+  "alt": "Grilled stuffed squid rings and tentacles with a cup of dipping sauce on a white plate",
+  "cat": "food",
+  "poster": false
+ },
+ "64": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBQCdASoYABgAPu1qsFAppiSisBgIATAdiWwAnTKEZJ4QAiihW1nXCYdJ7oNG/mEYInAA/k591kt5DlEi49EfOK6kGZM7PB2Tw6svlm2bNf/Ewov2NiXqA35FKC1urHN5idgMRPDBMxNBcxBAVLO6ZwGJIaLj3d1xz/rF1miDT+5SVk5lXmz2t5bk4vrJYoe9XkIxc7ZVLB/EbcAAAA==",
+  "alt": "Overhead view of a wooden sushi boat of maki rolls flanked by plates of shrimp tempura rolls",
+  "cat": "food",
+  "poster": false
+ },
+ "65": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAwBQCdASoYABgAPu1qsFAppiUiqAqpMB2JbACdMoRwJxaBAzrs5yy+QA3lEE1IOZUwiADKp8AkHhY+sDCtnqvgDFnaxZlMZLUCKvqav++SHNXPMt4HWzkjY1QmgjF2uwn7JdgdaG1VNtNAPFJeiyA2DIJLOEmj3WfLYNpb4MBDsYDLl8SKrGqEdkQ6WTOmKtpzDHVZV+thDNZst4x3DaOcCZlB18zSceL67RNH36r5UWmLfPKObC4b4CmtgAAA",
+  "alt": "Wooden sushi boat of maki rolls topped with mayo and eel sauce beside soy sauce dishes",
+  "cat": "food",
+  "poster": false
+ },
+ "66": {
+  "w": 1320,
+  "h": 1320,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACQBQCdASoYABgAPu1srFEppaQiqAqpMB2JZgCdMoR8+GkgIhz4Rie+F8UKze/RFQ97JW3v5gD11Q903UWrENEZ+pGHruoU42U2ZXEBn2l6zNP+mmEG/A/bTq4ccWS/g6YRnWE8JHL2MnneDjM+RPQQaJign058L8HwzSBEPyHaq46ZroqrJU9AAAA=",
+  "alt": "Braised short ribs in rich dark sauce topped with toasted garlic and parsley in a glass dish",
+  "cat": "food",
+  "poster": false
+ },
+ "67": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAACwBQCdASoYACAAPu1mpk2ppaMiMBgMATAdiWwAnTKEgrWgFIcgI5r/DYuWO3JZNg3fpwwgcPAA/p+MYzhdU/IX9FC6kUi2cWfahHOF8qIrTjdYN1X6MFDU8LjhVRjag+fO+Ao6PlIpXyXQ6BFJ1/Pir/UBUbepgFPl8JEU97DMS8pveo5VuhM4iGolmPQi2xqXhD3u9l2PL72aKXltr5NRDoqS2lykRplTKz/w4T5RZHfsAAA=",
+  "alt": "Family of four taking a selfie over plates of silog breakfasts at Stefanie's",
+  "cat": "people",
+  "poster": false
+ },
+ "68": {
+  "w": 2000,
+  "h": 1000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoYAAwAPu1kqk2ppaQiMAgBMB2JQBOmUABp1Xt5dap8AAD+1s5S1ocqBpIQaM7AkjFIv3/JxhLsmINSC1oXh6YGLhzcMYQkL9ClPBwXzcrng4AA",
+  "alt": "Stefanie's Main Course promo banner showing ribs, beef and salmon plates",
+  "cat": "offer",
+  "poster": true
+ },
+ "69": {
+  "w": 2000,
+  "h": 1500,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwBACdASoYABIAPu1qr1CppaQiqAqpMB2JQBYj4wAouBEj16De7OOydHz0veSAAP7GcGhaDqQS9sKuG+b39SD8BisvFSIEGM+fPk1RRYdS+DlAiQozVaoPiOHwymR9iMqYgkq96ENk0EMcsFY8stXrJfPsVcKAAUAAAA==",
+  "alt": "A group of ten guests sharing dinner and beers at a long table inside Stefanie's",
+  "cat": "people",
+  "poster": false
+ },
+ "70": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwBQCdASoYACAAPu1wr1IppiQiqAgBMB2JbACdMuiIc5VB5xFalPa3Nlbk7/aAmynU/pInxAAA/syTus+4MnpTqxbmlAOmc8v/ji+eyINUK+4q2cmDZoeLVLD6SPQb3Gq9VMIIRSHqjDrjz0kQLWM9SV8lQ7khXEU4YqgMznz1J4Fj+msWc7I7ws+RNbpd3aZfRcgPdVSM9OAA",
+  "alt": "Dining room set for a group event with long tables, white flowers and a slatted wood pillar under blue lighting",
+  "cat": "place",
+  "poster": false
+ },
+ "71": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADwBQCdASoYACAAPu1oqk8ppiOiMBgIATAdiWwAnTLq2AASpoTan24xkKSe76VhAooa2ASgEqd+dAD+8Q7Z9Adovt6TYCf7IJVbcu8fDPstdCa5fiWMZetpxtQ9eGJDKU5b/UqM1q+hzZzEX4JOpvBQK4oYc6/5Pe1qQr8YSL/P2MmJRTict2lF9SCK2mEFLy8BZWhIgV35bHrpCyG6hEht862Z4slxoJbVteXkJd5sgAAA",
+  "alt": "Golden chicken quesadilla wedges with a bowl of orange cheese dip",
+  "cat": "food",
+  "poster": false
+ },
+ "72": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAAAQBgCdASoYACAAPu1orVAppaQisBgIATAdiWYAnTLaRNH3nY4riRHlnWKjiPyzrg6FcMUFzLCSg4AA/iYNBpbri+PUHvM35ANKZPnmhYABLEDsge9Fc+xq2VR7tKmIvznjHi1gbq64wkAp2B61xpuTPP9dCqEUQ05S7WhAst8IWXcULlQbKJlJR6XPrkBeCE6WL0ecui8eOhA87EAAAA==",
+  "alt": "Bowls of loaded Batangas lomi topped with chicharon, crispy pork, lumpia and boiled egg",
+  "cat": "food",
+  "poster": false
+ },
+ "73": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoYACAAPu1gqE2ppSOiMBgMATAdiWwAnTLevgANAMLfn4Xf7Rn+u2avKAD1gSPCfexZ4FyfnICPQ8WeMsyvsgtq4u+caqYmeUeFPOTHTC0msA7ltYhfQNJX5TtXV5CGYZf8uLphU7YbcAT/ldrVPVaBnbMTq1123c62NGmPOYow3m75ypzZBTEQAAA=",
+  "alt": "Party tray of pancit bihon with vegetables, chicharon crumbs and scallions",
+  "cat": "food",
+  "poster": false
+ },
+ "74": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACwBQCdASoYACAAPuVip02pJiOiN/VYASAciUAXZlmA0zqaZOBCy/wpKSTbTmQZ6gz0EcLboHAA3hOzmOQeitsarykICiwZ722NJx2lb8K6ldT3lbvOsK3mKQ+bExYbx+NxvdmJbmqTr+fMR/VR/aSFuyKbsGYctoR3bJ+8grVblVcKLYfZpgSl/SdnnickgAA=",
+  "alt": "Party tray of spaghetti in red sauce topped with creamy white sauce and grated cheese",
+  "cat": "food",
+  "poster": false
+ },
+ "75": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBQCdASoYACAAPt1cpE2opSOiN/qoARAbiWYAnQBXcKsfzLpeqvs/JcQ49jV5n4RJ/x8tgAD+fQe5eRttACbJSoHxMpDKJELj/DvE55fvGoqGdibNvLk2xx0+zuNbuHFhUb61NoCIURzIRis8c9lFqukMr8C8CRC7v/aHD0BnbPA+shxp9CVMoo7f/Fyd9NXfPv1EGWxN1pjNFgK/Lu3lsyYqanAA",
+  "alt": "Two plates of saucy beef stew on banana leaves topped with parmesan and scallions",
+  "cat": "food",
+  "poster": false
+ },
+ "76": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABQBgCdASoYACAAPtlgpU2oJiOiN/qoAQAbCWwAnTMTAUgpM7FqJ4DXwD87RjcmOtlIUOPs5TnLZGDmAAD+8RD9vurHimUXFgbtPk8I9VAHlgeoMGnqYgqwPiOU9heXstS+CwxytIT8jXsrYuHRl3dUrSUAWmWFYDGRBkD0xClxT688vJD509wcNMWQpI1Tng8S9kioM2a6Ai0yAI0nDTFo7oUrZBqg/bp0AA==",
+  "alt": "Saucy beef stew with potatoes on a banana leaf topped with parmesan and scallion",
+  "cat": "food",
+  "poster": false
+ },
+ "77": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBQCdASoYACAAPt1apE2opSOiN/qoARAbiWwArC/Agc5zLNo/M8kbMCVLHk2qvvt3vAD+8twQcE7aXlVs0/c5BtavDb8y9zGNAAp/7GJhefUANWsrbAX2qINIoKQhY+xdoVxxWfR4EZFI0Apn3i0xGjcJQkfUS74zJSnzooemWYc21dIfOci4+D2SiUrb7bKnemxyitCAAA==",
+  "alt": "Beef caldereta with carrots and potatoes topped with a red chili and chives on banana leaf",
+  "cat": "food",
+  "poster": false
+ },
+ "78": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwBACdASoYACAAPu1usFCppqSiqAqpMB2JYgCdMxgBqSQX7sIyim/imnq5S4GJAPAA/rvo2Kvh5DGLJlN4uLlT6mv6w/QqqWIdSzlXzltsdNif8TuVXeFCNpIxYNlOqNM4dD9o8ug/qBApL0rUJkslETgs/u2gAAA=",
+  "alt": "Tray of maki rolls drizzled with spicy mayo and eel sauce on newsprint paper",
+  "cat": "food",
+  "poster": false
+ },
+ "79": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACQBQCdASoYACAAPu1mrU+ppSQiMBgIATAdiUATplmALdXC80CTDHjibtTtA9g43Ik1JONU8AD9NMfVWB2WrXTBDvU3YC89z/sU0sLDF7TXMLhpMqgn+rFIW5shwYCmfBKdHSDhsPpqVgeCFIvPW7B+4jMGWypZ6jMWbgzzPWx0zDXtw6fPWEn/liQgwAAA",
+  "alt": "Sizzling plate of crispy calamari in creamy butter sauce with scallions",
+  "cat": "food",
+  "poster": false
+ },
+ "80": {
+  "w": 957,
+  "h": 1405,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBQCdASoYACMAPu1ep02ppKOiNVgIATAdiWMAzuxFbr93IdoiPqGNPhfU8eT9jY5jC7VwAP738EhDb60mpJcZ7mHXkts1S138bDizydExs/C8EGLhOp/XQgVF+ic8p6k/aj8chChmL1KXv5XPAVKSAAA=",
+  "alt": "Customer message praising fresh pancit vegetables and delicious lumpia",
+  "cat": "review",
+  "poster": false
+ },
+ "81": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBQCdASoYACAAPu1mqk8ppaOiKA1RMB2JbACdMyYBSBY+FDD3vJqaEoCaraG1NpsURzLnQADN8tM3RSktmimMdmIbUAZ8vReAfKANf/cBn9Cx1gEAGj3COhBOhEwBKvMIfHRxT4yl9SwsRZo9YWGvR1KoD3AitKa3wdwOeonEyR1Gj//cdyA5z4A92BeY7o7Ua+dirSAAAA==",
+  "alt": "Chopped savory sisig style dish on a white plate topped with red chili, scallion curls and rosebuds",
+  "cat": "food",
+  "poster": false
+ },
+ "83": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBgCdASoYACIAPu1srE+ppiQiMBVYATAdiWMAvkgv3RMtZYbJGnWToQ604wByloqqpb07n/3CEPKV0gAA/ufr+wkB1MILb6iSvNzgUidm93fyElrLnC+j3z/Q2dAag304jba0sM9+I4pMi8eJ5bg0M7nw84lgWobK13sCbxHV/Si7mMIQVwcg3jvOtwQfW9Rm7TugNl2BxM2gZt/pwk6AE5C64u9/v8AAAA==",
+  "alt": "Iced Series coffee menu poster with iced Spanish latte, dark mocha and matcha latte",
+  "cat": "menu",
+  "poster": true
+ },
+ "84": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACQBQCdASoYACIAPtFOoU2oJCMiOrzIAQAaCWUAvdAvuixMOPgGfgumv/pVw08vv1CB93qYwAD+6yWlbF8e2Jv2o6rULfAHkGW2WsZMdEeNtWxkOUYOXVAaNmDJ3FkJl4HRfQ42ITxvyAcEgVdnbKBbWepfBmK6BLGUdvWby0ILzLTmBIAAAA==",
+  "alt": "Stefanie's Specials drink menu with six layered iced matcha, taro and strawberry drinks",
+  "cat": "menu",
+  "poster": true
+ },
+ "85": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBgCdASoYACIAPu1mqk8ppaOiMBqoATAdiUAXZnMIRfPk2EjtWFTwAu+TmW/v1JuwpqduWKskmPoAAP7gmrARZA9XEw83MnY9ioLrykXEQIEpi3s5+ShCmfGBLBQVR+43QdsqeOahSHlmsU3Uq9IdqV4t2MSD3pU/Pb2MQMKdmWvCuEQSpouBBgfoZf6IAAA=",
+  "alt": "Hot Series coffee poster showing three hot lattes with leaf latte art",
+  "cat": "menu",
+  "poster": true
+ },
+ "86": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADQBACdASoYACIAPt1apE2opSOiNUgBEBuJZQC/7CzbG0LmqDBWKzrJha636fugoAD+8L3zU9oeLOiwVzHKuHA29S22FD/wueoXxXNF9f9fa4gq+MaeJzqDfl4GXosGvmtcwQmU3exFMLNSXf+T39VZj9gAAA==",
+  "alt": "Solo Feast menu in black and gold featuring eight rice meal dishes in circles",
+  "cat": "menu",
+  "poster": true
+ },
+ "87": {
+  "w": 1079,
+  "h": 1612,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBQCdASoYACQAPu1srU+ppiQiKrgMATAdiWkAzuwitm5vaBUpElCQq52ERLsO5ApEqB1QTMAA/up56fYGjZ628Ij5iUymuQs+2pEtIQFTwvtBzfzedTwh6+5gXVpDb+YG2/eYHMCMdj1oAAA=",
+  "alt": "Stefanies Bar and Restaurant black script logo with waitress silhouette on textured paper",
+  "cat": "logo",
+  "poster": false
+ },
+ "88": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAADQBQCdASoYACIAPtFao02oJaMiOrmYAQAaCUAQV8ES9OXSC4rEtPd4405LfVSP8d2kU47IiiQAAP3NBog9UpuVVRNPFBY4kPv/Brm0amX+DLC6nHpss4vsxe8rVjvZc0ZsBPz8Co+g+B3sDASBHklIUl8peCwvS7iqqxVHWqXDV7TGiZOCOgCqI+9aoGolAeil8UCuiejvgzAAAAA=",
+  "alt": "Snacks food menu with mozzarella sticks, loaded nachos, crab rangoons, potato chips and eggs benedict",
+  "cat": "menu",
+  "poster": true
+ },
+ "89": {
+  "w": 1413,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBQCdASoYACIAPt1ao02opSMiNUgBEBuJZQDDcCzbGsWEhNSV9U5XM+6YX8qQOP5HlzQAAP7vw24oLyOROG0KW/yaK5lrNsAlCiY5bM4X849h+deiAflG1HDqyBBgMtALfIEhtM4XPcZIZ50WYmEjB97i1AAA",
+  "alt": "Clubhouse sandwich poster with repeated red text and cutout sandwich images",
+  "cat": "menu",
+  "poster": true
+ },
+ "90": {
+  "w": 1413,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBQCdASoYACIAPuVYp02pJKOmNVv4ASAciWMAxnwhX/4H4blDh+ATiQ9tVv/LRBPOEOaIAP7nCbVpQrEw9iBW2IJtQ31A7OoVeh6PxivhrtxMQhVczEMwgAjqqLrbQOoeAS0+xZK8Lo9Chw5AdKLg2AAAAA==",
+  "alt": "Combo poster with cheeseburger, fries and strawberry lemon soda",
+  "cat": "offer",
+  "poster": true
+ },
+ "92": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwBACdASoYABgAPu1eqE4ppKOiMBgMATAdiWQAyJgQap3du4V4gID3THwJOYh4FAAA/iEs6C2uIstq5VrqYLkTH6qp7e5jJslIMM42DKWDgozkk2sz0VtcD8zMr2laT9oMF2yumqvo9vMp5+C11F+xzuIAAA==",
+  "alt": "Green salad poster with chicken caesar salad and kani peach mango salad",
+  "cat": "healthy",
+  "poster": true
+ },
+ "93": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADwBACdASoYABgAPu1sq1EppiOiqAqpMB2JZACuHA8PPaHjESY2moksce5XstADiAAA9i0UCUuM6GE8Bw5IulrKrScQUlIo2dcSyKCoQyFDB4PuXxqNNAHBy0RYswE7mRMHXHqWC9QsrS0GIuAhkHDopJqgad0QOKpStJMLjWqvAAAA",
+  "alt": "Soup poster with red sinigang shrimp, seafood hototay and beef bulalo",
+  "cat": "healthy",
+  "poster": true
+ },
+ "94": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoYAB4APu1mq02ppaQiMAgBMB2JZwAAW9sX6EoaCgScPRQAAP5fnghvn4ulLSntXue97ooQmbXRX0DNAjkeLxhAqnUAAA==",
+  "alt": "Iced coffee with cocoa dusted foam over repeating Order Now text",
+  "cat": "drinks",
+  "poster": true
+ },
+ "96": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBgCdASoYACIAPu1cqU2ppKOiMBqqqTAdiWUAthQUNxzGLeBQnpLZ1tYa6wfXRo3914+NOLqBbzi1SAD8xfDRVkJUcviWiXSDelbw0GUN3P/0FhzfiSlc16CjSeDMYmbtS0o1/YYl1Fv+SBiyUmlhxutJQnFXyJUHwZiOZUCWAseHw6vrgfz4qPeqU7ZCQ+PXvjQoZjfobLTr6ME6f++AAAA=",
+  "alt": "Coffee menu poster with dark mocha, caramel macchiato, iced strawberry and matcha latte",
+  "cat": "menu",
+  "poster": true
+ },
+ "97": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADQBQCdASoYACIAPu1mqE2ppiOiNVQIATAdiWoAnTKEYAwUAUdSFAjEJakrtE/ncLbkX2UGddyAAKjtHIGqfmiZN0Peqf0JZJQcCvs9/4I7BTMk+gv6C+Je2kiBB9VG663TT+UVu6Xwfl5K4QPbybQlOYGUAdZFeUeC/p4kp3ZOmzNvlUaBMOAoZQnheNwblgkHFEYgbsevskFVxwIAAA==",
+  "alt": "Veggie specials poster with mushroom tofu, tofu ampalaya and ensaladang talong",
+  "cat": "menu",
+  "poster": true
+ },
+ "98": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBQCdASoYACIAPuFcp02opSOiNVgMARAcCUAU6O5IP6XgUDAaC02qc4JM8BdlcyqDiPKVRJAA+eGSYkKpami7rYMvhRPxFI3QHl+LqAAW34G6BDGXMgxQ+0n7z2APa7rSEuTfyRR3CMbREwvzmpLvQnyZJWwQbSOE7tk8FnoW8AgFFTUTCwwFqWuMoaAA",
+  "alt": "Burger and fries promo poster with double cheeseburger and fries for 250 pesos",
+  "cat": "offer",
+  "poster": true
+ },
+ "99": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADQBgCdASoYACIAPu1iq08ppSOiMBqoATAdiWQAnTL2gbgb7eVnm1L6efLelVDQNjeo0JmYI58p/HpKaO5hwoAA/vDLQiWiq+52D3y4EdCINJgMneU7apEeHHxStS67ri09V5PdFzszZOFrKTwpKMfVqfFlK+JTmfSzhmMzHBPfoJ5NRs+AdLgUwKHcpnizdrGCGfna5x6CtZ2eCdJZI1zFCfx3yoWEGVLAdo5hgPDtqwAA",
+  "alt": "Snacks poster on red background with fries, nachos, mozzarella sticks, sandwich and eggs benedict",
+  "cat": "menu",
+  "poster": true
+ },
+ "100": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBgCdASoYACIAPuVeo02pJSMiNVgMASAciWIAtDQWbRDfkrjnGCPNZfjG8O2U3+0JjD7C8TcCiWMqWcyAAP7t2+aLcVwRze9r0Ks41fKKJ7Css1F9Sn7t/hfCxIVxAV3tx/p2da50EhTtrae7foboE8hhxiey2fnZxBVAnvSy6mIZ8vXEWKNYDXfLQLl+Xtk575aCHrJZt0cgAAA=",
+  "alt": "Rice meals poster with shrimp omurice, braised pork ribs and chicken teriyaki",
+  "cat": "menu",
+  "poster": true
+ },
+ "101": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAACQBgCdASoYACIAPu1uq0+ppyOiKrgMATAdiWYAsQyhgxj6Nzol+MP1zeOo/bVbzmX644ANrtMkLAfULxKAAP7t3P0sBd+vYc6gXiNTVbnh8sXTFuJjkXsx4NdAf6VaesqrmEFla/AYeLa63d0oL2QlhoFjMy0QgcvNiJO5roDTzqw3vtaUVVL+9SLiLAmounIqC9kwaNL07599qA6o5DUmnEoeI6090NJWMhIHejD//EIbF9e0IIeI9kRjf0KMAAA=",
+  "alt": "Stefanie's Rice Meals poster featuring salted egg shrimp, beef curry stew and Spanish style bangus",
+  "cat": "menu",
+  "poster": true
+ },
+ "102": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAADwBgCdASoYACIAPu1qrU+ppiQiKrgMATAdiUAUlBR/gAJ+tVrzcKycosjUKSUMz4/1rVkyTNYpaoaBbhUkmjFAAP7wPYrSOzoGsqoVsNA3Rf6MH3uISKTBi7DeCjaGUQhve0sxgDnF6irtNpngqdVVaZ2Ss9oPM8Thzkoivl1NLvZMgt0SdaS/540mQoOwxzjZwYo6DamWaAgfkNuwQiUt8kQlGooMG7clQkwHT20AAA==",
+  "alt": "Stefanie's Rice Meals poster featuring pares retiro special, Filipino beef steak and bangus ala pobre",
+  "cat": "menu",
+  "poster": true
+ },
+ "103": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAACwBQCdASoYACIAPt1apE2opSOiNUgBEBuJQBajesCL5D5dPcwEUb9kgZ5fw4CzndAY9BdXSYgA/u3c/SwRuOhyKXKBhbN/NY7jOwfcHgcWkfl3/XDIv83kfEldr6l1guGgdySHldjqpENWF+aipbJ6OJl1XAiZwGLi8TIxySu+CPIZwYoCc8qOjokg/A/uhALtnSdvXCmjH54A",
+  "alt": "Stefanie's Rice Meals poster featuring liempo casserole and chili garlic tuna panga",
+  "cat": "menu",
+  "poster": true
+ },
+ "104": {
+  "w": 646,
+  "h": 1440,
+  "widths": [
+   320,
+   480
+  ],
+  "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAABQBwCdASoYADUAPulep02pJSOiMBv8ASAdCUAZKYIyV53IeNazBDf1RLQ6l9cJCURjE6TUSsuSsQlDF83+I1aNxzbgAPa6vlyNEIs8FaB9xXyFdAV1xGRNtfiqHch8RKbC496MdZuPJXDKSRkOVUJSBxqPn3koxZgWZBxMwy1sDO6zX+7su4m1o3eEnqf/pL/Vqu4A/1GjacSGIhtWF7EBFlzkCP6IQ4ZKiL7XJnrRJB1XlorHBt+5Ml+XL6t7k87uM3QA",
+  "alt": "Tall iced latte on a marble table beside a vine draped window overlooking a sunny street",
+  "cat": "drinks",
+  "poster": false
+ },
+ "105": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBQCdASoYACAAPuVipU2pJiOiMAwBIByJZgCsL46AaYu9qqQLvSQEQA4Mu3uYSTODmAD9Rshsyd3Vx3FFyjL9XyFGzvoFM9Q3tcxwEPxu3bR3Y4sj9SxD3TeRQHZw+4CMZ6KvfwoYodI4m0uIL5rrYPgbIcSIf06iAUtNc6o3svDQeGnf2HLkz5F0h2LvjRjV8AAA",
+  "alt": "Black squid ink pasta with shrimp and calamari, garlic bread, and a cheeseburger with fries",
+  "cat": "food",
+  "poster": false
+ },
+ "106": {
+  "w": 662,
+  "h": 922,
+  "widths": [
+   320,
+   480
+  ],
+  "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBgCdASoYACEAPu1oqk6ppiOiMBVaqTAdiWcAzygGxR+KVH4XOovrv9sm0n5aN/j120Fmds0pf9AAAP7XeiguIDaph1SJumqWaZQsycZGbqZmf5cIR58cz/rhnSCkgtfgqAormLDwsicMWy5yS7t7xFmYCKCLgAA=",
+  "alt": "Stefanie's Coffee Series menu listing hot and iced coffee drinks with prices",
+  "cat": "menu",
+  "poster": true
+ },
+ "107": {
+  "w": 659,
+  "h": 914,
+  "widths": [
+   320,
+   480
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBQCdASoYACEAPu1urlCppqQiqrgKATAdiWUAuKgJHzyaRAj3Lk7quLTjraSMKYO2vIg9/aSAAP7hsvpjnZouUfusT9/rDCwOGe0ekuzQODw7iy05Uhl9llQgktjttEz0F6qVdcisJIs6yBSD1iLuVrJaluqtT5nXxFw7zmV2JIPbI/5VrlMFPfRAQAAA",
+  "alt": "Stefanie's Milk Series menu with non coffee drinks and specials prices",
+  "cat": "menu",
+  "poster": true
+ },
+ "108": {
+  "w": 661,
+  "h": 935,
+  "widths": [
+   320,
+   480
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBQCdASoYACIAPu1orU+ppaQiKrgMATAdiUAVHoEjQUwdBxWQs2qLObetXQ3jGybfiIzNKshN4AD83xKL/O7x5hMbklaEHy2MAkPV6J++v3knkZx8BZjPzRiLAn+AUC3LKgkByWSz2meAR2RobdRXpMs33+G1KXdvFKTINTBagiIOMvbWveDzNXMfI9Y/bOPStiWBzyD2gAAA",
+  "alt": "Stefanie's Soda Series and Yakult Series drinks menu with prices",
+  "cat": "menu",
+  "poster": true
+ },
+ "109": {
+  "w": 1413,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADQBQCdASoYACIAPu1mqU2ppiQiMBqqqTAdiUAXZmX4NLRmzUCeWTrnkAfhor4EDSdLlM/1iWtAAPjU7XAVncho8ymfr1igu0+/tWxKHCivgKkr4LGvZp/HbC8to/EO5V9Odh368ngk1wLUkioFCwcjga5sEsljPYU5ll2AuQBu4kjf5miaAAAA",
+  "alt": "Appetizer poster showing Japanese maki and California salmon roll at 350 pesos each",
+  "cat": "menu",
+  "poster": true
+ },
+ "110": {
+  "w": 1254,
+  "h": 1254,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoYABgAPuVeo02pJSMiMAwBIByJaAC1GxgC/AlztY/l3pPb6FyDNYAA/ufVYb2slblAHblqK7lQWyKonSPxLcWZF6EH+UPj8PD+EiWHXAiSvmiADEgww+awAAA=",
+  "alt": "Stefanie's pasta poster featuring pasta negra, aglio olio and seafood pasta",
+  "cat": "menu",
+  "poster": true
+ },
+ "111": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABQBgCdASoYACIAPu1uq08ppqOiKrgMATAdiUAWnQh1WwNbooRYRiLLYocz7VJOBFjejV5x9B8OOtYqAAD+9pPmru/FuZsN4+Kns1mswYv9k0ZCgy1O7J6SuZLK1LNihiy3B2youLMNUrwYk1Da8cgg+FMltwirVfTGWwZitP4jLwiV2vr26cvO/3L4eQFnYM3i3beFvtb4NsLtKXILtpkpDoBTgAAA",
+  "alt": "Cocktails promo: buy one cocktail, get the second at 50 percent off, happy hour 4 to 8 PM",
+  "cat": "offer",
+  "poster": true
+ },
+ "112": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABwBQCdASoYACIAPtVYpU2oJSOiNUwBABqJQBOmXRB+WUdP0EHB/aj/ZKx0f9pJMk4P9GoAAPyr5XdG5Nuii9PW0N/gMqLganECnpspq260ssVhPHc/Gv8V0eFwx0kZDxKtK6HJ0ExLsKAhRXZYjMWVR1MAbzfzj66IZWDDpB5IpjMSLPenSPeGFhGgDdDi3xp1PrgVtCNma7bRWMPRiAAA",
+  "alt": "Stefanie's 5 hour event package for 20 guests at 12,800 pesos with Set A and Set B buffet menus",
+  "cat": "event-package",
+  "poster": true
+ },
+ "113": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBQCdASoYACIAPtlgn02oJiKiNVv8AQAbCUATple4XhbmLBnFlcW0viy2sHtaGFaV6P87Ls5oAAD8q+V3RuSnO6GySQ7BlQohV8LUJLEgby+L+XO1e1LunJJrwe52tXK36Gox0oA/LICaLXRvE0pPF4f5jbSG8vUv1zoEPjCl8jegkflgAER0xKnMjoV3ZeGoWjBkhbiKIAAA",
+  "alt": "Stefanie's 5 hour event package for 30 guests at 15,500 pesos with Set A and Set B buffet menus",
+  "cat": "event-package",
+  "poster": true
+ },
+ "114": {
+  "w": 1414,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAADwBQCdASoYACIAPt1epU2opaOiNUgBEBuJQBOmbq9ACuvjGPOrdpcxlYsl2jxaTGM7/PHKCYFBAAD4Q6RqRtTEz4Z6ej8/g3E11HhI2CgT3/nX07zybVpqQNzfhkdloJvBceYQaSdboBumDoFfWvM6F/fBzAZt1ucV3nBIv/0ubckMUrKwKeT2xFEDDhtfzqHmx0W1yiAawAAA",
+  "alt": "Stefanie's 5 hour event package for 40 guests at 19,000 pesos with Set A and Set B buffet menus",
+  "cat": "event-package",
+  "poster": true
+ },
+ "115": {
+  "w": 1086,
+  "h": 1448,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAQBgCdASoYACAAPu1gp04ppSMiMBgMATAdiUAWo112/dYAfBD9CMQHwnLZInjAE8nAL28cgWLK74AA/sj/SmWhQmRptyR+mWcHQnc6XRU5eVQADtO5aNcrS2LvgCcpta+8c+ZQqZrG3KfNBFoCXbhSlp6YT/3vzicgv4Wme1EopCo3wGJLkmRucKJBCjpfQgJYqp636RXfGQ+3rt+nj7qPeaQAAA==",
+  "alt": "Smiling couple seated at a table full of dishes in front of a white wall with woven rattan decor",
+  "cat": "people",
+  "poster": false
+ },
+ "116": {
+  "w": 1537,
+  "h": 1023,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JZACdACD2RyfxwBWFVIAA/lLxDFWjVMJVDlhGtYCUwlTodCceTd3DrellF9QUKkQ47xs6yjd1b65xZJLMU5GxjNUtmh+WKEq5/OXQAAA=",
+  "alt": "Bright restaurant interior with wooden tables, gold placemats, armchairs, buffet station and vine covered windows",
+  "cat": "place",
+  "poster": false
+ },
+ "117": {
+  "w": 1537,
+  "h": 1023,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoYABAAPu1iqk2ppaQiMAgBMB2JagCdMoRwABbdx8DXrKUTBLAA/dkgdYrEi9MZ6LGRKZjkaG6PCsYnTYMTmgXgQJY4ZZfUF8JshE9T98f44ZzOWPRMNOYv0Hm0x88AdfBvL7qGsqSvo8gAAAA=",
+  "alt": "Row of gold dome chafing dishes under warm lamps beside dining tables and a curtained lounge",
+  "cat": "place",
+  "poster": false
+ },
+ "118": {
+  "w": 1873,
+  "h": 840,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoYAAsAPu1iqU2ppaOiMAgBMB2JYgCdMoADP75kteg7wGlwAAD+1C7QbOxVe6OTuOd6Cojo8o1cWzyZqAG0KXbKXRCS2qVtnHSrFAPxiSZR0niOfEzVpC86BOw/AAAA",
+  "alt": "Panoramic view of a full dining room with guests, the Stefanie's logo wall, gold buffet and hanging plants",
+  "cat": "place",
+  "poster": false
+ },
+ "119": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAAAQBQCdASoYACAAPu1iq1CppSOisBgIATAdiUAVhmq4KFW96IbYM9BJtK69nUkoSzeAAP2v9bArc5B3nZab8Yon541Mjh/mbSwKZ6EfNEQcK/KDX6t5qzv2XaqPIgsgrEBCl6gyLintjX9s84+MDCSvm7noHxvzdmx9oA+HuVgeNkSlIk+U8ebrATqyZlvh3E6JNKYqkUbn4AAA",
+  "alt": "Large group of diners smiling at a long table in front of the Stefanie's logo wall",
+  "cat": "people",
+  "poster": false
+ },
+ "120": {
+  "w": 2000,
+  "h": 1499,
+  "widths": [
+   320,
+   480,
+   800,
+   1200,
+   1800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwBACdASoYABIAPu1kqk2ppaQiMAgBMB2JQBaiEAAWzkpeHQyLprBEvX78jjSb6AAA4YEzxZBfIVnJViJqjX32JfTkrgtiaUUTDFpD+DAduzmCt0fz8Haz+yVtGq09hUHLB/KJGZoFN3T72abDJnIjP96jDQ+AAAA=",
+  "alt": "Group of guests gathered at tables in the function area beneath the Stefanie's logo wall",
+  "cat": "people",
+  "poster": false
+ },
+ "121": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBQCdASoYACAAPu1qrVEppaQiqAqpMB2JZAC06GS6aobMWXiUuHokCS7gM11P2WlQaFgA+4RzA9ahyXbNDigdbnz5IWagfKstBfdW5kUEGUecSfBpDhLvksS/x1WU/O+4jr0+1Vk6hoHpOX+dtdnBVSeeM8mM+CEKgEZMZXg9a+NmyyjuyKDgnqA7Z7RKSAHmstWJZt+c6Trn8yCsgSAA",
+  "alt": "Birthday party setup at Stefanie's with red draped seating, cake table, gold balloons and hanging greenery",
+  "cat": "event-package",
+  "poster": false
+ },
+ "122": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAABwBQCdASoYACAAPuFWpk2opCOiN/qoARAcCWIAp02MgGOtP0inO7Ee5PFMeRg2TvDCaROAAP6jBFKSXttrJ1cmOPiqAujUbZlgQXnjnbuGaqJRkoeChBkIp9HZrgQdzRNd52iOPPv+52oO013ca88zRMfEuAH/IE9/ZdytWblRXBrUnlDFSdPOTESXV+yWk5aJ+MaQAAA=",
+  "alt": "Event buffet at Stefanie's with gold chafing dishes, carved watermelon and fresh fruit display in front of the bar",
+  "cat": "event-package",
+  "poster": false
+ },
+ "123": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoYABgAPt1cpU2opSOiN/qoARAbiWIAxnxXcCa9BEweobu6Kip3DAfwZgAA/vcIklKqrL12GDHIhW8qVIzN5pkdOPLidUeS5vQiicWAHIgthxibtF5veI6E455P7orhFRWMFwNZYRDygAAA",
+  "alt": "Happy Hour poster: whisky sour cocktail with lemon and cherries, buy 1 get 50% off",
+  "cat": "offer",
+  "poster": true
+ },
+ "124": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAACwBQCdASoYABgAPt1apU2opSOiN/qoARAbiWoAgUQzoad1zDns5uBhysW+VWHLIZjF4PJccigA/v28y7OrFFC3LDyzjuaJAYhObwh6E9RQr+jThL5lBAe81t1qv7vjHEyZgMIyODIrJhGqAYsq+Z2mEF5bqznCiD7iZyNayaJbwcFyBHydkH9cKVUqiuQA",
+  "alt": "Bright blue iced cocktail garnished with lemon and mint on a wooden board",
+  "cat": "drinks",
+  "poster": true
+ },
+ "125": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQBACdASoYABgAPuVgpU2pJaOiMAwBIByJaQAAW+oDb4sscJzJMhhAkAD+8cSmCOH/ManwkWBrQAAA",
+  "alt": "Stefanie's Bar & Restaurant logo",
+  "cat": "logo",
+  "poster": false
+ },
+ "126": {
+  "w": 1640,
+  "h": 720,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYAAsAPu1oqk6ppiQiMAgBMB2JQAAjz+G/rsU7tpnjERcAAP74tCX739GFbgim+n2n7+GGu3xVikp/EBg+1f2FZKNzFVh27Ur5cCSnYiOAAA==",
+  "alt": "Stefanie's banner with logo, menu categories and chicken wings with fries",
+  "cat": "info",
+  "poster": true
+ },
+ "127": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACwBQCdASoYABgAPuleqE2pJSQiN/VYASAdCWoAw6mMgby0sIhWwqSWNpKsGi7WNtv0ghZRPgAA/vYT3D7eWHxnlIIohVV793eAp2N59XRGSVkd47q5mI3t8nbGJBWpGSEwEEgMN2c8nwybvP6dwPnyutgic2sfUY1TWlptu5cy3C0BVuMTL/lt0SIAAA==",
+  "alt": "Mai Tai and Whisky Sour cocktails on wooden boards",
+  "cat": "drinks",
+  "poster": true
+ },
+ "128": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADQBQCdASoYABgAPu1qq1CppaOiqAqpMB2JYgDIFoAFJ0lxyUpJzlzhpE+2pJZ+fPpMG2Gv/fUEAP738HQ3ocqgoNWAE84k88sehsD/Wegxd2TojNLjcgutvWKI9h1kKrdqLd8nxsj+RiQJcqVTMnNvLPUgum6VMER0izHDsvL3Le8wzczefSUjEVG5AAAA",
+  "alt": "Unli Wings poster showing assorted flavored chicken wings and fries, Regular Unli 359 pesos",
+  "cat": "offer",
+  "poster": true
+ },
+ "129": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoYABgAPu1oq0+ppiOiKA1RMB2JagDKAEXf/MPxoOHiYxhy+TKrq2i9+YAA/vfpgMgGrqOTLN5nvGcY16VUAHilSLnPJRX7pvLlrpWzBbxDoZny5ZGrRBqqRoK35DZDd/xK0VEe/2XjZkRU6Q8f4wAA",
+  "alt": "Wooden plate of assorted chicken wings with fries and ketchup for the Unli Wings promo",
+  "cat": "offer",
+  "poster": true
+ },
+ "130": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBgCdASoYABgAPu1iqVAppSOisBgMATAdiWIAw5D/CtTou6Jk0W85XuwFVq6vm9SaIPMR3+IaSAAA/vwX/J7JKQRw0TDbMjZUtnvtpdUXMeMNy1vcuhCtiWve/vD4NmvyDOsT6nLFXhKuBHCXqh6UMsXNI9LcuWl1EMKpW/cdeDXBl1MlojTcWomDxiAAAAA=",
+  "alt": "Close up of saucy chicken wings in assorted flavors for the Unli set",
+  "cat": "offer",
+  "poster": true
+ },
+ "131": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBQCdASoYACAAPu1irFAppSQisBgIATAdiWMAzuxpYCWGrTQq0MLeO4rN1dQf91hVAAD+/BPpS2/udqaVhpoYf+1jegMX06MKGplmrc9Hbp3RQNFSon1QFLbnrfU02tidg+uAZYxY82DmwWs1YUAA",
+  "alt": "Creamy seafood pasta with shrimp and scallops",
+  "cat": "food",
+  "poster": true
+ },
+ "132": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoYACAAPu1kqU2ppaQiMAgBMB2JZAABHuxIIiVIZtek6VnPVTrRNlQ1AYAA/v16lbcBbeEie/b0XhpVFSl55CbB9xukEpZuqAtiZkiOr3DE5yuHfHtEef5xgqLuvfhPaRTXJEz3F8bAAA==",
+  "alt": "Pancit palabok topped with shrimp, crushed chicharron, egg and calamansi",
+  "cat": "food",
+  "poster": true
+ },
+ "133": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABwBQCdASoYACAAPu1urlEppqQiqAqpMB2JYwDOZwAFoakFopDG3TlwEj8umctZd7NdlBUAAP77LK2BiRPULDK+ZkLvG2O9dPm+PnkF1HdG4GAfBdA24Hj1qpxI3IvIWTZi7PtF3QTPvUtzaS8y1d4aEd3J0AitcAA=",
+  "alt": "Stir fried noodles topped with crispy lechon, lifted on a fork",
+  "cat": "food",
+  "poster": true
+ },
+ "134": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBQCdASoYACAAPu1qsFAppiUiqAqpMB2JYwDIXGjsFsVLxJc3qp8YyK76O1XuHmNFxAAA/vwT71hW9A5w8WY2zByoSMm9f53BroPH2Myfp1YB9lYl8Y+Nwe85P3aXyME3ulr6u5QwAAAA",
+  "alt": "Wooden bucket of iced beer bottles for the bucket plus free pulutan promo",
+  "cat": "offer",
+  "poster": true
+ },
+ "135": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACQBACdASoYACAAPu1gp02ppSOiMAgBMB2JQAAj3ZbKyMT6B2xqRiCZ4/XH34AA/v16lrJ+9/OxHs9hDEaxjvnhB9oFu441CAa4c+C9x5+vG+zNFLLPBs7x8oQJ+D0Uh9bK2Tl8gAA=",
+  "alt": "Two beer mugs clinking and splashing over wooden coasters",
+  "cat": "drinks",
+  "poster": true
+ },
+ "136": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBQCdASoYACAAPu1kqU2ppaOiMAgBMB2JYgABHxt6cHK79WAOVYoTuy9/Og7sY8QgAP79epayls8XR6B5tuJj4LL8IHs25lGl3XpokaM0HvsrJXDubmpEdvjuQ4tq7x3N/wpEvRK51fQHFCAAAA==",
+  "alt": "Foamy glass of cold beer with ice",
+  "cat": "drinks",
+  "poster": true
+ },
+ "137": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQBQCdASoYACAAPu1qq08ppiOiMBgIATAdiUAY6gbJKiAfV3cyBNxwQVKDHD3mX31fk0AA/vzXT5JdvdteZiQ2Jtl5Ag8kZq8dHnBbCYodDBMT8CXQRoxiaQNKuLar26HUBnlz0dVhjDT8AAA=",
+  "alt": "Pininyahang manok, chicken in creamy pineapple sauce with bell peppers",
+  "cat": "food",
+  "poster": true
+ },
+ "138": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABwBQCdASoYACAAPt1WpU2opKOiN/qoARAbiUAKugJyIOyVG5j84cMasMl9RonLNwxQHIhgAP736ZOp0lay1yZdJ0vuItN9AddYu3/eheiXYl4accLQfy/+pb/NrRsC3pLirI5i3/AM7sSJzIgZnqGCjFCGLKTsVLKM9DNRGx6wYWAA",
+  "alt": "Beef with green peas and bell peppers beside sweet and sour fillet with vegetables",
+  "cat": "food",
+  "poster": true
+ },
+ "139": {
+  "w": 1350,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBQCdASoYABgAPu1gqk4ppSQiMBgMATAdiWwAuzLaQamwT9/bjS7sL8FqZYJUWuHdlYAAAP7v7JVP8JaprGCEJtkXDdRfzTsPZiThZZzt3FMy4MZom6m5EzAofoHpl/JO7HX/IiddqflihwNhLpf22Rd5PLu/O+MprTr9ovpj9fgsMT5cdQ2Bs1zAAAAA",
+  "alt": "Fried chicken strips with fries and garlic mayo dip on a white serving dish",
+  "cat": "food",
+  "poster": false
+ },
+ "140": {
+  "w": 1500,
+  "h": 2000,
+  "widths": [
+   320,
+   480,
+   800,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABwBQCdASoYACAAPu1oq08ppiOiMBgIATAdiWIAd8ANh0AlOI2DwEOTKc4CVy/hPIQXFqisAP7810pCOv1PuVk2Ubp8umrRxiPiMupco4KDS+dkqgu/TDHMuErYGj8rWr9V61vR1PejaXXQHT4WPED5pjEqPa3KmAAAAA==",
+  "alt": "Beef caldereta with olives, potatoes and bell peppers",
+  "cat": "food",
+  "poster": true
+ },
+ "141": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwBACdASoYACAAPu1mrE+ppSQiMBgIATAdiWIAAR7qA+RENdjLfxnPpkf2l3yQAP78eopvSaHpRp/MLxw36iprJTEzihirwjV91dqXvfq+pQmJMZmZGE/XOWWmaOnx4+vWr7TcVcXvgFchPqzTVTDfDQGkQPDkhSAAAA==",
+  "alt": "Poster for Stefanie's unlimited chicken wings with assorted glazed and cheesy wings",
+  "cat": "offer",
+  "poster": true
+ },
+ "142": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBQCdASoYAB4APu1kqE2ppaOiMAgBMB2JYgBTABfB5/35xjxNe9yF7tXPubcPInLAAP79epcOAiWtKirjysVzyFuN0JrtXB//LJZTQZsJmgSO8Q6GaIVigLI6uDiSsnGNz5b2eB+rozqUz7z+t1L/NQWemNKyuX10pjrxkAAAAA==",
+  "alt": "Bowl of shrimp sinigang with radish, taro, string beans, tomato and bok choy",
+  "cat": "food",
+  "poster": true
+ },
+ "143": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQBQCdASoYAB4APu1wsFKppiSiqAgBMB2JYgCsL8I9fmp4f5ehTboujMniQTV+HnrIUatDS3JgAP75blZpR6sUInHKS606IQnuPFk0GfG6Wzh425I5QPFhRGmR83oDweBBHhkMdyG8c4zsSD4PbPHCEvs7n/DfJdeHcpeIOy42seMc0HQeSxRmyzh74hgX2mpX+mBQAAA=",
+  "alt": "Unli Wings serving hours poster showing a tray of wings, rice and fries",
+  "cat": "offer",
+  "poster": true
+ },
+ "144": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBQCdASoYAB4APulaqk2pJKQiN/VYASAdCWIAVEPNwT9bGoMPvLF167BxXDYPToKw0onqXjUAAP79epPpSaVRyXLjzLA3ic3naALJXvDqiEBKlDXT/84l1siXgsZTcSU8dHR29LN5MHRIk7sfS5KgoUT8tM8ZgU/CJbmnyqktT3J/iiQ0sa3gAAA=",
+  "alt": "Long Island iced tea cocktail with ice, lemon slice and mint on a wooden table",
+  "cat": "drinks",
+  "poster": true
+ },
+ "145": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQBQCdASoYAB4APu1oqk+ppiOiKA1RMB2JYwC+wEXgUEIMdWb2PItdrgviJ5jEMIcsd4AA/vizGjMWMXGeDzjkFMLCy5L/pBg6TteO/WQ4hfGpTpHf9jDbBpGUhT2j49O2aMhqcDqxgdP5SHzRVCNEAAA=",
+  "alt": "Plate of sliced relyenong bangus, stuffed milkfish, on a wooden board",
+  "cat": "food",
+  "poster": true
+ },
+ "146": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBQCdASoYAB4APu1qsVAppiUiqAqpMB2JYwDOOGlf/ZFchsz8SYmZ+kIiGMJUzY+O4AD+/BPsxNDyHBGRQWL9FGYCTPVLH1mO15PYBAVL8hHyeBz8z5+zfLchaMGGMH5WqpjDH2INIP5/NBK9uMGmPrxUlzBy6UeJiAAA",
+  "alt": "Iced strawberry Yakult drink with glass straw in a wavy glass",
+  "cat": "drinks",
+  "poster": true
+ },
+ "147": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBQCdASoYAB4APu1qrVAppiQiqAqpMB2JYwBVI5gezJ2neWoJkN79x8dmprLYADkI7JCAAP78K83cozdbo2+HSfvx5orvjUJ64Sj/qwy9Iys8VHJPpPaSDkDjzB9V39dhuCXT7bBgP6a6ssQycZE2gUCX5g4UGJnXWPVFhxhPeQVWydvmHhjlLdgrgAAA",
+  "alt": "California salmon roll and Japanese tempura maki held by chopsticks",
+  "cat": "food",
+  "poster": true
+ },
+ "148": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBQCdASoYAB4APu1mrE+ppSQiMBgIATAdiUAKiFL4QaanglnZOfkzuN3VfW1E9Rk7EYAA/vx6jRncNGkLIARJodm0qGDy1kLGIsgIA6HbxVBDsIv2w9QiajvnkMIV1zoQlV52GS/JKVL+t/04oVE9BCFs9XmrGAAAAA==",
+  "alt": "Squid ink pasta topped with shrimp and parsley on a white plate",
+  "cat": "food",
+  "poster": true
+ },
+ "149": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQBQCdASoYAB4APu1wrlKppiQiqAgBMB2JQAAdnO2PY0m3WWUS34ELhn0knPHBepl51HwA/voVqw1PH45+22pGpS9xwBfnG17z7Nvj0E5xLT4UJz6um7qQaaUAsmR8GtJHPbVMP80n+rTYI4e3xRqUAd/QMXyXuxSgjiTEAgAAAA==",
+  "alt": "Iced matcha latte with glass straw on a wooden table",
+  "cat": "drinks",
+  "poster": true
+ },
+ "150": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQBQCdASoYAB4APuFkqk2opiQiMAwBEBwJYwDHMFfv/s8imAqz8fTDGGnDkXjGggRWzEAA/vi3zwjQ937bZkN3Hxy0smhQhZeCEdgg91NCFP8T/oqlGE3qPcuMpZpyI1YOZWvfiMGtrxmZv2JwxY1gAAA=",
+  "alt": "Stacked clubhouse sandwich with ham, bacon, tomato, lettuce and cheese",
+  "cat": "food",
+  "poster": true
+ },
+ "151": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBQCdASoYAB4APu1urlIppiQiqAgBMB2JYgC7KIAEtThChJTwNR7hivi6m0K1XIAa1XgAAP76qOgLMC1m+At2/X0ewtnVsoudyZPTNoVLH7IzR3j9888mPabZiJoYoSi2YdWTbpykGutdgtVVXHguLctlfK3Uv2QLw2eTnIqEGcD9qdAAAA==",
+  "alt": "Loaded fries, homemade potato chips and loaded nachos on white plates",
+  "cat": "food",
+  "poster": true
+ },
+ "152": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBQCdASoYACAAPu1oqU8ppiOiKA1RMB2JZQDLpEXgTmXWYsNDaecxMIMmizIyOn52EoAA/vizFN6TQ9J0kyA4WJmsc5qArIULCs23NqA6kIzpzsI2YDwfhzWks+UjUY6j7wi7uJXSmAAA",
+  "alt": "Grilled liempo plate with garlic rice, sunny side up egg, tomato and cucumber",
+  "cat": "food",
+  "poster": true
+ },
+ "153": {
+  "w": 1080,
+  "h": 1440,
+  "widths": [
+   320,
+   480,
+   800
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoYACAAPu1osFCppaSiqAqpMB2JYwDKAGlgLhf6FESLXwquF0U7JAvzVOAA/vumKKXZFOxBmYgcUa9drHFgP8mDyh/jIBavSihEZ6fwunIlOnhV0ZeQnWZnU4rHxuDACB5KxlA3zOHIAAAA",
+  "alt": "Homemade beef tapa with garlic rice, fried egg, tomato and cucumber",
+  "cat": "food",
+  "poster": true
+ }
+}
