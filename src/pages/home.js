@@ -1,9 +1,8 @@
-// Home: hero video + three.js cloche, cursor light on glass cards. The drinks motion card is a
+// Home: hero video and cursor light on glass cards. The drinks motion card is a
 // lazy loop video wired by boot (video.js), which also pauses it with the Pause motion toggle.
 // Everything above the fold is static HTML (LCP image is rendered at build time with
 // fetchpriority high); this script only layers progressive motion on top.
 import { boot } from '../lib/boot.js';
-import { mountHero } from '../lib/three-hero.js';
 import { initVideos, canPlayVideo } from '../lib/video.js';
 import '../styles/pages/home.css';
 
@@ -68,4 +67,3 @@ try {
 }
 
 afterLoad(mountHeroVideo, VIDEO_DELAY_MS);
-mountHero(document.querySelector('.hero3d__canvas'));

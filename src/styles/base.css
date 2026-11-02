@@ -220,34 +220,15 @@ button {
   font-size: var(--fs-small);
 }
 
-/* Film grain: one static SVG noise tile, jittered on the compositor. */
+/* Film grain: one static SVG noise tile. It never animates, so it costs nothing per frame. */
 body::after {
   content: '';
   position: fixed;
-  inset: -50%;
+  inset: 0;
   z-index: var(--z-grain);
   pointer-events: none;
   opacity: 0.06;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  animation: grain-jitter 1.2s steps(6) infinite;
-}
-@keyframes grain-jitter {
-  0% { transform: translate3d(0, 0, 0); }
-  20% { transform: translate3d(-4%, 3%, 0); }
-  40% { transform: translate3d(3%, -5%, 0); }
-  60% { transform: translate3d(-6%, -2%, 0); }
-  80% { transform: translate3d(5%, 4%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-html.motion-paused body::after {
-  animation-play-state: paused;
-}
-/* Touch devices: static grain, no full-viewport layer repainting nonstop. */
-@media (pointer: coarse) {
-  body::after {
-    inset: 0;
-    animation: none;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -261,5 +242,16 @@ html.motion-paused body::after {
   }
   body::after {
     animation: none;
+  }
+}
+
+/* Soft crossfade between pages (cross-document view transitions; ignored where unsupported). */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0.28s;
   }
 }

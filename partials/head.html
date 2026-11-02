@@ -24,3 +24,5 @@
 {{{page.preloadTag}}}
 <script>(function(d){var h=d.documentElement;h.classList.add('js');try{if(sessionStorage.getItem('stf-splash'))h.classList.add('no-splash');if(localStorage.getItem('stf-motion')==='paused')h.classList.add('motion-paused')}catch(e){}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)h.classList.add('no-splash')})(document)</script>
 {{{page.jsonld}}}
+<!-- Instant page changes: same-site pages start loading on hover or tap (Chromium); other browsers ignore this. -->
+<script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.*"}}]},"eagerness":"moderate"}]}</script>

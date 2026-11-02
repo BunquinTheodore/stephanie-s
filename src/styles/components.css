@@ -382,16 +382,15 @@ html.motion-paused .orb,
 .orb {
   position: absolute;
   border-radius: 50%;
-  filter: blur(48px);
-  background: radial-gradient(circle, rgb(255 255 255 / 0.1), transparent 68%);
+  background: radial-gradient(circle, rgb(255 255 255 / 0.09), rgb(255 255 255 / 0.03) 40%, transparent 70%);
   animation: orb-drift 24s ease-in-out infinite alternate;
 }
 .orb:nth-child(1) { width: 60vw; height: 60vw; left: -18vw; top: -20vw; }
 .orb:nth-child(2) { width: 46vw; height: 46vw; right: -14vw; top: calc(100svh - 30vw); animation-duration: 28s; }
 .orb:nth-child(3) { width: 30vw; height: 30vw; left: 40%; top: 30svh; animation-duration: 20s; opacity: 0.6; }
 @keyframes orb-drift {
-  from { transform: translate3d(0, 0, 0) scale(0.94); }
-  to { transform: translate3d(6vw, 4vw, 0) scale(1.16); }
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(6vw, 4vw, 0); }
 }
 
 /* ========== Header and nav ========== */
@@ -1115,61 +1114,6 @@ html.js-reveal main > .panel:first-of-type [data-split] .split-word {
 .lightbox__btn--next { right: var(--gutter); top: 50%; translate: 0 -50%; }
 .lightbox__btn[hidden] { display: none; }
 
-/* ========== Hero 3D host ========== */
-/* <div class="hero3d" aria-hidden="true"><canvas class="hero3d__canvas"></canvas></div> */
-.hero3d {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  max-height: 70svh;
-  pointer-events: none;
-}
-/* Static poster: a CSS cloche so the space is never empty before or without WebGL. */
-.hero3d::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 26%;
-  width: 56%;
-  aspect-ratio: 1.2 / 1;
-  translate: -50% 0;
-  border-radius: 50% 50% 6% 6% / 92% 92% 8% 8%;
-  background:
-    radial-gradient(60% 50% at 32% 28%, rgb(255 255 255 / 0.5), transparent 60%),
-    linear-gradient(180deg, rgb(255 255 255 / 0.14), rgb(255 255 255 / 0.03));
-  border: 1px solid rgb(255 255 255 / 0.28);
-  box-shadow: inset 0 0 40px rgb(255 255 255 / 0.08), 0 40px 80px rgb(0 0 0 / 0.5);
-  transition: opacity 0.9s var(--ease);
-}
-.hero3d::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 22%;
-  width: 78%;
-  height: 4.5%;
-  translate: -50% 0;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #f2f2f2, #6b6b6b);
-  box-shadow: 0 24px 40px rgb(0 0 0 / 0.6);
-  transition: opacity 0.9s var(--ease);
-}
-.hero3d__canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.9s var(--ease);
-}
-.hero3d.is-live .hero3d__canvas {
-  opacity: 1;
-}
-.hero3d.is-live::before,
-.hero3d.is-live::after {
-  opacity: 0;
-}
-
 /* ========== Map facade ========== */
 .map-facade {
   position: relative;
@@ -1398,5 +1342,56 @@ html.js-reveal main > .panel:first-of-type [data-split] .split-word {
     background: var(--glass-solid);
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
+  }
+}
+
+/* ========== Scroll performance budget ==========
+   backdrop-filter re-blurs whatever moves behind it on every frame. Small or full width pieces that
+   sit over marquees, video or slow zooms use a solid tint instead, which reads the same. */
+.chip,
+.btn--ghost,
+.marquee__cap,
+.lightbox__btn,
+.rating-badge,
+.ev-ticker,
+.food-hero__ticker,
+.place-story__ticker,
+.offers-hero__ticker,
+.offers-deals__nav .icon-btn,
+.visit-map .map-facade__note span {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+.chip { background: rgb(10 10 10 / 0.5); }
+.panel--light .chip { background: rgb(10 10 10 / 0.05); }
+.chip--solid { background: var(--white); }
+.btn--ghost { background: rgb(10 10 10 / 0.45); }
+.panel--light .btn--ghost { background: transparent; }
+.marquee__cap { background: rgb(10 10 10 / 0.72); }
+.lightbox__btn { background: rgb(30 30 30 / 0.85); }
+.rating-badge { background: rgb(10 10 10 / 0.55); }
+.ev-ticker,
+.food-hero__ticker,
+.place-story__ticker,
+.offers-hero__ticker { background: rgb(10 10 10 / 0.62); }
+.visit-map .map-facade__note span { background: rgb(10 10 10 / 0.78); }
+
+/* Phones and touch screens: only the top bar, tab bar, drawer and photo viewer keep live blur.
+   Glass cards get a deeper tint, and the slow photo zooms hold still. */
+@media (max-width: 767px), (pointer: coarse) {
+  :root {
+    --glass-fill: linear-gradient(160deg, rgb(52 52 52 / 0.72), rgb(18 18 18 / 0.7));
+    --glass-fill-dark: linear-gradient(160deg, rgb(28 28 28 / 0.86), rgb(10 10 10 / 0.78));
+  }
+  .glass,
+  .glass--dark,
+  .glass--lg {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .panel__bg--kenburns img,
+  .hero__pic img,
+  .orb {
+    animation: none !important;
   }
 }

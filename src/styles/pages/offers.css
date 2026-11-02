@@ -498,7 +498,7 @@ html.motion-paused .offers-feature__badge {
 /* Review round 3: the poster wall reads as soft motion, never as text behind the headline, and the
    cards over it use a solid glass fill instead of re-blurring the moving rows on every frame. */
 .offers-deals__rows {
-  filter: blur(3px) brightness(0.7);
+  opacity: 0.5;
 }
 .offers-deals .offer__card {
   -webkit-backdrop-filter: none;

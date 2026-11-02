@@ -32,8 +32,8 @@
   --glass-fill-dark: linear-gradient(160deg, rgb(20 20 20 / 0.72), rgb(10 10 10 / 0.5));
   --glass-solid: rgb(22 22 22 / 0.94);
   --glass-hi: inset 0 1px 0 rgb(255 255 255 / 0.16);
-  --blur-lg: 24px;
-  --blur-sm: 14px;
+  --blur-lg: 18px;
+  --blur-sm: 12px;
   --sat: 140%;
 
   /* Type */

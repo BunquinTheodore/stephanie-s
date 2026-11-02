@@ -1,10 +1,10 @@
 # Build contract: Stefanie's Bar & Restaurant
 
-Vite 7 multi page app in plain JavaScript ES modules, with three.js 0.186 and sharp. There is no framework.
+Vite 7 multi page app in plain JavaScript ES modules, with sharp for images. There is no framework.
 
 ## Brand rules
 - The UI is strictly black and white: ink `#0a0a0a`, white, and neutral grays only. The photos supply all the color.
-- Use glass panels, restrained motion, a three.js cloche on the home page, and short looping video or animated WebP/GIF.
+- Use glass panels, restrained motion, and short looping video or animated WebP/GIF.
 - Keep scrolling short. Home is at most about 3 to 4 viewports, and inner pages are 2 to 4 full viewport `.panel`s. Photos are full bleed backgrounds. Groups of photos are marquee rows that alternate direction.
 - Copy rules:
   - Never put a dash or decorative rule before a label. Write `WHO WE ARE`, not `— WHO WE ARE` or `01 —`.
@@ -114,25 +114,10 @@ import { boot, openLightbox } from '../lib/boot.js';
 openLightbox(['3', '4', '5'], 1)
 // or declaratively: any <button data-lightbox="groupName" data-id="142"> opens its group
 
-import { mountHero } from '../lib/three-hero.js';   // home only
-mountHero(document.querySelector('.hero3d__canvas')) // Promise<{destroy,start,stop}|null>; never throws
-// options: { delay: 5000 (ms after load if no input), immediate: false }
-
 import { video } from '../lib/video.js';    // video('hero-loop', { cls, width, height, label, poster })
 import { mapFacade } from '../lib/map.js';  // mapFacade({ imageId: '20', cls, title })
 import { site } from '../data/site.js';     // business info (name, address, hours, phone, links, services, nav ...)
 ```
-
-### How the hero 3D runs
-Markup: `<div class="hero3d" aria-hidden="true"><canvas class="hero3d__canvas"></canvas></div>`.
-- Before WebGL starts, the CSS draws a static cloche poster. `.is-live` fades the canvas in.
-- three.js loads only on the first input, or 5 s after `load`, and then in idle time.
-- It is skipped for reduced motion, saveData, `deviceMemory < 4`, two or fewer CPU cores, no WebGL, or `?3d=off`.
-- The device pixel ratio is capped at 1.5, or 1.25 on touch devices. Frame rate is capped at 60, or 30 on touch.
-- Rendering pauses when the canvas is offscreen, the tab is hidden, or motion is paused.
-- If an FPS probe measures under 24 fps, the scene tears down and the poster stays.
-- Everything is disposed on `pagehide`.
-- `html[data-hero3d]` is one of `off`, `waiting`, `loading`, `live` or `static`.
 
 ## CSS classes (`components.css`)
 Layout and text:
@@ -180,7 +165,6 @@ Motion:
 
 Other components:
 - `.lightbox` is created on demand.
-- `.hero3d` and `.hero3d__canvas` are the hero 3D host.
 - `.map-facade` is the map facade.
 - `.orbs` > `.orb` ×3 are ambient white glows.
 - `.scroll-cue`, `.icon-btn`, `.divider`.

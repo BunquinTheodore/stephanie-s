@@ -131,21 +131,6 @@ html.no-splash .hero {
   to { transform: none; }
 }
 
-/* 3D cloche */
-.hero__visual {
-  position: absolute;
-  z-index: 1;
-  top: -4%;
-  right: -22vw;
-  width: min(88vw, 520px);
-  opacity: 0.55;
-  pointer-events: none;
-}
-.hero3d {
-  max-height: 64svh;
-  margin-inline: auto;
-}
-
 /* Floating info chips */
 .hero__chips {
   position: relative;
@@ -241,13 +226,6 @@ html.no-splash .hero {
   .hero__grid {
     grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
   }
-  .hero__visual {
-    position: relative;
-    top: auto;
-    right: auto;
-    width: 100%;
-    opacity: 1;
-  }
   .hero__chips {
     position: absolute;
     inset: 0 0 0 auto;
@@ -287,22 +265,11 @@ html.no-splash .hero {
     background:
       linear-gradient(180deg, rgb(10 10 10 / 0.78) 0%, rgb(10 10 10 / 0.74) 45%, rgb(10 10 10 / 0.94) 100%);
   }
-  /* Small static cloche tucked top right, clear of the headline and lead. */
-  .hero__visual {
-    top: calc(var(--header-h) - 1rem);
-    right: -14vw;
-    width: min(56vw, 300px);
-    opacity: 0.3;
-  }
 }
 @media (max-width: 767px) {
   /* Shorter splash on phones (curtain lifts at about .7s), so the copy follows sooner. */
   .hero { --hero-delay: 0.9s; }
   html.no-splash .hero { --hero-delay: 0.1s; }
-}
-@media (max-width: 479px) {
-  /* The static cloche would sit behind the lead copy on narrow phones. */
-  .hero__visual { display: none; }
 }
 @media (max-width: 600px) {
   .hero__ctas .btn {
