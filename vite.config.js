@@ -192,6 +192,10 @@ function pageKeyFrom(urlPath = '/index.html') {
   return Object.entries(PAGES).find(([, file]) => file === clean)?.[0] || 'home';
 }
 
+/** Social preview card built by scripts/og-card.mjs (home cover photo with the logo centered). */
+const OG_CARD = 'brand/og-home.jpg';
+const OG_ALT = "Stefanie's Bar & Restaurant logo over the warmly lit dining room";
+
 function pageMeta(attrs, page, manifest) {
   const base = siteUrl();
   const route = site.nav.find((n) => n.key === page)?.href || '/';
@@ -199,8 +203,8 @@ function pageMeta(attrs, page, manifest) {
   const fullTitle = title ? `${title} | ${site.name}` : `${site.name} | Balagtas, Batangas City`;
   const ogId = attrs.og || attrs.preload || '';
   const ogEntry = ogId && manifest[ogId];
-  const ogPath = fs.existsSync(path.join(PUBLIC, 'brand/og-card.jpg')) && !attrs.og
-    ? '/brand/og-card.jpg'
+  const ogPath = fs.existsSync(path.join(PUBLIC, OG_CARD)) && !attrs.og
+    ? `/${OG_CARD}`
     : ogEntry
       ? imgUrl(ogId, pickWidth(ogEntry, 1200), 'webp')
       : '';
@@ -213,7 +217,16 @@ function pageMeta(attrs, page, manifest) {
     description: attrs.description || site.description,
     canonicalTag: base ? `<link rel="canonical" href="${esc(base + route)}">` : '',
     ogUrlTag: base ? `<meta property="og:url" content="${esc(base + route)}">` : '',
-    ogImageTag: ogAbs ? `<meta property="og:image" content="${esc(ogAbs)}">` : '',
+    ogImageTag: ogAbs
+      ? [
+          `<meta property="og:image" content="${esc(ogAbs)}">`,
+          ogPath === `/${OG_CARD}`
+            ? `<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">`
+            : '',
+          `<meta property="og:image:alt" content="${esc(OG_ALT)}">`,
+          `<meta name="twitter:image" content="${esc(ogAbs)}">`,
+        ].join('')
+      : '',
     // summary_large_image needs an image; without an origin there is none, so fall back to summary.
     twitterCard: ogAbs ? 'summary_large_image' : 'summary',
     // preload-media / preload-mobile: art directed heroes preload one image per breakpoint.

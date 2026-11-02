@@ -9,7 +9,7 @@ export const site = {
     "Stefanie's Bar & Restaurant in Balagtas, Batangas City. All day comfort food, wings, pasta, rice meals, coffee and cocktails, open daily 8 AM to 10 PM.",
   // Absolute production origin without a trailing slash, e.g. "https://stefanies.ph".
   // Leave empty until the domain is known; SITE_URL env var overrides it at build.
-  url: '',
+  url: 'https://stephanie-mu.vercel.app',
   locale: 'en_PH',
   themeColor: '#0a0a0a',
 

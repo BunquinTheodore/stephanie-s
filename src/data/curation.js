@@ -25,7 +25,7 @@ const brand = {
   markBlack: '/brand/mark-black.png',
   markSize: { width: 449, height: 600 },
   icon512: '/brand/icon-512.png',
-  ogCard: '/brand/og-card.jpg',
+  ogCard: '/brand/og-home.jpg',
   logoPhotos: ids(87, 125, 26), // 87 paper mockup is the nicest showcase shot
   cover: '126', // Facebook cover banner (text heavy)
 };

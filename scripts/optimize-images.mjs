@@ -9,6 +9,7 @@ import path from 'node:path';
 import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { buildOgCard } from './og-card.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.join(ROOT, 'assets', 'source');
@@ -162,14 +163,8 @@ async function buildBrand() {
     .toFile(iconOut);
   made.push(iconOut);
 
-  // Social card: white logo on ink, 1200x630.
-  const ogLogo = await sharp(path.join(BRAND, 'logo-white.png')).resize({ width: 760 }).png().toBuffer();
-  const ogOut = path.join(BRAND, 'og-card.jpg');
-  await sharp({ create: { width: 1200, height: 630, channels: 3, background: '#0a0a0a' } })
-    .composite([{ input: ogLogo, gravity: 'center' }])
-    .jpeg({ quality: 82, mozjpeg: true })
-    .toFile(ogOut);
-  made.push(ogOut);
+  // Social card: home cover photo with the logo centered (see og-card.mjs).
+  made.push(await buildOgCard(BRAND));
 
   for (const f of made) {
     const m = await sharp(f).metadata();
